@@ -1,23 +1,68 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {PermissionsAndroid, View, StyleSheet} from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
-import MapBoxGL, {PointAnnotation} from '@rnmapbox/maps';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import MapBoxGL, {
+  Callout,
+  PointAnnotation,
+  UserLocation,
+  UserLocationRenderMode,
+} from '@rnmapbox/maps';
 import {Camera} from '@rnmapbox/maps';
 import Geolocation from '@react-native-community/geolocation';
-import {FAB, IconButton, Searchbar} from 'react-native-paper';
+import {FAB, Searchbar, Text, IconButton} from 'react-native-paper';
+import uuid from 'react-native-uuid';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {useGetAllFeatureByDatasetId} from '../utils/hooks/DatasetQuery';
+import CustomMarker from './CustomMarker';
+import {calculateDistance, isWithinRange} from '../utils/helper/Algoritms';
 
-MapBoxGL.setAccessToken(
-  'pk.eyJ1IjoiZG9uaWhhZGltYXMiLCJhIjoiY2xvNnprNGt3MDByeTJsbzBhOHc5ejJmbSJ9.G45CMiNJIHNETbB-x_gXIw',
-);
+const ACCESSTOKEN =
+  'pk.eyJ1IjoiZG9uaWhhZGltYXMiLCJhIjoiY2xvNnprNGt3MDByeTJsbzBhOHc5ejJmbSJ9.G45CMiNJIHNETbB-x_gXIw';
+MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
 MapBoxGL.setWellKnownTileServer('Mapbox');
 
+interface MarkerUserDefined {
+  id: any;
+  coordinates: any[];
+  title?: string;
+}
+
 const MapsBox = () => {
   const camera = useRef<Camera>(null);
+  const userLocationRef = useRef<UserLocation>(null);
   const [currentPosition, setCurrentPosition] = useState<any>({});
-  const [coordinate, setCoordinate] = useState([107.5965, -7.104]);
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const onChangeSearch = (query: string) => setSearchQuery(query);
+  const [currentCoordinate, setCurrentCoordinate] = useState([
+    107.5965, -7.1041,
+  ]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [nearestFeatures, setNearestFeatures] = useState<any>([]);
+
+  const [markerUserDefined, setMarkerUserDefined] = useState<
+    MarkerUserDefined[]
+  >([]);
+  const [mapReady, setMapReady] = useState(false);
+
+  const {data: dataFeatureByDatasetId, refetch: refetchFeatureByDatasetId} =
+    useGetAllFeatureByDatasetId('clogeca6r1cti2amuoxbguf6h');
+
+  useEffect(() => {
+    if (dataFeatureByDatasetId) {
+      const nearestFeature: any = dataFeatureByDatasetId?.features?.filter(
+        (item: any) => {
+          return isWithinRange({
+            locationA: currentCoordinate,
+            locationB: item.geometry.coordinates,
+            range: 1,
+          });
+        },
+      );
+      if (nearestFeature) {
+        setNearestFeatures(nearestFeature);
+      }
+    }
+  }, [dataFeatureByDatasetId, currentCoordinate]);
+
   const requestLocationPermission = async () => {
     try {
       const granted = await PermissionsAndroid.request(
@@ -59,33 +104,34 @@ const MapsBox = () => {
       );
     }
   };
+
   useEffect(() => {
-    if (currentPosition) {
-      setCoordinate([
+    if (
+      currentPosition?.coords?.longitude &&
+      currentPosition?.coords?.latitude
+    ) {
+      setCurrentCoordinate([
         currentPosition.coords?.longitude,
         currentPosition.coords?.latitude,
       ]);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPosition]);
   useEffect(() => {
     camera.current?.setCamera({
-      // eslint-disable-next-line prettier/prettier
-      centerCoordinate: coordinate,
+      centerCoordinate: currentCoordinate,
     });
-  }, [coordinate]);
-
+  }, [currentCoordinate]);
   useEffect(() => {
     const geolocationOptions = {
       enableHighAccuracy: true,
       timeout: 2000,
-      maximumAge: 1000,
+      maximumAge: 500,
     };
 
     const locationWatchId = Geolocation.watchPosition(
       position => {
         const {coords} = position;
-        setCoordinate([coords?.longitude, coords?.latitude]);
+        setCurrentCoordinate([coords?.longitude, coords?.latitude]);
       },
       error => {
         console.log('Error:', error);
@@ -96,55 +142,109 @@ const MapsBox = () => {
       Geolocation.clearWatch(locationWatchId);
     };
   }, []);
+
+  // ? function to add marker
+  const addMarker = (datas: any) => {
+    if (datas) {
+      setMarkerUserDefined([
+        ...markerUserDefined,
+        {
+          id: uuid.v4(),
+          coordinates: datas?.geometry?.coordinates,
+        },
+      ]);
+    }
+  };
+  const deleteMarker = (data: any) => {
+    const indexToDelete = markerUserDefined.findIndex(
+      marker => marker.id === data.properties?.id,
+    );
+
+    if (indexToDelete !== -1) {
+      const updatedMarkers = [...markerUserDefined];
+      updatedMarkers.splice(indexToDelete, 1);
+      setMarkerUserDefined(updatedMarkers);
+    }
+  };
+  // ? function to add marker
   return (
-    <View style={{flex: 1}}>
-      <MapBoxGL.MapView
-        style={{flex: 1}}
-        styleURL="mapbox://styles/mapbox/streets-v12"
-        zoomEnabled={true}
-        rotateEnabled={true}
-        logoEnabled={false}
-        attributionEnabled={false}
-        compassEnabled={true}
-        compassPosition={{bottom: 8, left: 8}}
-        scaleBarEnabled={false}>
-        <Camera
-          ref={camera}
-          zoomLevel={15}
-          animationDuration={1000}
-          pitch={40}
-          animationMode={'moveTo'}
-        />
-        <PointAnnotation
-          id="marker"
-          coordinate={[107.5965, -7.104]}
-          title="Marker">
-          <FontAwesome name="map-marker" size={30} color="#900" />
-        </PointAnnotation>
-      </MapBoxGL.MapView>
-      <FAB
-        icon="location-sharp"
-        style={{position: 'absolute', margin: 16, right: 0, bottom: 0}}
-        onPress={() => getCurrPosition()}
-        variant="surface"
-      />
-      <View style={styles.cardInput}>
-        <Searchbar
-          theme={{colors: {primary: 'green'}}}
-          placeholder="Where would you like to go?"
-          onChangeText={onChangeSearch}
-          value={searchQuery}
-          elevation={5}
-          style={{width: '80%'}}
-        />
-        <IconButton
-          icon="paper-plane"
-          size={25}
-          mode="contained"
-          onPress={() => console.log('Pressed')}
+    <>
+      <View style={styles.container}>
+        <MapBoxGL.MapView
+          style={{flex: 1}}
+          zoomEnabled={true}
+          rotateEnabled={true}
+          logoEnabled={false}
+          attributionEnabled={false}
+          compassEnabled={true}
+          compassPosition={{bottom: 15, left: 8}}
+          scaleBarEnabled={false}
+          onDidFinishLoadingMap={() => {
+            setMapReady(true);
+          }}
+          onLongPress={e => {
+            addMarker(e);
+          }}>
+          <Camera
+            ref={camera}
+            zoomLevel={15}
+            minZoomLevel={6}
+            maxZoomLevel={15}
+            pitch={30}
+            animationDuration={1000}
+            animationMode={'moveTo'}
+          />
+          {markerUserDefined.map((marker: any) => (
+            <PointAnnotation
+              id={marker.id?.toString()}
+              key={marker.id}
+              coordinate={marker.coordinates}
+              title="Marker"
+              onSelected={e => deleteMarker(e)}>
+              <MaterialCommunityIcons
+                name="google-maps"
+                size={25}
+                color="blue"
+              />
+            </PointAnnotation>
+          ))}
+
+          {mapReady &&
+            nearestFeatures &&
+            nearestFeatures?.map((feature: any) => (
+              <CustomMarker feature={feature} key={feature?.id} />
+            ))}
+
+          <UserLocation
+            ref={userLocationRef}
+            animated={true}
+            androidRenderMode="gps"
+            renderMode={UserLocationRenderMode.Native}
+            showsUserHeadingIndicator={true}
+            visible={true}
+            minDisplacement={1}
+          />
+        </MapBoxGL.MapView>
+        <FAB
+          icon="location-sharp"
+          style={{position: 'absolute', margin: 16, right: 0, bottom: 0}}
+          onPress={() => getCurrPosition()}
+          variant="surface"
         />
       </View>
-    </View>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          width: '100%',
+          position: 'absolute',
+          top: 10,
+        }}>
+        <Text variant="bodySmall" style={{textAlign: 'center'}}>
+          Longitude: {currentCoordinate[0]} - Latitude: {currentCoordinate[1]}
+        </Text>
+      </View>
+    </>
   );
 };
 
@@ -153,8 +253,6 @@ const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
     flex: 1, //the container will fill the whole screen.
-    justifyContent: 'flex-end',
-    alignItems: 'center',
   },
   map: {
     ...StyleSheet.absoluteFillObject,
@@ -174,5 +272,21 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     padding: 15,
+  },
+  calloutContainer: {
+    width: 250,
+    backgroundColor: 'white',
+    padding: 10,
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 20,
+    marginBottom: 10,
+    elevation: 5,
+    shadowColor: 'black',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
