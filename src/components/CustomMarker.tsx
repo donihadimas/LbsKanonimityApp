@@ -15,6 +15,8 @@ const CustomMarker = ({feature}: any) => {
         borderRadius: circleSize / 2,
         borderWidth: 2,
         borderColor: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
       };
     } else if (frequency >= 5) {
       return {
@@ -24,6 +26,8 @@ const CustomMarker = ({feature}: any) => {
         borderRadius: circleSize / 2,
         borderWidth: 2,
         borderColor: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
       };
     } else if (frequency >= 1) {
       return {
@@ -33,6 +37,8 @@ const CustomMarker = ({feature}: any) => {
         borderRadius: circleSize / 2,
         borderWidth: 2,
         borderColor: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
       };
     } else {
       return {
@@ -42,6 +48,8 @@ const CustomMarker = ({feature}: any) => {
         borderRadius: circleSize / 2,
         borderWidth: 2,
         borderColor: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
       };
     }
   };
@@ -52,11 +60,7 @@ const CustomMarker = ({feature}: any) => {
       key={feature?.id}
       coordinate={feature?.geometry?.coordinates}
       title="Marker">
-      <View
-        style={[
-          setMarkerColor(frequencyAccident),
-          {justifyContent: 'center', alignItems: 'center'},
-        ]}>
+      <View style={frequencyAccident && setMarkerColor(frequencyAccident)}>
         <Text
           style={{
             color: '#fff',
