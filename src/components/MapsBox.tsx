@@ -3,7 +3,9 @@ import {PermissionsAndroid, View, StyleSheet} from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
 import MapBoxGL, {
   Callout,
+  FillLayer,
   PointAnnotation,
+  ShapeSource,
   UserLocation,
   UserLocationRenderMode,
 } from '@rnmapbox/maps';
@@ -14,10 +16,11 @@ import uuid from 'react-native-uuid';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useGetAllFeatureByDatasetId} from '../utils/hooks/DatasetQuery';
 import CustomMarker from './CustomMarker';
-import {calculateDistance, isWithinRange} from '../utils/helper/Algoritms';
+import {isWithinRange} from '../utils/helper/Algoritms';
+import {ACCESSTOKEN, DATASET_ID} from '../utils/helper/Constant';
+import {createCircularGeofence} from '../utils/helper/Geofencing';
+import CustomGeofence from './CustomGeofence';
 
-const ACCESSTOKEN =
-  'pk.eyJ1IjoiZG9uaWhhZGltYXMiLCJhIjoiY2xvNnprNGt3MDByeTJsbzBhOHc5ejJmbSJ9.G45CMiNJIHNETbB-x_gXIw';
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
 MapBoxGL.setWellKnownTileServer('Mapbox');
@@ -37,6 +40,7 @@ const MapsBox = () => {
   ]);
   const [searchQuery, setSearchQuery] = useState('');
   const [nearestFeatures, setNearestFeatures] = useState<any>([]);
+  const [visibleGeofences, setVisibleGeofences] = useState(true);
 
   const [markerUserDefined, setMarkerUserDefined] = useState<
     MarkerUserDefined[]
@@ -44,7 +48,7 @@ const MapsBox = () => {
   const [mapReady, setMapReady] = useState(false);
 
   const {data: dataFeatureByDatasetId, refetch: refetchFeatureByDatasetId} =
-    useGetAllFeatureByDatasetId('clogeca6r1cti2amuoxbguf6h');
+    useGetAllFeatureByDatasetId(DATASET_ID);
 
   useEffect(() => {
     if (dataFeatureByDatasetId) {
@@ -116,11 +120,13 @@ const MapsBox = () => {
       ]);
     }
   }, [currentPosition]);
+
   useEffect(() => {
     camera.current?.setCamera({
       centerCoordinate: currentCoordinate,
     });
   }, [currentCoordinate]);
+
   useEffect(() => {
     const geolocationOptions = {
       enableHighAccuracy: true,
@@ -172,11 +178,11 @@ const MapsBox = () => {
       <View style={styles.container}>
         <MapBoxGL.MapView
           style={{flex: 1}}
+          styleURL="mapbox://styles/donihadimas/clohu5zb2002l01o41u9w78xw"
           zoomEnabled={true}
           rotateEnabled={true}
           logoEnabled={false}
           attributionEnabled={false}
-          compassEnabled={true}
           compassPosition={{bottom: 15, left: 8}}
           scaleBarEnabled={false}
           onDidFinishLoadingMap={() => {
@@ -211,8 +217,22 @@ const MapsBox = () => {
 
           {mapReady &&
             nearestFeatures &&
-            nearestFeatures?.map((feature: any) => (
-              <CustomMarker feature={feature} key={feature?.id} />
+            nearestFeatures?.map((feature: any, index: number) => (
+              <View key={`container-${feature?.id}`}>
+                <CustomGeofence
+                  id={`customGeofenceId-${feature?.id}`}
+                  key={`customGeofenceKey-${feature?.id}`}
+                  feature={feature}
+                  visibility={visibleGeofences}
+                  style={{zIndex: 1}}
+                />
+                <CustomMarker
+                  id={`customMarkerId-${feature?.id}`}
+                  key={`customMarkerKey-${feature?.id}`}
+                  feature={feature}
+                  style={{zIndex: index + 10}}
+                />
+              </View>
             ))}
 
           <UserLocation
@@ -225,11 +245,22 @@ const MapsBox = () => {
             minDisplacement={1}
           />
         </MapBoxGL.MapView>
+
         <FAB
           icon="location-sharp"
-          style={{position: 'absolute', margin: 16, right: 0, bottom: 0}}
+          style={{
+            position: 'absolute',
+            margin: 16,
+            right: 0,
+            bottom: '13%',
+            borderRadius: 50,
+            backgroundColor: '#ffffff',
+          }}
           onPress={() => getCurrPosition()}
           variant="surface"
+          color="#4361ee"
+          rippleColor={'rgba(67, 97, 238, 0.2)'}
+          size="small"
         />
       </View>
       <View
