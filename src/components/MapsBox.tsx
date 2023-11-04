@@ -2,10 +2,7 @@
 import {PermissionsAndroid, View, StyleSheet} from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
 import MapBoxGL, {
-  Callout,
-  FillLayer,
   PointAnnotation,
-  ShapeSource,
   UserLocation,
   UserLocationRenderMode,
 } from '@rnmapbox/maps';
@@ -18,8 +15,12 @@ import {useGetAllFeatureByDatasetId} from '../utils/hooks/DatasetQuery';
 import CustomMarker from './CustomMarker';
 import {isWithinRange} from '../utils/helper/Algoritms';
 import {ACCESSTOKEN, DATASET_ID} from '../utils/helper/Constant';
-import {createCircularGeofence} from '../utils/helper/Geofencing';
 import CustomGeofence from './CustomGeofence';
+import {
+  createCircularGeofence,
+  isInsideMultiGeofence,
+} from '../utils/helper/Geofencing';
+import Toast from 'react-native-toast-message';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -38,18 +39,20 @@ const MapsBox = () => {
   const [currentCoordinate, setCurrentCoordinate] = useState([
     107.5965, -7.1041,
   ]);
-  const [searchQuery, setSearchQuery] = useState('');
   const [nearestFeatures, setNearestFeatures] = useState<any>([]);
   const [visibleGeofences, setVisibleGeofences] = useState(true);
-
+  const [userInsideGeofences, setUserInsideGeofences] = useState(false);
   const [markerUserDefined, setMarkerUserDefined] = useState<
     MarkerUserDefined[]
   >([]);
   const [mapReady, setMapReady] = useState(false);
 
+  // ? get data feature from API Mapbox
   const {data: dataFeatureByDatasetId, refetch: refetchFeatureByDatasetId} =
     useGetAllFeatureByDatasetId(DATASET_ID);
+  // ? get data feature from API Mapbox
 
+  // ? set nearest feature based on current coordinate
   useEffect(() => {
     if (dataFeatureByDatasetId) {
       const nearestFeature: any = dataFeatureByDatasetId?.features?.filter(
@@ -57,16 +60,52 @@ const MapsBox = () => {
           return isWithinRange({
             locationA: currentCoordinate,
             locationB: item.geometry.coordinates,
-            range: 1,
+            range: 0.2,
           });
         },
       );
       if (nearestFeature) {
-        setNearestFeatures(nearestFeature);
+        const nearestFeaturesWithGeofences = nearestFeature.map(
+          (feature: any, index: number) => {
+            const geofence = createCircularGeofence({
+              centerPoint: feature?.geometry?.coordinates,
+              geofenceRadius: 0.0015,
+              numberOfPoints: 20,
+            });
+            return {
+              ...feature,
+              geofence: geofence,
+            };
+          },
+        );
+        setNearestFeatures(nearestFeaturesWithGeofences);
       }
     }
   }, [dataFeatureByDatasetId, currentCoordinate]);
+  // ? set nearest feature based on current coordinate
 
+  // ? checking user is in geofence
+  useEffect(() => {
+    if (nearestFeatures) {
+      const isUserInsideGeofence = isInsideMultiGeofence({
+        userLocation: currentCoordinate,
+        multipleGeofenceCoordinates: nearestFeatures,
+      });
+      if (isUserInsideGeofence) {
+        console.log(isUserInsideGeofence);
+        isUserInsideGeofence.map((item: any) => {
+          return Toast.show({
+            type: 'danger',
+            text1: 'Attention! Please drive carefully and stay alert.',
+            text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
+          });
+        });
+      }
+    }
+  }, [currentCoordinate, nearestFeatures]);
+  // ? checking user is in geofence
+
+  // ? request location permission from user
   const requestLocationPermission = async () => {
     try {
       const granted = await PermissionsAndroid.request(
@@ -91,7 +130,9 @@ const MapsBox = () => {
       return false;
     }
   };
+  // ? request location permission from user
 
+  // ? get CurrentPosision from button current Location
   const getCurrPosition = async () => {
     const resultPermission = await requestLocationPermission();
     if (resultPermission) {
@@ -108,7 +149,9 @@ const MapsBox = () => {
       );
     }
   };
+  // ? get CurrentPosision from button current Location
 
+  // ? mapping current position to set current coordinate
   useEffect(() => {
     if (
       currentPosition?.coords?.longitude &&
@@ -120,13 +163,17 @@ const MapsBox = () => {
       ]);
     }
   }, [currentPosition]);
+  // ? mapping current position to set current coordinate
 
+  // ? set Camera follow current coordinate
   useEffect(() => {
     camera.current?.setCamera({
       centerCoordinate: currentCoordinate,
     });
   }, [currentCoordinate]);
+  // ? set Camera follow current coordinate
 
+  // ? watch current location user every 500 ms
   useEffect(() => {
     const geolocationOptions = {
       enableHighAccuracy: true,
@@ -148,6 +195,7 @@ const MapsBox = () => {
       Geolocation.clearWatch(locationWatchId);
     };
   }, []);
+  // ? watch current location user every 500 ms
 
   // ? function to add marker
   const addMarker = (datas: any) => {
@@ -195,7 +243,7 @@ const MapsBox = () => {
             ref={camera}
             zoomLevel={15}
             minZoomLevel={6}
-            maxZoomLevel={15}
+            maxZoomLevel={20}
             pitch={30}
             animationDuration={1000}
             animationMode={'moveTo'}
@@ -218,21 +266,21 @@ const MapsBox = () => {
           {mapReady &&
             nearestFeatures &&
             nearestFeatures?.map((feature: any, index: number) => (
-              <View key={`container-${feature?.id}`}>
-                <CustomGeofence
-                  id={`customGeofenceId-${feature?.id}`}
-                  key={`customGeofenceKey-${feature?.id}`}
-                  feature={feature}
-                  visibility={visibleGeofences}
-                  style={{zIndex: 1}}
-                />
-                <CustomMarker
-                  id={`customMarkerId-${feature?.id}`}
-                  key={`customMarkerKey-${feature?.id}`}
-                  feature={feature}
-                  style={{zIndex: index + 10}}
-                />
-              </View>
+              <CustomGeofence
+                id={`customGeofenceId-${feature?.id}`}
+                key={`customGeofenceKey-${feature?.id}`}
+                feature={feature}
+                visibility={visibleGeofences}
+              />
+            ))}
+          {mapReady &&
+            nearestFeatures &&
+            nearestFeatures?.map((feature: any, index: number) => (
+              <CustomMarker
+                id={`customMarkerId-${feature?.id}`}
+                key={`customMarkerKey-${feature?.id}`}
+                feature={feature}
+              />
             ))}
 
           <UserLocation
