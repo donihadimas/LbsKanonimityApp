@@ -11,7 +11,7 @@ import {
   createChannels,
 } from './src/utils/helper/LocalNotificationHandler';
 import notifee, {EventType} from '@notifee/react-native';
-
+import 'react-native-gesture-handler';
 const theme = {
   ...MD3LightTheme,
 };
