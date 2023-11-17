@@ -7,7 +7,12 @@ import {Icon} from 'react-native-paper';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import SettingPage from '../pages/Setting';
 import SummaryPage from '../pages/Analytics';
-import Toast from 'react-native-toast-message';
+import uuid from 'react-native-uuid';
+import {
+  DisplayNotifeeNotification,
+  LocalNotification,
+  NotifeeLocalNotification,
+} from '../utils/helper/LocalNotificationHandler';
 
 const Tab = createBottomTabNavigator();
 
@@ -32,6 +37,21 @@ const EmergencyButton = ({children, onPress}: any) => (
   </TouchableOpacity>
 );
 const BottomTabs = () => {
+  const handleEmergencyButtonPress = () => {
+    LocalNotification({
+      channelId: 'warning-channel8',
+      data: {
+        id: 'af7ea5727c0ea317fd2e750051679b74',
+        insideGeofences: true,
+        properties: {accident_cause: 'Driver error', frequency_accident: 2},
+      },
+    });
+    // DisplayNotifeeNotification({
+    //   id: uuid.v4(),
+    //   title: 'Testing Notification',
+    //   body: 'Hati hati nody',
+    // });
+  };
   return (
     <>
       <Tab.Navigator
@@ -76,14 +96,7 @@ const BottomTabs = () => {
             tabBarButton: (props: any) => (
               <EmergencyButton
                 {...props}
-                onPress={() => {
-                  Toast.show({
-                    type: 'danger',
-                    text1: 'Emergency Button Pressed',
-                    text2:
-                      'Assistance request has been sent, help is arriving.',
-                  });
-                }}
+                onPress={handleEmergencyButtonPress}
               />
             ),
           }}

@@ -21,6 +21,7 @@ import {
   isInsideMultiGeofence,
 } from '../utils/helper/Geofencing';
 import Toast from 'react-native-toast-message';
+import {LocalNotification} from '../utils/helper/LocalNotificationHandler';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -92,13 +93,16 @@ const MapsBox = () => {
         multipleGeofenceCoordinates: nearestFeatures,
       });
       if (isUserInsideGeofence) {
-        console.log(isUserInsideGeofence);
         isUserInsideGeofence.map((item: any) => {
-          return Toast.show({
-            type: 'danger',
-            text1: 'Attention! Please drive carefully and stay alert.',
-            text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
-          });
+          if (item.insideGeofences === true) {
+            console.log(item);
+            LocalNotification({channelId: 'warning-channel6', data: item});
+          }
+          // return Toast.show({
+          //   type: 'danger',
+          //   text1: 'Attention! Please drive carefully and stay alert.',
+          //   text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
+          // });
         });
       }
     }
