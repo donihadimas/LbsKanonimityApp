@@ -64,7 +64,7 @@ const LoginPage = ({navigation}: any) => {
           <Button
             mode="contained"
             buttonColor="#2b7a91"
-            onPress={() => console.log('Pressed')}>
+            onPress={() => navigation.replace('Main')}>
             Sign In
           </Button>
           <Text style={{textAlign: 'center'}}>
