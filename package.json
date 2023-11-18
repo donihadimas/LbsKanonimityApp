@@ -26,6 +26,7 @@
     "lottie-react-native": "^6.4.1",
     "react": "18.2.0",
     "react-native": "0.72.6",
+    "react-native-date-picker": "^4.3.3",
     "react-native-foreground-service-android": "^1.0.18",
     "react-native-gesture-handler": "^2.13.4",
     "react-native-maps": "^1.8.0",

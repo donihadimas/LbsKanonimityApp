@@ -8,7 +8,9 @@ import RegisterPage from '../pages/Auth/Register';
 const StackNavigation = () => {
   const Stack = createStackNavigator();
   return (
-    <Stack.Navigator screenOptions={{headerShown: false}}>
+    <Stack.Navigator
+      screenOptions={{headerShown: false}}
+      initialRouteName="Login">
       <Stack.Screen name="Login" component={LoginPage} />
       <Stack.Screen name="Register" component={RegisterPage} />
     </Stack.Navigator>
