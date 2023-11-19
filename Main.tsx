@@ -12,6 +12,8 @@ import {
 } from './src/utils/helper/LocalNotificationHandler';
 import notifee, {EventType} from '@notifee/react-native';
 import 'react-native-gesture-handler';
+import {Provider} from 'react-redux';
+import store from './src/utils/redux/store';
 const theme = {
   ...MD3LightTheme,
 };
@@ -71,18 +73,20 @@ const Main = () => {
   }, []);
   // ? listen notifications
   return (
-    <QueryClientProvider client={queryClient}>
-      <NavigationContainer>
-        <PaperProvider
-          theme={theme}
-          settings={{
-            // eslint-disable-next-line react/no-unstable-nested-components
-            icon: props => <Ionicons {...props} />,
-          }}>
-          <App />
-        </PaperProvider>
-      </NavigationContainer>
-    </QueryClientProvider>
+    <Provider store={store}>
+      <QueryClientProvider client={queryClient}>
+        <NavigationContainer>
+          <PaperProvider
+            theme={theme}
+            settings={{
+              // eslint-disable-next-line react/no-unstable-nested-components
+              icon: props => <Ionicons {...props} />,
+            }}>
+            <App />
+          </PaperProvider>
+        </NavigationContainer>
+      </QueryClientProvider>
+    </Provider>
   );
 };
 
