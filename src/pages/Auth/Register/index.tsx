@@ -12,6 +12,8 @@ const RegisterPage = ({navigation}: any) => {
     confirmPassword: '',
   });
   const [openModalDate, setOpenModalDate] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   console.log('file: index.tsx:12 ~ LoginPage ~ loginData:', loginData);
   return (
     <View style={{flex: 1, alignItems: 'center', backgroundColor: '#ADD8E6'}}>
@@ -92,10 +94,17 @@ const RegisterPage = ({navigation}: any) => {
               label="Password"
               value={loginData?.password}
               onChangeText={e => setLoginData(prev => ({...prev, password: e}))}
-              selectionColor="#2b7a91"
-              activeOutlineColor="#2b7a91"
-              secureTextEntry
-              right={<TextInput.Icon icon="eye" />}
+              selectionColor="#ADD8E6"
+              activeOutlineColor="#ADD8E6"
+              secureTextEntry={!showPassword}
+              right={
+                <TextInput.Icon
+                  icon="eye"
+                  onPress={() => {
+                    setShowPassword(!showPassword);
+                  }}
+                />
+              }
             />
             <TextInput
               mode="outlined"
@@ -106,8 +115,13 @@ const RegisterPage = ({navigation}: any) => {
               }
               selectionColor="#2b7a91"
               activeOutlineColor="#2b7a91"
-              secureTextEntry
-              right={<TextInput.Icon icon="eye" />}
+              secureTextEntry={!showConfirmPassword}
+              right={
+                <TextInput.Icon
+                  icon="eye"
+                  onPress={() => setShowConfirmPassword(!showConfirmPassword)}
+                />
+              }
             />
           </View>
           <View style={{paddingHorizontal: 25, gap: 15}}>

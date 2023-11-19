@@ -8,6 +8,7 @@ const LoginPage = ({navigation}: any) => {
     email: '',
     password: '',
   });
+  const [showPassword, setShowPassword] = useState(false);
   console.log('file: index.tsx:12 ~ LoginPage ~ loginData:', loginData);
   return (
     <View style={{flex: 1, alignItems: 'center', backgroundColor: '#ADD8E6'}}>
@@ -56,8 +57,15 @@ const LoginPage = ({navigation}: any) => {
             onChangeText={e => setLoginData(prev => ({...prev, password: e}))}
             selectionColor="#ADD8E6"
             activeOutlineColor="#ADD8E6"
-            secureTextEntry
-            right={<TextInput.Icon icon="eye" />}
+            secureTextEntry={!showPassword}
+            right={
+              <TextInput.Icon
+                icon="eye"
+                onPress={() => {
+                  setShowPassword(!showPassword);
+                }}
+              />
+            }
           />
         </View>
         <View style={{marginTop: '20%', padding: 25, gap: 15}}>
