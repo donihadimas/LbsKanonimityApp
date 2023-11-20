@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import toolkit from '@reduxjs/toolkit';
+import toolkit, {createSlice} from '@reduxjs/toolkit';
 import type {PayloadAction} from '@reduxjs/toolkit';
-
-const {createSlice} = toolkit;
 
 export interface SettingState {
   account: Array<AccountSetting | never>;
