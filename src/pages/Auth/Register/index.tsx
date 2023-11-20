@@ -1,20 +1,46 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {View, Image} from 'react-native';
 import React, {useState} from 'react';
 import {Button, Text, TextInput} from 'react-native-paper';
 import DatePicker from 'react-native-date-picker';
+import moment from 'moment';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {USER_DATA_KEY} from '../../../utils/helper/Constant';
+import Toast from 'react-native-toast-message';
 
 const RegisterPage = ({navigation}: any) => {
-  const [loginData, setLoginData] = useState({
+  const [registerData, setRegisterData] = useState({
     name: '',
     birthDate: new Date(),
     email: '',
+    phoneNumber: '',
     password: '',
-    confirmPassword: '',
+    loggedIn: false,
   });
   const [openModalDate, setOpenModalDate] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  console.log('file: index.tsx:12 ~ LoginPage ~ loginData:', loginData);
+  const handleSignUp = async (values: any) => {
+    try {
+      const jsonValue = JSON.stringify(values);
+      await AsyncStorage.setItem(USER_DATA_KEY, jsonValue);
+      Toast.show({
+        type: 'success',
+        text1: 'Success',
+        text2: 'Successfully registered 👋',
+      });
+      setRegisterData({
+        name: '',
+        birthDate: new Date(),
+        email: '',
+        password: '',
+        phoneNumber: '',
+        loggedIn: false,
+      });
+      navigation.navigate('Login');
+    } catch (error) {
+      console.log('file: index.tsx:24 ~ handleSignUp ~ error:', error);
+    }
+  };
   return (
     <View style={{flex: 1, alignItems: 'center', backgroundColor: '#ADD8E6'}}>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
@@ -55,15 +81,15 @@ const RegisterPage = ({navigation}: any) => {
             <TextInput
               mode="outlined"
               label="Name"
-              value={loginData?.email}
-              onChangeText={e => setLoginData(prev => ({...prev, email: e}))}
+              value={registerData?.name}
+              onChangeText={e => setRegisterData(prev => ({...prev, name: e}))}
               selectionColor="#2b7a91"
               activeOutlineColor="#2b7a91"
             />
             <TextInput
               mode="outlined"
               label="BirthDate"
-              value={loginData?.birthDate?.toDateString()}
+              value={moment(registerData?.birthDate).format('L')}
               onFocus={() => setOpenModalDate(true)}
               selectionColor="#2b7a91"
               activeOutlineColor="#2b7a91"
@@ -71,11 +97,11 @@ const RegisterPage = ({navigation}: any) => {
             <DatePicker
               modal
               open={openModalDate}
-              date={new Date(loginData?.birthDate)}
+              date={new Date(registerData?.birthDate)}
               mode="date"
               onConfirm={date => {
                 setOpenModalDate(false);
-                setLoginData(prev => ({...prev, birthDate: date}));
+                setRegisterData(prev => ({...prev, birthDate: date}));
               }}
               onCancel={() => {
                 setOpenModalDate(false);
@@ -84,16 +110,28 @@ const RegisterPage = ({navigation}: any) => {
             <TextInput
               mode="outlined"
               label="Email"
-              value={loginData?.email}
-              onChangeText={e => setLoginData(prev => ({...prev, email: e}))}
+              value={registerData?.email}
+              onChangeText={e => setRegisterData(prev => ({...prev, email: e}))}
+              selectionColor="#2b7a91"
+              activeOutlineColor="#2b7a91"
+            />
+            <TextInput
+              mode="outlined"
+              label="Phone Number"
+              value={registerData?.phoneNumber}
+              onChangeText={e =>
+                setRegisterData(prev => ({...prev, phoneNumber: e}))
+              }
               selectionColor="#2b7a91"
               activeOutlineColor="#2b7a91"
             />
             <TextInput
               mode="outlined"
               label="Password"
-              value={loginData?.password}
-              onChangeText={e => setLoginData(prev => ({...prev, password: e}))}
+              value={registerData?.password}
+              onChangeText={e =>
+                setRegisterData(prev => ({...prev, password: e}))
+              }
               selectionColor="#ADD8E6"
               activeOutlineColor="#ADD8E6"
               secureTextEntry={!showPassword}
@@ -106,29 +144,12 @@ const RegisterPage = ({navigation}: any) => {
                 />
               }
             />
-            <TextInput
-              mode="outlined"
-              label="Confirm Password"
-              value={loginData?.confirmPassword}
-              onChangeText={e =>
-                setLoginData(prev => ({...prev, confirmPassword: e}))
-              }
-              selectionColor="#2b7a91"
-              activeOutlineColor="#2b7a91"
-              secureTextEntry={!showConfirmPassword}
-              right={
-                <TextInput.Icon
-                  icon="eye"
-                  onPress={() => setShowConfirmPassword(!showConfirmPassword)}
-                />
-              }
-            />
           </View>
           <View style={{paddingHorizontal: 25, gap: 15}}>
             <Button
               mode="contained"
               buttonColor="#2b7a91"
-              onPress={() => console.log('Pressed')}>
+              onPress={() => handleSignUp(registerData)}>
               Sign Up
             </Button>
             <Text style={{textAlign: 'center'}}>
