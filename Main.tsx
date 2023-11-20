@@ -14,6 +14,7 @@ import notifee, {EventType} from '@notifee/react-native';
 import 'react-native-gesture-handler';
 import {Provider} from 'react-redux';
 import store from './src/utils/redux/store';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 const theme = {
   ...MD3LightTheme,
 };
@@ -82,7 +83,9 @@ const Main = () => {
               // eslint-disable-next-line react/no-unstable-nested-components
               icon: props => <Ionicons {...props} />,
             }}>
-            <App />
+            <GestureHandlerRootView style={{flex: 1}}>
+              <App />
+            </GestureHandlerRootView>
           </PaperProvider>
         </NavigationContainer>
       </QueryClientProvider>
