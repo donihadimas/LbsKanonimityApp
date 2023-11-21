@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unstable-nested-components */
-import React from 'react';
+import React, {useState} from 'react';
 import HomePage from '../pages/Home';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Icon} from 'react-native-paper';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import SettingPage from '../pages/Setting';
 import SummaryPage from '../pages/Analytics';
-import uuid from 'react-native-uuid';
+import {Portal, Modal, Text} from 'react-native-paper';
 import {
   DisplayNotifeeNotification,
   LocalNotification,
@@ -16,7 +16,7 @@ import {
 
 const Tab = createBottomTabNavigator();
 
-const EmergencyButton = ({children, onPress}: any) => (
+const SummaryButton = ({children, onPress}: any) => (
   <TouchableOpacity
     style={{
       top: -40,
@@ -30,28 +30,15 @@ const EmergencyButton = ({children, onPress}: any) => (
         width: 80,
         height: 80,
         borderRadius: 40,
-        backgroundColor: '#FF7575',
+        backgroundColor: '#2b7a91',
       }}>
       {children}
     </View>
   </TouchableOpacity>
 );
 const BottomTabs = () => {
-  const handleEmergencyButtonPress = () => {
-    LocalNotification({
-      channelId: 'warning-channel8',
-      data: {
-        id: 'af7ea5727c0ea317fd2e750051679b74',
-        insideGeofences: true,
-        properties: {accident_cause: 'Driver error', frequency_accident: 2},
-      },
-    });
-    // DisplayNotifeeNotification({
-    //   id: uuid.v4(),
-    //   title: 'Testing Notification',
-    //   body: 'Hati hati nody',
-    // });
-  };
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <>
       <Tab.Navigator
@@ -75,7 +62,7 @@ const BottomTabs = () => {
             tabBarIcon: ({focused}: any) => (
               <Icon
                 source={focused ? 'home' : 'home-outline'}
-                color={focused ? '#4361ee' : '#748c94'}
+                color={focused ? '#2b7a91' : '#748c94'}
                 size={20}
               />
             ),
@@ -88,15 +75,17 @@ const BottomTabs = () => {
             tabBarShowLabel: false,
             tabBarIcon: ({focused, route}: any) => (
               <Icon
-                source={'alert-circle'}
+                source={'analytics'}
                 color={focused ? '#ffffff' : '#ffffff'}
                 size={40}
               />
             ),
             tabBarButton: (props: any) => (
-              <EmergencyButton
+              <SummaryButton
                 {...props}
-                onPress={handleEmergencyButtonPress}
+                onPress={() => {
+                  setOpenModal(true);
+                }}
               />
             ),
           }}
@@ -109,13 +98,31 @@ const BottomTabs = () => {
             tabBarIcon: ({focused}: any) => (
               <Icon
                 source={focused ? 'settings' : 'settings-outline'}
-                color={focused ? '#4361ee' : '#748c94'}
+                color={focused ? '#2b7a91' : '#748c94'}
                 size={20}
               />
             ),
           }}
         />
       </Tab.Navigator>
+      <Portal>
+        <Modal
+          visible={openModal}
+          onDismiss={() => {
+            setOpenModal(false);
+          }}
+          style={{margin: 15}}
+          contentContainerStyle={{backgroundColor: '#fff', padding: 15}}>
+          <Text variant="titleMedium" style={{marginBottom: 15}}>
+            Application Analysis
+          </Text>
+          <View style={{gap: 15}}>
+            <Text>Executed Time : 110ms</Text>
+            <Text>Performance Appication : 8</Text>
+            <Text>K Anonimity Analisys : Satisfied</Text>
+          </View>
+        </Modal>
+      </Portal>
     </>
   );
 };
