@@ -22,6 +22,8 @@ import {
 } from '../utils/helper/Geofencing';
 import Toast from 'react-native-toast-message';
 import {LocalNotification} from '../utils/helper/LocalNotificationHandler';
+import {useSelector} from 'react-redux';
+import PushNotification from 'react-native-push-notification';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -47,6 +49,12 @@ const MapsBox = () => {
     MarkerUserDefined[]
   >([]);
   const [mapReady, setMapReady] = useState(false);
+  const applicationSettings = useSelector(
+    (state: any) => state.setting.application?.[0],
+  );
+  const account = useSelector((state: any) => state.setting.account);
+  const [notifiedGeofences, setNotifiedGeofences] = useState<any>([]);
+  const [usedNotifIds, setUsedNotifIds] = useState<any>([]);
 
   // ? get data feature from API Mapbox
   const {data: dataFeatureByDatasetId, refetch: refetchFeatureByDatasetId} =
@@ -84,7 +92,16 @@ const MapsBox = () => {
     }
   }, [dataFeatureByDatasetId, currentCoordinate]);
   // ? set nearest feature based on current coordinate
-
+  const generateUniqueId = (): any => {
+    const generatedId = Math.floor(Math.random() * 1000000);
+    if (usedNotifIds.includes(generatedId)) {
+      return generateUniqueId();
+    }
+    setUsedNotifIds((prev: any) => {
+      return [...prev, generatedId];
+    });
+    return generatedId;
+  };
   // ? checking user is in geofence
   useEffect(() => {
     if (nearestFeatures) {
@@ -94,19 +111,34 @@ const MapsBox = () => {
       });
       if (isUserInsideGeofence) {
         isUserInsideGeofence.map((item: any) => {
-          if (item.insideGeofences === true) {
-            console.log(item);
-            LocalNotification({channelId: 'warning-channel6', data: item});
+          if (
+            item.insideGeofences === true &&
+            !notifiedGeofences.includes(item?.id)
+          ) {
+            if (applicationSettings?.notificationOn === true) {
+              PushNotification.removeAllDeliveredNotifications();
+              LocalNotification({
+                id: generateUniqueId(),
+                channelId: 'warning-channel',
+                data: item,
+              });
+            } else {
+              Toast.show({
+                type: 'danger',
+                text1: 'Attention! Please drive carefully and stay alert.',
+                text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
+              });
+            }
+            setNotifiedGeofences((prevNotifiedGeofences: any) => [
+              ...prevNotifiedGeofences,
+              item?.id,
+            ]);
           }
-          // return Toast.show({
-          //   type: 'danger',
-          //   text1: 'Attention! Please drive carefully and stay alert.',
-          //   text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
-          // });
         });
       }
     }
-  }, [currentCoordinate, nearestFeatures]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentCoordinate, nearestFeatures, notifiedGeofences]);
   // ? checking user is in geofence
 
   // ? request location permission from user
@@ -268,6 +300,7 @@ const MapsBox = () => {
           ))}
 
           {mapReady &&
+            applicationSettings?.geofenceOn &&
             nearestFeatures &&
             nearestFeatures?.map((feature: any, index: number) => (
               <CustomGeofence

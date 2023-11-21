@@ -52,8 +52,8 @@ const Main = () => {
 
   useEffect(() => {
     createChannels({
-      channelId: 'warning-channel8',
-      channelName: 'Warning Channel8',
+      channelId: 'warning-channel',
+      channelName: 'Warning Channel',
     });
     // createChannelNotifee({
     //   channelId: 'channel-notifee2',
