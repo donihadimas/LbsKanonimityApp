@@ -87,7 +87,7 @@ const SettingPage = ({navigation}: any) => {
                 justifyContent: 'space-between',
                 gap: 15,
               }}>
-              <Text variant="titleSmall">Geofence</Text>
+              <Text variant="titleSmall">Show Geofence</Text>
               <Switch
                 value={appSetting?.geofenceOn}
                 onValueChange={() => {
@@ -102,7 +102,7 @@ const SettingPage = ({navigation}: any) => {
                 justifyContent: 'space-between',
                 gap: 15,
               }}>
-              <Text variant="titleSmall">Notification</Text>
+              <Text variant="titleSmall">High Priority Notification</Text>
               <Switch
                 value={appSetting?.notificationOn}
                 onValueChange={() => {
