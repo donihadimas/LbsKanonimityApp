@@ -16,11 +16,20 @@ export const settingSlice = createSlice({
   name: 'setting',
   initialState,
   reducers: {
+    setAccountSetting: (state, action: PayloadAction<AccountSetting>) => {
+      state.account = [action.payload];
+    },
     updateAccountSetting: (state, action: PayloadAction<AccountSetting>) => {
       state.account = [...state.account, action.payload];
     },
     clearAccountSetting: (state, action: PayloadAction<AccountSetting>) => {
       state.account = [];
+    },
+    setApplicationSetting: (
+      state,
+      action: PayloadAction<ApplicationSetting>,
+    ) => {
+      state.application = [action.payload];
     },
     updateApplicationSetting: (
       state,
@@ -38,8 +47,10 @@ export const settingSlice = createSlice({
 });
 
 export const {
+  setAccountSetting,
   updateAccountSetting,
   clearAccountSetting,
+  setApplicationSetting,
   updateApplicationSetting,
   clearApplicationSetting,
 } = settingSlice.actions;

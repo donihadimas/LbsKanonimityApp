@@ -4,34 +4,46 @@ import React, {useState, useEffect} from 'react';
 import {View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {Card, Text, Switch} from 'react-native-paper';
-import {USER_DATA_KEY} from '../../utils/helper/Constant';
-import {Avatar} from 'react-native-paper';
+import {APP_SETTINGS_KEY} from '../../utils/helper/Constant';
+import {TextInput, Button} from 'react-native-paper';
 import {Image} from 'react-native';
 import moment from 'moment';
+import Toast from 'react-native-toast-message';
+import {useDispatch, useSelector} from 'react-redux';
+import {setApplicationSetting} from '../../utils/redux/setting/settingReducer';
 
 const SettingPage = ({navigation}: any) => {
   const [userData, setUserData] = useState<any>({});
-  const [geofenceOn, setGeofenceOn] = useState(false);
-  console.log('file: index.tsx:15 ~ SettingPage ~ geofenceOn:', geofenceOn);
-
-  const onToggleGeofence = () => setGeofenceOn(!geofenceOn);
-  console.log('file: index.tsx:11 ~ SettingPage ~ userData:', userData);
-  const getUserData = async () => {
-    try {
-      const jsonValue = await AsyncStorage.getItem(USER_DATA_KEY);
-      return jsonValue != null ? JSON.parse(jsonValue) : null;
-    } catch (error) {
-      console.log('file: index.tsx:24 ~ getUserData ~ error:', error);
-    }
+  const [appSetting, setAppSetting] = useState<any>({});
+  const applicationSettings = useSelector(
+    (state: any) => state.setting.application,
+  );
+  const account = useSelector((state: any) => state.setting.account);
+  const dispatcher = useDispatch();
+  const onToggleAppSettings = (getter: any) => {
+    setAppSetting((prev: any) => ({
+      ...prev,
+      [getter]: !prev[getter],
+    }));
   };
   useEffect(() => {
-    const fetchData = async () => {
-      const userDatas = await getUserData();
-      setUserData(userDatas);
-    };
-
-    fetchData();
-  }, []);
+    setAppSetting(applicationSettings?.[0]);
+    setUserData(account?.[0]);
+  }, [applicationSettings, account]);
+  const handleSaveSettings = async () => {
+    try {
+      const jsonValue = JSON.stringify(appSetting);
+      await AsyncStorage.setItem(APP_SETTINGS_KEY, jsonValue);
+      dispatcher(setApplicationSetting(appSetting));
+      Toast.show({
+        type: 'success',
+        text1: 'Success',
+        text2: 'Settings Successfully Saved',
+      });
+    } catch (error) {
+      console.log('file: index.tsx:24 ~ handleSignUp ~ error:', error);
+    }
+  };
   return (
     <ScrollView style={{padding: 15}}>
       <Text variant="titleLarge" style={{marginBottom: 15}}>
@@ -77,8 +89,10 @@ const SettingPage = ({navigation}: any) => {
               }}>
               <Text variant="titleSmall">Geofence</Text>
               <Switch
-                value={geofenceOn}
-                onValueChange={onToggleGeofence}
+                value={appSetting?.geofenceOn}
+                onValueChange={() => {
+                  onToggleAppSettings('geofenceOn');
+                }}
                 color="#2b7a91"
               />
             </View>
@@ -90,8 +104,10 @@ const SettingPage = ({navigation}: any) => {
               }}>
               <Text variant="titleSmall">Notification</Text>
               <Switch
-                value={geofenceOn}
-                onValueChange={onToggleGeofence}
+                value={appSetting?.notificationOn}
+                onValueChange={() => {
+                  onToggleAppSettings('notificationOn');
+                }}
                 color="#2b7a91"
               />
             </View>
@@ -103,10 +119,34 @@ const SettingPage = ({navigation}: any) => {
               }}>
               <Text variant="titleSmall">K Anonimity Analysis</Text>
               <Switch
-                value={geofenceOn}
-                onValueChange={onToggleGeofence}
+                value={appSetting?.KAnonymityAnalisys}
+                onValueChange={() => {
+                  onToggleAppSettings('KAnonymityAnalisys');
+                }}
                 color="#2b7a91"
               />
+            </View>
+            <View style={{gap: 15}}>
+              <TextInput
+                mode="outlined"
+                label="K-Anonimity Value"
+                value={appSetting?.KAnonymityValue}
+                onChangeText={e =>
+                  setAppSetting((prev: any) => ({
+                    ...prev,
+                    KAnonymityValue: e,
+                  }))
+                }
+                selectionColor="#2b7a91"
+                activeOutlineColor="#2b7a91"
+              />
+              <Button
+                icon="save"
+                mode="contained"
+                buttonColor="#2b7a91"
+                onPress={() => handleSaveSettings()}>
+                Save Settings
+              </Button>
             </View>
           </Card.Content>
         </Card>

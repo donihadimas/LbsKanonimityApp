@@ -1,5 +1,6 @@
 type ApplicationSetting = {
-  showGeofences: boolean;
-  showAccidents: boolean;
-  typeNotification: string;
+  geofenceOn: boolean;
+  notificationOn: boolean;
+  KAnonimityOn: boolean;
+  KAnonimityValue: string;
 };

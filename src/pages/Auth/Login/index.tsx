@@ -5,8 +5,11 @@ import React, {useState, useEffect} from 'react';
 import {Button, Text, TextInput} from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {USER_DATA_KEY} from '../../../utils/helper/Constant';
-import {useDispatch} from 'react-redux';
-import {updateAccountSetting} from '../../../utils/redux/setting/settingReducer';
+import {useDispatch, useSelector} from 'react-redux';
+import {
+  setAccountSetting,
+  updateAccountSetting,
+} from '../../../utils/redux/setting/settingReducer';
 import Toast from 'react-native-toast-message';
 import {useFocusEffect} from '@react-navigation/native';
 
@@ -17,7 +20,11 @@ const LoginPage = ({navigation}: any) => {
   });
   const [userData, setUserData] = useState<any>({});
   const [showPassword, setShowPassword] = useState(false);
-
+  const applicationSettings = useSelector(
+    (state: any) => state.setting.application,
+  );
+  const account = useSelector((state: any) => state.setting.account);
+  const dispatcher = useDispatch();
   const getUserData = async () => {
     try {
       const jsonValue = await AsyncStorage.getItem(USER_DATA_KEY);
@@ -28,7 +35,7 @@ const LoginPage = ({navigation}: any) => {
   };
 
   const updateLoggedStatus = (values: any) => {
-    const updatedStatus: any = values;
+    let updatedStatus: any = {...values};
     if (updatedStatus) {
       updatedStatus.loggedIn = true;
       return updatedStatus;
@@ -37,7 +44,9 @@ const LoginPage = ({navigation}: any) => {
   useEffect(() => {
     const fetchData = async () => {
       const userDatas = await getUserData();
-      setUserData(userDatas);
+      if (userDatas && account?.length === 0) {
+        dispatcher(setAccountSetting(userDatas));
+      }
     };
 
     fetchData();
@@ -47,11 +56,17 @@ const LoginPage = ({navigation}: any) => {
     React.useCallback(() => {
       const fetchData = async () => {
         const userDatas = await getUserData();
-        setUserData(userDatas);
+        if (userDatas && account?.length === 0) {
+          dispatcher(setAccountSetting(userDatas));
+        }
       };
       fetchData();
     }, []),
   );
+
+  useEffect(() => {
+    setUserData(account?.[0]);
+  }, [applicationSettings, account]);
 
   const handleLogin = async () => {
     if (
@@ -61,6 +76,7 @@ const LoginPage = ({navigation}: any) => {
       try {
         const data = updateLoggedStatus(userData);
         if (data) {
+          dispatcher(setAccountSetting(data));
           const jsonValue = JSON.stringify(data);
           await AsyncStorage.setItem(USER_DATA_KEY, jsonValue);
           Toast.show({
