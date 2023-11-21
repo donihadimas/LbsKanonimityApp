@@ -24,6 +24,7 @@ import Toast from 'react-native-toast-message';
 import {LocalNotification} from '../utils/helper/LocalNotificationHandler';
 import {useSelector} from 'react-redux';
 import PushNotification from 'react-native-push-notification';
+import UsersMarker from './UsersMarker';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -257,6 +258,20 @@ const MapsBox = () => {
     }
   };
   // ? function to add marker
+
+  // ? get  data users
+  // useEffect(() => {
+  //   fetch('../assets/data/dummyUser.json')
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error(`HTTP error! Status: ${response.status}`);
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => setDataUsers(data))
+  //     .catch(error => console.error('Error fetching data:', error.message));
+  // }, []);
+  // ? get  data users
   return (
     <>
       <View style={styles.container}>
@@ -329,6 +344,7 @@ const MapsBox = () => {
             visible={true}
             minDisplacement={1}
           />
+          <UsersMarker currentCoordinate={currentCoordinate} />
         </MapBoxGL.MapView>
 
         <FAB
