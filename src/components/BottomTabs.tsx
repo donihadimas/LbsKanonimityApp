@@ -40,19 +40,8 @@ const SummaryButton = ({children, onPress}: any) => (
 );
 const BottomTabs = () => {
   const [openModal, setOpenModal] = useState(false);
-  const userDatas = useSelector((state: any) => state.userDatas.users);
+  const userDatas = useSelector((state: any) => state.userDatas.users?.[0]);
   const navigation: any = useNavigation();
-
-  // useEffect(() => {
-  //   if (userDatas) {
-  //     try {
-  //       const data = JSON.parse(userDatas);
-  //       console.log('file: BottomTabs.tsx:44 ~ BottomTabs ~ data:', data);
-  //     } catch (error) {
-  //       console.error('Error parsing JSON:', error);
-  //     }
-  //   }
-  // }, [userDatas]);
   return (
     <>
       <Tab.Navigator

@@ -55,7 +55,8 @@ const UsersMarker = ({currentCoordinate}: any) => {
   }, []);
   useEffect(() => {
     const generalizedData = generalizeData(groupDataByPostCode);
-    dispatcher(setUserDatas(generalizedData));
+    // dispatcher(setUserDatas(generalizedData));
+    dispatcher(setUserDatas(JSON.stringify(generalizedData)));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [groupDataByPostCode]);
   const nearestUsers: any = dataUsers?.users?.filter((item: any) => {
