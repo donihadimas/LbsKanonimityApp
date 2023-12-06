@@ -3,10 +3,9 @@
     {
       "nama": "Tirta Laksmiwati",
       "alamat": {
-        "kampung_desa": "Cikutra",
+        "desa": "Cikutra",
         "kodepos": "40124",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Asrama Militer Pussenif, Jalan Sukasenang II, Cikutra, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40124, Indonesia"
       },
@@ -21,10 +20,9 @@
     {
       "nama": "Unggul Yulianti",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Griya Bukit Mas 2, Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -39,10 +37,9 @@
     {
       "nama": "Yulia Nashiruddin, S.Sos",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "40285",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, 40285, Indonesia"
       },
@@ -57,10 +54,9 @@
     {
       "nama": "Wakiman Marbun",
       "alamat": {
-        "kampung_desa": "Pasteur",
+        "desa": "Pasteur",
         "kodepos": "40161",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasteur, Sukasari, Bandung, Jawa Barat, Jawa, 40161, Indonesia"
       },
@@ -75,10 +71,9 @@
     {
       "nama": "Dartono Pranowo",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Motor Riung Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -93,10 +88,9 @@
     {
       "nama": "Puti Oliva Irawan",
       "alamat": {
-        "kampung_desa": "Babakan Tarogong",
+        "desa": "Babakan Tarogong",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Pasir Koja, Babakan Tarogong, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -111,10 +105,9 @@
     {
       "nama": "Salsabila Tarihoran",
       "alamat": {
-        "kampung_desa": "Cipamokolan",
+        "desa": "Cipamokolan",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cipamokolan, Rancasari, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -129,10 +122,9 @@
     {
       "nama": "Jasmin Gunarto",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40125",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -147,10 +139,9 @@
     {
       "nama": "Carla Hardiansyah",
       "alamat": {
-        "kampung_desa": "Cigondewah Hilir",
+        "desa": "Cigondewah Hilir",
         "kodepos": "40214",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Hilir, Bandung, Jawa Barat, Jawa, 40214, Indonesia"
       },
@@ -165,10 +156,9 @@
     {
       "nama": "Puti Eli Hidayat",
       "alamat": {
-        "kampung_desa": "Sukawarna",
+        "desa": "Sukawarna",
         "kodepos": "40164",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Micasa Mini Market, Jalan Cibogo, Sukawarna, Sukasari, Bandung, Jawa Barat, Jawa, 40164, Indonesia"
       },
@@ -183,10 +173,9 @@
     {
       "nama": "Rika Irawan",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40515",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Setra Duta Indah, Bandung Barat, Jawa Barat, Jawa, 40515, Indonesia"
       },
@@ -201,10 +190,9 @@
     {
       "nama": "Cinthia Melani",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -219,10 +207,9 @@
     {
       "nama": "Edi Melani",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kelurahan Batununggal, Jalan Buah Batu, Batununggal Rahayu, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -237,10 +224,9 @@
     {
       "nama": "R.A. Citra Narpati",
       "alamat": {
-        "kampung_desa": "Antapani Tengah",
+        "desa": "Antapani Tengah",
         "kodepos": "40291",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Antapani Tengah, Antapani, Kel. Antapani Tengah, Jawa Barat, Jawa, 40291, Indonesia"
       },
@@ -255,10 +241,9 @@
     {
       "nama": "Drs. Lili Hutagalung",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -273,10 +258,9 @@
     {
       "nama": "Hana Haryanto",
       "alamat": {
-        "kampung_desa": "Rancabolang",
+        "desa": "Rancabolang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cempaka XII, Bumi Adipura, Rancabolang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -291,10 +275,9 @@
     {
       "nama": "Laswi Maheswara, S.E.",
       "alamat": {
-        "kampung_desa": "Ciateul",
+        "desa": "Ciateul",
         "kodepos": "40252",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mohammad Toha, Ciateul, Regol, Bandung, Jawa Barat, Jawa, 40252, Indonesia"
       },
@@ -309,10 +292,9 @@
     {
       "nama": "Nurul Megantara",
       "alamat": {
-        "kampung_desa": "Pakemitan",
+        "desa": "Pakemitan",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Rumah Sakit, Pakemitan, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -327,10 +309,9 @@
     {
       "nama": "Janet Sihotang, S.H.",
       "alamat": {
-        "kampung_desa": "Kebonwaru",
+        "desa": "Kebonwaru",
         "kodepos": "40283",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Letnan Jenderal Ibrahim Adjie, Kebonwaru, Batununggal, Bandung, Jawa Barat, Jawa, 40283, Indonesia"
       },
@@ -345,10 +326,9 @@
     {
       "nama": "Dewi Wahyuni, S.IP",
       "alamat": {
-        "kampung_desa": "Cijagra",
+        "desa": "Cijagra",
         "kodepos": "40265",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Nilem I, Cijagra, Lengkong, Bandung, Jawa Barat, Jawa, 40265, Indonesia"
       },
@@ -363,10 +343,9 @@
     {
       "nama": "Warji Yolanda",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40257",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -381,10 +360,9 @@
     {
       "nama": "Winda Nashiruddin",
       "alamat": {
-        "kampung_desa": "Margasari",
+        "desa": "Margasari",
         "kodepos": "30286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Terusan Kiara Condong, Margasari, Buahbatu, Bandung, Jawa Barat, Jawa, 30286, Indonesia"
       },
@@ -399,10 +377,9 @@
     {
       "nama": "Olivia Handayani",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40265",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sekar Arum, Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40265, Indonesia"
       },
@@ -417,10 +394,9 @@
     {
       "nama": "Tari Hardiansyah",
       "alamat": {
-        "kampung_desa": "Kujangsari",
+        "desa": "Kujangsari",
         "kodepos": "40257",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Buah Batu, Kujangsari, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -435,10 +411,9 @@
     {
       "nama": "Halima Siregar",
       "alamat": {
-        "kampung_desa": "Cigondewah Hilir",
+        "desa": "Cigondewah Hilir",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Hilir, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -453,10 +428,9 @@
     {
       "nama": "Intan Anggraini",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -471,10 +445,9 @@
     {
       "nama": "Bancar Thamrin",
       "alamat": {
-        "kampung_desa": "Cisaranten Wetan",
+        "desa": "Cisaranten Wetan",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Grand Pinus Regency, Cisaranten Wetan, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -489,10 +462,9 @@
     {
       "nama": "Baktianto Hidayanto",
       "alamat": {
-        "kampung_desa": "Warungmuncang",
+        "desa": "Warungmuncang",
         "kodepos": "40211",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Warungmuncang, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40211, Indonesia"
       },
@@ -507,10 +479,9 @@
     {
       "nama": "Umi Nasyidah",
       "alamat": {
-        "kampung_desa": "Babakan Ciamis",
+        "desa": "Babakan Ciamis",
         "kodepos": "40171",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cicendo, Babakan Ciamis, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40171, Indonesia"
       },
@@ -525,10 +496,9 @@
     {
       "nama": "dr. Garang Suartini, S.Pd",
       "alamat": {
-        "kampung_desa": "Cijaura",
+        "desa": "Cijaura",
         "kodepos": "30286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Logam, Cijaura, Buahbatu, Bandung, Jawa Barat, Jawa, 30286, Indonesia"
       },
@@ -543,10 +513,9 @@
     {
       "nama": "Drs. Kenzie Habibi",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -561,10 +530,9 @@
     {
       "nama": "Indah Agustina, S.IP",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "41035",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 41035, Indonesia"
       },
@@ -579,10 +547,9 @@
     {
       "nama": "Sabrina Wulandari",
       "alamat": {
-        "kampung_desa": "Cigereleng",
+        "desa": "Cigereleng",
         "kodepos": "40243",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mohammad Toha, Cigereleng, Regol, Bandung, Jawa Barat, Jawa, 40243, Indonesia"
       },
@@ -597,10 +564,9 @@
     {
       "nama": "Fitria Gunarto, S.IP",
       "alamat": {
-        "kampung_desa": "Cigondewah Hilir",
+        "desa": "Cigondewah Hilir",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Hilir, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -615,10 +581,9 @@
     {
       "nama": "Empluk Gunarto, S.E.",
       "alamat": {
-        "kampung_desa": "Kujangsari",
+        "desa": "Kujangsari",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Buah Batu Regency, Kujangsari, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -633,10 +598,9 @@
     {
       "nama": "Jamil Wijaya, S.E.I",
       "alamat": {
-        "kampung_desa": "Campaka",
+        "desa": "Campaka",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Campaka, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -651,10 +615,9 @@
     {
       "nama": "Hasna Yulianti, M.M.",
       "alamat": {
-        "kampung_desa": "Pakemitan",
+        "desa": "Pakemitan",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pakemitan, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -669,10 +632,9 @@
     {
       "nama": "R. Zelaya Nuraini",
       "alamat": {
-        "kampung_desa": "Kebon Jeruk",
+        "desa": "Kebon Jeruk",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Polsekta Andir, 7, Jalan Saritem, Kebon Jeruk, Andir, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -687,10 +649,9 @@
     {
       "nama": "Cindy Lestari",
       "alamat": {
-        "kampung_desa": "Kebongedang",
+        "desa": "Kebongedang",
         "kodepos": "40283",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Haji Munajat, Kebongedang, Batununggal, Bandung, Jawa Barat, Jawa, 40283, Indonesia"
       },
@@ -705,10 +666,9 @@
     {
       "nama": "Kamila Sinaga, S.Ked",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baraya Travel, 482, Jalan Soekarno-Hatta, Batununggal Lestari, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -723,10 +683,9 @@
     {
       "nama": "Vera Handayani, M.Pd",
       "alamat": {
-        "kampung_desa": "Manjahlega",
+        "desa": "Manjahlega",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mars Selatan, Margahayu Raya, Manjahlega, Rancasari, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -741,10 +700,9 @@
     {
       "nama": "Johan Marpaung",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -759,10 +717,9 @@
     {
       "nama": "Tedi Halimah",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimahi, Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -777,10 +734,9 @@
     {
       "nama": "Septi Kusmawati",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -795,10 +751,9 @@
     {
       "nama": "Nadia Laksita",
       "alamat": {
-        "kampung_desa": "Sekeloa",
+        "desa": "Sekeloa",
         "kodepos": "40133",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sekeloa, Coblong, Bandung, Jawa Barat, Jawa, 40133, Indonesia"
       },
@@ -813,10 +768,9 @@
     {
       "nama": "KH. Reza Andriani",
       "alamat": {
-        "kampung_desa": "Hegarmanah",
+        "desa": "Hegarmanah",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Parahyangan University, Jalan Ciumbuleuit, Hegarmanah, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -831,10 +785,9 @@
     {
       "nama": "Ciaobella Kurniawan",
       "alamat": {
-        "kampung_desa": "Situ Saeur",
+        "desa": "Situ Saeur",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Situ Saeur, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -849,10 +802,9 @@
     {
       "nama": "dr. Taufik Anggriawan, S.E.",
       "alamat": {
-        "kampung_desa": "Cipagalo",
+        "desa": "Cipagalo",
         "kodepos": "40287",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Garden City 2, Cipagalo, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -867,10 +819,9 @@
     {
       "nama": "Gilda Saragih",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -885,10 +836,9 @@
     {
       "nama": "Sutan Galih Mandala",
       "alamat": {
-        "kampung_desa": "Sukarasa",
+        "desa": "Sukarasa",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Telkom Corporate University, Jalan Setrasari Raya, Sukarasa, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -903,10 +853,9 @@
     {
       "nama": "Jamal Mandala",
       "alamat": {
-        "kampung_desa": "Cigereleng",
+        "desa": "Cigereleng",
         "kodepos": "40243",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kembar Tengah, Cigereleng, Regol, Bandung, Jawa Barat, Jawa, 40243, Indonesia"
       },
@@ -921,10 +870,9 @@
     {
       "nama": "Gasti Mulyani",
       "alamat": {
-        "kampung_desa": "Babakan",
+        "desa": "Babakan",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -939,10 +887,9 @@
     {
       "nama": "Cakrawala Waskita",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40258",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40258, Indonesia"
       },
@@ -957,10 +904,9 @@
     {
       "nama": "R. Kajen Siregar, S.Kom",
       "alamat": {
-        "kampung_desa": "Kujangsari",
+        "desa": "Kujangsari",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Padalarang\u2013Cileunyi, Kujangsari, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -975,10 +921,9 @@
     {
       "nama": "Ulva Kuswoyo",
       "alamat": {
-        "kampung_desa": "Sukamiskin",
+        "desa": "Sukamiskin",
         "kodepos": "40293",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukamiskin, Arcamanik, Bandung, Jawa Barat, Jawa, 40293, Indonesia"
       },
@@ -993,10 +938,9 @@
     {
       "nama": "drg. Lidya Nababan",
       "alamat": {
-        "kampung_desa": "Paledang",
+        "desa": "Paledang",
         "kodepos": "40261",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Paledang, Lengkong, Bandung, Jawa Barat, Jawa, 40261, Indonesia"
       },
@@ -1011,10 +955,9 @@
     {
       "nama": "Sadina Farida, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Rahayu",
+        "desa": "Rahayu",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Rahayu, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -1029,10 +972,9 @@
     {
       "nama": "Wardaya Nainggolan",
       "alamat": {
-        "kampung_desa": "Sukapada",
+        "desa": "Sukapada",
         "kodepos": "40125",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukapada, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -1047,10 +989,9 @@
     {
       "nama": "Budi Wahyuni, M.Ak",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -1065,10 +1006,9 @@
     {
       "nama": "Gaduh Hidayanto",
       "alamat": {
-        "kampung_desa": "Sukapura",
+        "desa": "Sukapura",
         "kodepos": "40284",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Perumahan Bengpuspal, Sukapura, Kiaracondong, Bandung, Jawa Barat, Jawa, 40284, Indonesia"
       },
@@ -1083,10 +1023,9 @@
     {
       "nama": "Salimah Hartati",
       "alamat": {
-        "kampung_desa": "Merdeka",
+        "desa": "Merdeka",
         "kodepos": "40113",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Merdeka, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40113, Indonesia"
       },
@@ -1101,10 +1040,9 @@
     {
       "nama": "R. Garang Mustofa, M.Pd",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40125",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Antapani Kulon, Antapani, Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -1119,10 +1057,9 @@
     {
       "nama": "Gina Mulyani",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40135",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisitu Lama, Dago, Coblong, Bandung, Jawa Barat, Jawa, 40135, Indonesia"
       },
@@ -1137,10 +1074,9 @@
     {
       "nama": "Zulfa Santoso",
       "alamat": {
-        "kampung_desa": "Antapani Wetan",
+        "desa": "Antapani Wetan",
         "kodepos": "40293",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Antapani Wetan, Antapani, Bandung, Jawa Barat, Jawa, 40293, Indonesia"
       },
@@ -1155,10 +1091,9 @@
     {
       "nama": "Lega Suartini",
       "alamat": {
-        "kampung_desa": "Rahayu",
+        "desa": "Rahayu",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Rahayu, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -1173,10 +1108,9 @@
     {
       "nama": "drg. Rahman Anggriawan",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "40274",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Komisi Informasi Provinsi Jawa Barat, 25, Jalan Turangga, Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, 40274, Indonesia"
       },
@@ -1191,10 +1125,9 @@
     {
       "nama": "Ega Damanik",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batununggal Rahayu, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -1209,10 +1142,9 @@
     {
       "nama": "Yuliana Laksmiwati",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40135",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisitu Lama, Dago, Coblong, Bandung, Jawa Barat, Jawa, 40135, Indonesia"
       },
@@ -1227,10 +1159,9 @@
     {
       "nama": "Dr. Hesti Kuswoyo, S.IP",
       "alamat": {
-        "kampung_desa": "Cipadung Kulon",
+        "desa": "Cipadung Kulon",
         "kodepos": "45474",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sindangsari, Cipadung Kulon, Panyileukan, Bandung, Jawa Barat, Jawa, 45474, Indonesia"
       },
@@ -1245,10 +1176,9 @@
     {
       "nama": "Cut Shania Winarsih, S.Ked",
       "alamat": {
-        "kampung_desa": "Sarijadi",
+        "desa": "Sarijadi",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sarijadi, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -1263,10 +1193,9 @@
     {
       "nama": "R.A. Patricia Ardianto, S.H.",
       "alamat": {
-        "kampung_desa": "Margaasih",
+        "desa": "Margaasih",
         "kodepos": "40214",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margaasih, Bandung, Jawa Barat, Jawa, 40214, Indonesia"
       },
@@ -1281,10 +1210,9 @@
     {
       "nama": "Dr. Talia Siregar, S.Ked",
       "alamat": {
-        "kampung_desa": "Margasari",
+        "desa": "Margasari",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Raya, Margasari, Buahbatu, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -1299,10 +1227,9 @@
     {
       "nama": "Ir. Zulfa Hutapea, S.Psi",
       "alamat": {
-        "kampung_desa": "Lebak Gede",
+        "desa": "Lebak Gede",
         "kodepos": "40132",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "JPKM Surya Sumirat, Jalan Surya Kencana, Lebak Gede, Coblong, Bandung, Jawa Barat, Jawa, 40132, Indonesia"
       },
@@ -1317,10 +1244,9 @@
     {
       "nama": "Marsudi Salahudin",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40175",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kapten Tata Natanegara, Dirgantara Indonesia, Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -1335,10 +1261,9 @@
     {
       "nama": "drg. Padmi Sihombing",
       "alamat": {
-        "kampung_desa": "Sarijadi",
+        "desa": "Sarijadi",
         "kodepos": "40151",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sarirasa X, Sarijadi, Sukajadi, Bandung, Jawa Barat, Jawa, 40151, Indonesia"
       },
@@ -1353,10 +1278,9 @@
     {
       "nama": "Bakianto Winarsih",
       "alamat": {
-        "kampung_desa": "Rahayu",
+        "desa": "Rahayu",
         "kodepos": "40218",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Rahayu, Bandung, Jawa Barat, Jawa, 40218, Indonesia"
       },
@@ -1371,10 +1295,9 @@
     {
       "nama": "Dariati Megantara",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bulevar Teknopolis, Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -1389,10 +1312,9 @@
     {
       "nama": "Atmaja Putra",
       "alamat": {
-        "kampung_desa": "Margasuka",
+        "desa": "Margasuka",
         "kodepos": "40218",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margasuka, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40218, Indonesia"
       },
@@ -1407,10 +1329,9 @@
     {
       "nama": "Galuh Nasyidah, S.Pt",
       "alamat": {
-        "kampung_desa": "Sukawarna",
+        "desa": "Sukawarna",
         "kodepos": "40175",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukawarna, Sukasari, Bandung, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -1425,10 +1346,9 @@
     {
       "nama": "drg. Sadina Rahmawati",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40932",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jatisari, Bandung Barat, Jawa Barat, Jawa, 40932, Indonesia"
       },
@@ -1443,10 +1363,9 @@
     {
       "nama": "Surya Widodo",
       "alamat": {
-        "kampung_desa": "Malabar",
+        "desa": "Malabar",
         "kodepos": "40242",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Katapang, Karees Kulon, Malabar, Lengkong, Bandung, Jawa Barat, Jawa, 40242, Indonesia"
       },
@@ -1461,10 +1380,9 @@
     {
       "nama": "Ade Napitupulu",
       "alamat": {
-        "kampung_desa": "Lebak Gede",
+        "desa": "Lebak Gede",
         "kodepos": "40132",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lebak Gede, Coblong, Bandung, Jawa Barat, Jawa, 40132, Indonesia"
       },
@@ -1479,10 +1397,9 @@
     {
       "nama": "Tgk. Kartika Wijayanti, M.M.",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40175",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Gunung Mas, Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -1497,10 +1414,9 @@
     {
       "nama": "Lanang Marpaung",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40135",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Politeknik Manufakturing Bandung (POLMAN), Jalan Kanayakan, Cisitu Lama, Dago, Coblong, Bandung, Jawa Barat, Jawa, 40135, Indonesia"
       },
@@ -1515,10 +1431,9 @@
     {
       "nama": "Najib Riyanti, S.Pd",
       "alamat": {
-        "kampung_desa": "Girimekar",
+        "desa": "Girimekar",
         "kodepos": "40618",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Girimekar, Bandung, Jawa Barat, Jawa, 40618, Indonesia"
       },
@@ -1533,10 +1448,9 @@
     {
       "nama": "Rahmat Dongoran",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -1551,10 +1465,9 @@
     {
       "nama": "R. Rahayu Mahendra",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40236",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mekar Puspita, Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40236, Indonesia"
       },
@@ -1569,10 +1482,9 @@
     {
       "nama": "Aslijan Rahayu",
       "alamat": {
-        "kampung_desa": "Pamoyanan",
+        "desa": "Pamoyanan",
         "kodepos": "40173",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Suka Bakti, Pamoyanan, Cicendo, Bandung, Jawa Barat, Jawa, 40173, Indonesia"
       },
@@ -1587,10 +1499,9 @@
     {
       "nama": "H. Adinata Astuti, S.Sos",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -1605,10 +1516,9 @@
     {
       "nama": "Elon Kusmawati",
       "alamat": {
-        "kampung_desa": "Babakan Penghulu",
+        "desa": "Babakan Penghulu",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Grand Pinus Regency, Babakan Penghulu, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -1623,10 +1533,9 @@
     {
       "nama": "Titi Widiastuti",
       "alamat": {
-        "kampung_desa": "Cangkuang Kulon",
+        "desa": "Cangkuang Kulon",
         "kodepos": "40227",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cangkuang Kulon, Bandung, Jawa Barat, Jawa, 40227, Indonesia"
       },
@@ -1641,10 +1550,9 @@
     {
       "nama": "Drs. Hasna Simbolon",
       "alamat": {
-        "kampung_desa": "Kebon Jeruk",
+        "desa": "Kebon Jeruk",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kantor Daop 2 Bandung - PT. Kereta Api Indonesia (Persero), Jalan Stasiun Barat, Kebon Jeruk, Andir, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -1659,10 +1567,9 @@
     {
       "nama": "Tasdik Kusmawati",
       "alamat": {
-        "kampung_desa": "Gempolsari",
+        "desa": "Gempolsari",
         "kodepos": "40562",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Dirgantara X, Gempolsari, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -1677,10 +1584,9 @@
     {
       "nama": "drg. Maya Handayani",
       "alamat": {
-        "kampung_desa": "Pasirlayung",
+        "desa": "Pasirlayung",
         "kodepos": "40125",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Saung Angklung Udjo, Jalan Padasuka, Pasirlayung, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -1695,10 +1601,9 @@
     {
       "nama": "Bakidin Novitasari, M.M.",
       "alamat": {
-        "kampung_desa": "Sukarasa",
+        "desa": "Sukarasa",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Setrasari IV, Sukarasa, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -1713,10 +1618,9 @@
     {
       "nama": "drg. Lutfan Yulianti, S.Pd",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -1731,10 +1635,9 @@
     {
       "nama": "Hj. Hesti Kusumo",
       "alamat": {
-        "kampung_desa": "Sekeloa",
+        "desa": "Sekeloa",
         "kodepos": "40135",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Bangbayang Selatan, Sekeloa, Coblong, Bandung, Jawa Barat, Jawa, 40135, Indonesia"
       },
@@ -1749,10 +1652,9 @@
     {
       "nama": "Agnes Utami, S.Kom",
       "alamat": {
-        "kampung_desa": "Jamika",
+        "desa": "Jamika",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Luna 4, Jamika, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -1767,10 +1669,9 @@
     {
       "nama": "Bancar Purnawati",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -1785,10 +1686,9 @@
     {
       "nama": "Jamal Prabowo",
       "alamat": {
-        "kampung_desa": "Pasirluyu",
+        "desa": "Pasirluyu",
         "kodepos": "40258",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasirluyu, Regol, Bandung, Jawa Barat, Jawa, 40258, Indonesia"
       },
@@ -1803,10 +1703,9 @@
     {
       "nama": "Fathonah Irawan",
       "alamat": {
-        "kampung_desa": "Kebonwaru",
+        "desa": "Kebonwaru",
         "kodepos": "40272",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Jakarta, Kebonwaru, Batununggal, Bandung, Jawa Barat, Jawa, 40272, Indonesia"
       },
@@ -1821,10 +1720,9 @@
     {
       "nama": "Aurora Hutagalung, S.T.",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40125",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -1839,10 +1737,9 @@
     {
       "nama": "Cahyono Haryanti",
       "alamat": {
-        "kampung_desa": "Cipadung Kulon",
+        "desa": "Cipadung Kulon",
         "kodepos": "40614",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Pangaritan, Cipadung Kulon, Panyileukan, Bandung, Jawa Barat, Jawa, 40614, Indonesia"
       },
@@ -1857,10 +1754,9 @@
     {
       "nama": "Puji Maulana",
       "alamat": {
-        "kampung_desa": "Nanjung",
+        "desa": "Nanjung",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Nanjung, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -1875,10 +1771,9 @@
     {
       "nama": "Hj. Agnes Sirait, S.H.",
       "alamat": {
-        "kampung_desa": "Cibadak",
+        "desa": "Cibadak",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Pelita I, Cibadak, Astanaanyar, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -1893,10 +1788,9 @@
     {
       "nama": "Keisha Hassanah",
       "alamat": {
-        "kampung_desa": "Sukamiskin",
+        "desa": "Sukamiskin",
         "kodepos": "40293",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Golf Barat XIII, Sukamiskin, Arcamanik, Bandung, Jawa Barat, Jawa, 40293, Indonesia"
       },
@@ -1911,10 +1805,9 @@
     {
       "nama": "Ir. Banawa Pradipta",
       "alamat": {
-        "kampung_desa": "Manjahlega",
+        "desa": "Manjahlega",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Merkuri Raya, Margahayu Raya, Manjahlega, Rancasari, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -1929,10 +1822,9 @@
     {
       "nama": "drg. Among Andriani",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -1947,10 +1839,9 @@
     {
       "nama": "Agnes Laksmiwati",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -1965,10 +1856,9 @@
     {
       "nama": "Tasdik Mangunsong",
       "alamat": {
-        "kampung_desa": "Rancabolang",
+        "desa": "Rancabolang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bumi Adipura, Rancabolang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -1983,10 +1873,9 @@
     {
       "nama": "Victoria Najmudin, S.Pt",
       "alamat": {
-        "kampung_desa": "Sekejati",
+        "desa": "Sekejati",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Raya Barat, Sekejati, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -2001,10 +1890,9 @@
     {
       "nama": "Cut Ulya Salahudin, S.Ked",
       "alamat": {
-        "kampung_desa": "Mekarwangi",
+        "desa": "Mekarwangi",
         "kodepos": "40237",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarwangi, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -2019,10 +1907,9 @@
     {
       "nama": "Shania Budiman",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -2037,10 +1924,9 @@
     {
       "nama": "Tgk. Salman Purwanti",
       "alamat": {
-        "kampung_desa": "Manjahlega",
+        "desa": "Manjahlega",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Raya, Manjahlega, Rancasari, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -2055,10 +1941,9 @@
     {
       "nama": "Gamanto Pradipta, S.H.",
       "alamat": {
-        "kampung_desa": "Kopo",
+        "desa": "Kopo",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Buana Indah III, Kopo, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -2073,10 +1958,9 @@
     {
       "nama": "Ulva Waluyo, S.E.I",
       "alamat": {
-        "kampung_desa": "Cimenyan",
+        "desa": "Cimenyan",
         "kodepos": "40197",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimenyan, Bandung, Jawa Barat, Jawa, 40197, Indonesia"
       },
@@ -2091,10 +1975,9 @@
     {
       "nama": "Hafshah Saputra",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40174",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40174, Indonesia"
       },
@@ -2109,10 +1992,9 @@
     {
       "nama": "Cakrabirawa Melani, S.Kom",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "40263",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kangkung Kaler, Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, 40263, Indonesia"
       },
@@ -2127,10 +2009,9 @@
     {
       "nama": "Bakti Novitasari",
       "alamat": {
-        "kampung_desa": "Sekejati",
+        "desa": "Sekejati",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Taman Jupiter, Margahayu Raya Barat, Sekejati, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -2145,10 +2026,9 @@
     {
       "nama": "Tgk. Jinawi Pratama",
       "alamat": {
-        "kampung_desa": "Margahayu Utara",
+        "desa": "Margahayu Utara",
         "kodepos": "40218",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Terusan Holis, Margahayu Utara, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40218, Indonesia"
       },
@@ -2163,10 +2043,9 @@
     {
       "nama": "Yahya Laksita",
       "alamat": {
-        "kampung_desa": "Sarijadi",
+        "desa": "Sarijadi",
         "kodepos": "40515",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sarijadi, Sukajadi, Bandung, Jawa Barat, Jawa, 40515, Indonesia"
       },
@@ -2181,10 +2060,9 @@
     {
       "nama": "Gaman Saragih",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jatisari, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -2199,10 +2077,9 @@
     {
       "nama": "Teddy Saptono",
       "alamat": {
-        "kampung_desa": "Pasirendah",
+        "desa": "Pasirendah",
         "kodepos": "40619",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kosar, Pasirendah, Ujungberung, Bandung, Jawa Barat, Jawa, 40619, Indonesia"
       },
@@ -2217,10 +2094,9 @@
     {
       "nama": "Ifa Nasyiah",
       "alamat": {
-        "kampung_desa": "Margasari",
+        "desa": "Margasari",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margasari, Buahbatu, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -2235,10 +2111,9 @@
     {
       "nama": "Jati Irawan",
       "alamat": {
-        "kampung_desa": "Cimenyan",
+        "desa": "Cimenyan",
         "kodepos": "40197",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimenyan, Bandung, Jawa Barat, Jawa, 40197, Indonesia"
       },
@@ -2253,10 +2128,9 @@
     {
       "nama": "Ifa Laksmiwati",
       "alamat": {
-        "kampung_desa": "Pasirkaliki",
+        "desa": "Pasirkaliki",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Red Tulip Resto Restoran, 2, Jalan Kebon Kawung, Pasirkaliki, Cicendo, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -2271,10 +2145,9 @@
     {
       "nama": "Raden Budiman",
       "alamat": {
-        "kampung_desa": "Gegerkalong",
+        "desa": "Gegerkalong",
         "kodepos": "40153",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Budiasih IV, Gegerkalong, Sukajadi, Bandung, Jawa Barat, Jawa, 40153, Indonesia"
       },
@@ -2289,10 +2162,9 @@
     {
       "nama": "R.M. Wardaya Wastuti, S.E.I",
       "alamat": {
-        "kampung_desa": "Braga",
+        "desa": "Braga",
         "kodepos": "40111",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "\u00e9L Hotel  Bandung, 2, Jalan Merdeka, Braga, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40111, Indonesia"
       },
@@ -2307,10 +2179,9 @@
     {
       "nama": "R.M. Garan Januar",
       "alamat": {
-        "kampung_desa": "Melong",
+        "desa": "Melong",
         "kodepos": "40213",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melong, Cimahi, Jawa Barat, Jawa, 40213, Indonesia"
       },
@@ -2325,10 +2196,9 @@
     {
       "nama": "Farah Halim",
       "alamat": {
-        "kampung_desa": "Cimenyan",
+        "desa": "Cimenyan",
         "kodepos": "40197",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimenyan, Bandung, Jawa Barat, Jawa, 40197, Indonesia"
       },
@@ -2343,10 +2213,9 @@
     {
       "nama": "Agnes Anggriawan",
       "alamat": {
-        "kampung_desa": "Karanganyar",
+        "desa": "Karanganyar",
         "kodepos": "40232",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Wireja, Karanganyar, Astanaanyar, Bandung, Jawa Barat, Jawa, 40232, Indonesia"
       },
@@ -2361,10 +2230,9 @@
     {
       "nama": "KH. Mahfud Prakasa",
       "alamat": {
-        "kampung_desa": "Mekar Rahayu",
+        "desa": "Mekar Rahayu",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekar Rahayu, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -2379,10 +2247,9 @@
     {
       "nama": "Tgk. Genta Salahudin, M.Kom.",
       "alamat": {
-        "kampung_desa": "Tamansari",
+        "desa": "Tamansari",
         "kodepos": "40171",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Pajajaran, Tamansari, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40171, Indonesia"
       },
@@ -2397,10 +2264,9 @@
     {
       "nama": "Kambali Situmorang",
       "alamat": {
-        "kampung_desa": "Mekarwangi",
+        "desa": "Mekarwangi",
         "kodepos": "40237",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Haji Tatang Sumantri, Mekarwangi, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -2415,10 +2281,9 @@
     {
       "nama": "R.A. Rahmi Kuswandari, S.Kom",
       "alamat": {
-        "kampung_desa": "Nanjung",
+        "desa": "Nanjung",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Nanjung, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -2433,10 +2298,9 @@
     {
       "nama": "Shania Hasanah",
       "alamat": {
-        "kampung_desa": "Cigondewah Kaler",
+        "desa": "Cigondewah Kaler",
         "kodepos": "40214",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Kaler, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40214, Indonesia"
       },
@@ -2451,10 +2315,9 @@
     {
       "nama": "Dalima Zulaika",
       "alamat": {
-        "kampung_desa": "Ciateul",
+        "desa": "Ciateul",
         "kodepos": "40243",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Ciateul, Regol, Bandung, Jawa Barat, Jawa, 40243, Indonesia"
       },
@@ -2469,10 +2332,9 @@
     {
       "nama": "Puti Belinda Kusumo, S.Pd",
       "alamat": {
-        "kampung_desa": "Kopo",
+        "desa": "Kopo",
         "kodepos": "40224",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Babakan Ciparay, Kopo, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40224, Indonesia"
       },
@@ -2487,10 +2349,9 @@
     {
       "nama": "Hartana Rajasa",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Riung Damai Raya, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -2505,10 +2366,9 @@
     {
       "nama": "Tgk. Ami Waskita, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Ciumbuleuit",
+        "desa": "Ciumbuleuit",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Ciumbuleuit, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -2523,10 +2383,9 @@
     {
       "nama": "Almira Ardianto",
       "alamat": {
-        "kampung_desa": "Margasuka",
+        "desa": "Margasuka",
         "kodepos": "40225",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Simpang Susun Kopo, Margasuka, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40225, Indonesia"
       },
@@ -2541,10 +2400,9 @@
     {
       "nama": "Kasiran Adriansyah",
       "alamat": {
-        "kampung_desa": "Pakemitan",
+        "desa": "Pakemitan",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Rumah Sakit, Pakemitan, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -2559,10 +2417,9 @@
     {
       "nama": "Karen Maheswara",
       "alamat": {
-        "kampung_desa": "Pelindung Hewan",
+        "desa": "Pelindung Hewan",
         "kodepos": "40243",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kurdi Selatan II, Pelindung Hewan, Astanaanyar, Bandung, Jawa Barat, Jawa, 40243, Indonesia"
       },
@@ -2577,10 +2434,9 @@
     {
       "nama": "Chandra Pangestu",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -2595,10 +2451,9 @@
     {
       "nama": "Puti Yulia Halimah, S.Psi",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40124",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40124, Indonesia"
       },
@@ -2613,10 +2468,9 @@
     {
       "nama": "Ika Najmudin, S.Farm",
       "alamat": {
-        "kampung_desa": "Cibadak",
+        "desa": "Cibadak",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibadak, Astanaanyar, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -2631,10 +2485,9 @@
     {
       "nama": "Bakiadi Latupono",
       "alamat": {
-        "kampung_desa": "Sekejati",
+        "desa": "Sekejati",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Raya Barat, Sekejati, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -2649,10 +2502,9 @@
     {
       "nama": "KH. Labuh Ardianto",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sanggar Kencana XVIII, Jatisari, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -2667,10 +2519,9 @@
     {
       "nama": "drg. Fathonah Nainggolan",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -2685,10 +2536,9 @@
     {
       "nama": "Kasiyah Wibisono, S.Kom",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -2703,10 +2553,9 @@
     {
       "nama": "Hj. Diah Mangunsong, S.Psi",
       "alamat": {
-        "kampung_desa": "Melatiwangi",
+        "desa": "Melatiwangi",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melatiwangi, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -2721,10 +2570,9 @@
     {
       "nama": "Tgk. Nadia Pradipta",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40175",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kapten Tata Natanegara, Dirgantara Indonesia, Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -2739,10 +2587,9 @@
     {
       "nama": "Hj. Lili Mansur",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40257",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mengger, Pasawahan, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -2757,10 +2604,9 @@
     {
       "nama": "Wulan Namaga",
       "alamat": {
-        "kampung_desa": "Babakan Penghulu",
+        "desa": "Babakan Penghulu",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Grand Pinus Regency, Babakan Penghulu, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -2775,10 +2621,9 @@
     {
       "nama": "Yuliana Lestari",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "41035",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Dago, Coblong, Bandung, Jawa Barat, Jawa, 41035, Indonesia"
       },
@@ -2793,10 +2638,9 @@
     {
       "nama": "Sutan Jati Budiman",
       "alamat": {
-        "kampung_desa": "Mandalamekar",
+        "desa": "Mandalamekar",
         "kodepos": "40197",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mandalamekar, Bandung, Jawa Barat, Jawa, 40197, Indonesia"
       },
@@ -2811,10 +2655,9 @@
     {
       "nama": "Timbul Suartini",
       "alamat": {
-        "kampung_desa": "Sukahaji",
+        "desa": "Sukahaji",
         "kodepos": "40211",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Situ, Sukahaji, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40211, Indonesia"
       },
@@ -2829,10 +2672,9 @@
     {
       "nama": "Asirwanda Permadi",
       "alamat": {
-        "kampung_desa": "Cimenyan",
+        "desa": "Cimenyan",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimenyan, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -2847,10 +2689,9 @@
     {
       "nama": "Virman Usamah, S.Pd",
       "alamat": {
-        "kampung_desa": "Campaka",
+        "desa": "Campaka",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Campaka III, Campaka, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -2865,10 +2706,9 @@
     {
       "nama": "Widya Kusumo",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Gedebage Selatan, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -2883,10 +2723,9 @@
     {
       "nama": "H. Mumpuni Prabowo, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Awiligar Raya, Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -2901,10 +2740,9 @@
     {
       "nama": "Jaiman Anggraini",
       "alamat": {
-        "kampung_desa": "Cipadung Kulon",
+        "desa": "Cipadung Kulon",
         "kodepos": "45474",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sindangsari, Cipadung Kulon, Panyileukan, Bandung, Jawa Barat, Jawa, 45474, Indonesia"
       },
@@ -2919,10 +2757,9 @@
     {
       "nama": "drg. Cinthia Haryanto",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40133",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cibeunying Hegar Raya, Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40133, Indonesia"
       },
@@ -2937,10 +2774,9 @@
     {
       "nama": "Elvina Nugroho",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Derwati, Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -2955,10 +2791,9 @@
     {
       "nama": "Bakidin Saptono",
       "alamat": {
-        "kampung_desa": "Karasak",
+        "desa": "Karasak",
         "kodepos": "40255",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Karasak, Karasak, Astanaanyar, Bandung, Jawa Barat, Jawa, 40255, Indonesia"
       },
@@ -2973,10 +2808,9 @@
     {
       "nama": "Puti Paulin Wulandari",
       "alamat": {
-        "kampung_desa": "Babakan",
+        "desa": "Babakan",
         "kodepos": "40211",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Terusan Suryani, Babakan, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40211, Indonesia"
       },
@@ -2991,10 +2825,9 @@
     {
       "nama": "Gaiman Nainggolan, M.Pd",
       "alamat": {
-        "kampung_desa": "Buahbatu",
+        "desa": "Buahbatu",
         "kodepos": "40287",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Buahbatu, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -3009,10 +2842,9 @@
     {
       "nama": "Laila Usada",
       "alamat": {
-        "kampung_desa": "Sadang Serang",
+        "desa": "Sadang Serang",
         "kodepos": "40134",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sadang Hegar, Sadang Serang, Coblong, Bandung, Jawa Barat, Jawa, 40134, Indonesia"
       },
@@ -3027,10 +2859,9 @@
     {
       "nama": "Sutan Lega Hutapea, M.Pd",
       "alamat": {
-        "kampung_desa": "Karanganyar",
+        "desa": "Karanganyar",
         "kodepos": "40232",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Siti, Karanganyar, Astanaanyar, Bandung, Jawa Barat, Jawa, 40232, Indonesia"
       },
@@ -3045,10 +2876,9 @@
     {
       "nama": "Paris Tarihoran",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -3063,10 +2893,9 @@
     {
       "nama": "Kairav Halim",
       "alamat": {
-        "kampung_desa": "Cipatik",
+        "desa": "Cipatik",
         "kodepos": "40932",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cipatik, Bandung Barat, Jawa Barat, Jawa, 40932, Indonesia"
       },
@@ -3081,10 +2910,9 @@
     {
       "nama": "drg. Lurhur Purwanti",
       "alamat": {
-        "kampung_desa": "Antapani Wetan",
+        "desa": "Antapani Wetan",
         "kodepos": "40194",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Antapani Wetan, Antapani, Bandung, Jawa Barat, Jawa, 40194, Indonesia"
       },
@@ -3099,10 +2927,9 @@
     {
       "nama": "Silvia Astuti",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40514",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tirta Kencana VIII, Cibabat, Cimahi, Jawa Barat, Jawa, 40514, Indonesia"
       },
@@ -3117,10 +2944,9 @@
     {
       "nama": "Aswani Maulana",
       "alamat": {
-        "kampung_desa": "Cipadung Kidul",
+        "desa": "Cipadung Kidul",
         "kodepos": "40626",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Citra Bumi Panyileukan, Cipadung Kidul, Panyileukan, Bandung, Jawa Barat, Jawa, 40626, Indonesia"
       },
@@ -3135,10 +2961,9 @@
     {
       "nama": "R.M. Naradi Sitorus, S.Gz",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40182",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Dormitory Bandung Pilot Academy, 219, Jalan Pajajaran, Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40182, Indonesia"
       },
@@ -3153,10 +2978,9 @@
     {
       "nama": "Ghaliyati Kusmawati",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -3171,10 +2995,9 @@
     {
       "nama": "Elisa Utama",
       "alamat": {
-        "kampung_desa": "Ancol",
+        "desa": "Ancol",
         "kodepos": "40253",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Srimahi Dalam II, Ancol, Regol, Bandung, Jawa Barat, Jawa, 40253, Indonesia"
       },
@@ -3189,10 +3012,9 @@
     {
       "nama": "Zelda Firmansyah",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40125",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -3207,10 +3029,9 @@
     {
       "nama": "Drs. Asmuni Napitupulu",
       "alamat": {
-        "kampung_desa": "Merdeka",
+        "desa": "Merdeka",
         "kodepos": "40117",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sumbawa, Merdeka, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40117, Indonesia"
       },
@@ -3225,10 +3046,9 @@
     {
       "nama": "Warji Zulaika",
       "alamat": {
-        "kampung_desa": "Maleber",
+        "desa": "Maleber",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandar Udara Internasional Husein Sastranegara, Gang Saluyu VI, Maleber, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -3243,10 +3063,9 @@
     {
       "nama": "Taswir Rahmawati",
       "alamat": {
-        "kampung_desa": "Samoja",
+        "desa": "Samoja",
         "kodepos": "40273",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Karees Sapuran, Samoja, Batununggal, Bandung, Jawa Barat, Jawa, 40273, Indonesia"
       },
@@ -3261,10 +3080,9 @@
     {
       "nama": "Yani Hartati",
       "alamat": {
-        "kampung_desa": "Kebonkangkung",
+        "desa": "Kebonkangkung",
         "kodepos": "40281",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Jenderal Gatot Subroto, Kebonkangkung, Kiaracondong, Bandung, Jawa Barat, Jawa, 40281, Indonesia"
       },
@@ -3279,10 +3097,9 @@
     {
       "nama": "Septi Santoso, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Kujangsari",
+        "desa": "Kujangsari",
         "kodepos": "40287",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Buah Batu Regency, Kujangsari, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -3297,10 +3114,9 @@
     {
       "nama": "Nova Wulandari, M.Farm",
       "alamat": {
-        "kampung_desa": "Karangpamulang",
+        "desa": "Karangpamulang",
         "kodepos": "40195",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kapling, Karangpamulang, Mandalajati, Bandung, Jawa Barat, Jawa, 40195, Indonesia"
       },
@@ -3315,10 +3131,9 @@
     {
       "nama": "Karja Halimah",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -3333,10 +3148,9 @@
     {
       "nama": "Dt. Indra Jailani, S.E.",
       "alamat": {
-        "kampung_desa": "Babakan Penghulu",
+        "desa": "Babakan Penghulu",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cisaranten Wetan, Babakan Penghulu, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -3351,10 +3165,9 @@
     {
       "nama": "Tri Marpaung",
       "alamat": {
-        "kampung_desa": "Lagadar",
+        "desa": "Lagadar",
         "kodepos": "40562",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lagadar, Bandung, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -3369,10 +3182,9 @@
     {
       "nama": "Indah Rajasa, S.T.",
       "alamat": {
-        "kampung_desa": "Utama",
+        "desa": "Utama",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Padalarang\u2013Cileunyi, Utama, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -3387,10 +3199,9 @@
     {
       "nama": "Tari Purwanti, M.Pd",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40224",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40224, Indonesia"
       },
@@ -3405,10 +3216,9 @@
     {
       "nama": "Sutan Umay Namaga",
       "alamat": {
-        "kampung_desa": "Utama",
+        "desa": "Utama",
         "kodepos": "40562",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Utama, Cimahi, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -3423,10 +3233,9 @@
     {
       "nama": "Humaira Utama",
       "alamat": {
-        "kampung_desa": "Buahbatu",
+        "desa": "Buahbatu",
         "kodepos": "40287",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "23, Jalan Cendana VII, Buahbatu, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -3441,10 +3250,9 @@
     {
       "nama": "Ir. Samiah Manullang, M.Ak",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -3459,10 +3267,9 @@
     {
       "nama": "Kayun Habibi, M.M.",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40513",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibabat, Cimahi, Jawa Barat, Jawa, 40513, Indonesia"
       },
@@ -3477,10 +3284,9 @@
     {
       "nama": "Tirta Suwarno",
       "alamat": {
-        "kampung_desa": "Cibiru Hilir",
+        "desa": "Cibiru Hilir",
         "kodepos": "40622",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Padalarang\u2013Cileunyi, Cibiru Hilir, Bandung, Jawa Barat, Jawa, 40622, Indonesia"
       },
@@ -3495,10 +3301,9 @@
     {
       "nama": "H. Rahman Rajata",
       "alamat": {
-        "kampung_desa": "Cigondewah Kaler",
+        "desa": "Cigondewah Kaler",
         "kodepos": "40214",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Kaler, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40214, Indonesia"
       },
@@ -3513,10 +3318,9 @@
     {
       "nama": "Jindra Suryatmi",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "RS Kasih Bunda, Jalan Mahar Martanegara, Baros, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -3531,10 +3335,9 @@
     {
       "nama": "Ida Suryatmi",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -3549,10 +3352,9 @@
     {
       "nama": "Puput Sitorus",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40184",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Haji Arsad, Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -3567,10 +3369,9 @@
     {
       "nama": "Ajeng Permata",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisitu Baru, Dago, Coblong, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -3585,10 +3386,9 @@
     {
       "nama": "Jasmani Hutasoit",
       "alamat": {
-        "kampung_desa": "Karangmekar",
+        "desa": "Karangmekar",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Karangmekar, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -3603,10 +3403,9 @@
     {
       "nama": "dr. Karimah Hardiansyah, S.H.",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40236",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40236, Indonesia"
       },
@@ -3621,10 +3420,9 @@
     {
       "nama": "Artawan Pratiwi",
       "alamat": {
-        "kampung_desa": "Sukaraja",
+        "desa": "Sukaraja",
         "kodepos": "40514",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sukaasih, Sukaraja, Cicendo, Bandung, Jawa Barat, Jawa, 40514, Indonesia"
       },
@@ -3639,10 +3437,9 @@
     {
       "nama": "Elvina Gunawan, S.Psi",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bulevar Teknopolis, Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -3657,10 +3454,9 @@
     {
       "nama": "Zelda Wibowo",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -3675,10 +3471,9 @@
     {
       "nama": "Mustika Prasasta",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -3693,10 +3488,9 @@
     {
       "nama": "Hendri Siregar",
       "alamat": {
-        "kampung_desa": "Cipagalo",
+        "desa": "Cipagalo",
         "kodepos": "40287",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Buah Batu Square, Cipagalo, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -3711,10 +3505,9 @@
     {
       "nama": "H. Maryadi Pudjiastuti, S.IP",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40264",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40264, Indonesia"
       },
@@ -3729,10 +3522,9 @@
     {
       "nama": "Hj. Dian Budiyanto, S.Sos",
       "alamat": {
-        "kampung_desa": "Sukaasih",
+        "desa": "Sukaasih",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukaasih, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -3747,10 +3539,9 @@
     {
       "nama": "Jabal Yuliarti",
       "alamat": {
-        "kampung_desa": "Maleber",
+        "desa": "Maleber",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandar Udara Internasional Husein Sastranegara, Gang Saluyu VI, Maleber, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -3765,10 +3556,9 @@
     {
       "nama": "Jindra Sudiati, M.M.",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -3783,10 +3573,9 @@
     {
       "nama": "drg. Jono Melani",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40191",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -3801,10 +3590,9 @@
     {
       "nama": "Adhiarja Maryadi",
       "alamat": {
-        "kampung_desa": "Lebak Siliwangi",
+        "desa": "Lebak Siliwangi",
         "kodepos": "40132",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kodim 06181 Bs Koramil 12, Jalan Badak Singa, Lebak Siliwangi, Coblong, Bandung, Jawa Barat, Jawa, 40132, Indonesia"
       },
@@ -3819,10 +3607,9 @@
     {
       "nama": "Amelia Agustina",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40515",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Setra Duta Asri, Bandung Barat, Jawa Barat, Jawa, 40515, Indonesia"
       },
@@ -3837,10 +3624,9 @@
     {
       "nama": "H. Radit Januar, S.Kom",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -3855,10 +3641,9 @@
     {
       "nama": "Wardaya Prasetya",
       "alamat": {
-        "kampung_desa": "Rancanumpang",
+        "desa": "Rancanumpang",
         "kodepos": "40626",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Rancanumpang, Rancanumpang, Gedebage, Bandung, Jawa Barat, Jawa, 40626, Indonesia"
       },
@@ -3873,10 +3658,9 @@
     {
       "nama": "R.M. Edi Nashiruddin, S.H.",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40255",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Dayeuhkolot, Pasawahan, Bandung, Jawa Barat, Jawa, 40255, Indonesia"
       },
@@ -3891,10 +3675,9 @@
     {
       "nama": "Karen Habibi, S.T.",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40237",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -3909,10 +3692,9 @@
     {
       "nama": "Cut Gabriella Mayasari",
       "alamat": {
-        "kampung_desa": "Sukagalih",
+        "desa": "Sukagalih",
         "kodepos": "40163",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Babakan Jeruk 5, Sukagalih, Sukasari, Bandung, Jawa Barat, Jawa, 40163, Indonesia"
       },
@@ -3927,10 +3709,9 @@
     {
       "nama": "Hana Wulandari",
       "alamat": {
-        "kampung_desa": "Pamoyanan",
+        "desa": "Pamoyanan",
         "kodepos": "40173",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mahmud V, Pamoyanan, Cicendo, Bandung, Jawa Barat, Jawa, 40173, Indonesia"
       },
@@ -3945,10 +3726,9 @@
     {
       "nama": "Nabila Nasyidah",
       "alamat": {
-        "kampung_desa": "Tamansari",
+        "desa": "Tamansari",
         "kodepos": "40116",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Wastukencana, Tamansari, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40116, Indonesia"
       },
@@ -3963,10 +3743,9 @@
     {
       "nama": "dr. Cecep Marpaung, M.Ak",
       "alamat": {
-        "kampung_desa": "Antapani Wetan",
+        "desa": "Antapani Wetan",
         "kodepos": "40291",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Antapani Wetan, Antapani, Bandung, Jawa Barat, Jawa, 40291, Indonesia"
       },
@@ -3981,10 +3760,9 @@
     {
       "nama": "Bella Damanik",
       "alamat": {
-        "kampung_desa": "Lagadar",
+        "desa": "Lagadar",
         "kodepos": "40562",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lagadar, Bandung, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -3999,10 +3777,9 @@
     {
       "nama": "Dt. Wawan Natsir, S.H.",
       "alamat": {
-        "kampung_desa": "Pasirendah",
+        "desa": "Pasirendah",
         "kodepos": "40619",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasirendah, Ujungberung, Bandung, Jawa Barat, Jawa, 40619, Indonesia"
       },
@@ -4017,10 +3794,9 @@
     {
       "nama": "Rina Nashiruddin",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40134",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Delta, Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40134, Indonesia"
       },
@@ -4035,10 +3811,9 @@
     {
       "nama": "Rini Jailani",
       "alamat": {
-        "kampung_desa": "Cikawao",
+        "desa": "Cikawao",
         "kodepos": "40621",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sasak Gantung V, Cikawao, Lengkong, Bandung, Jawa Barat, Jawa, 40621, Indonesia"
       },
@@ -4053,10 +3828,9 @@
     {
       "nama": "Drajat Fujiati",
       "alamat": {
-        "kampung_desa": "Hegarmanah",
+        "desa": "Hegarmanah",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Hegarmanah, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -4071,10 +3845,9 @@
     {
       "nama": "KH. Dwi Maulana",
       "alamat": {
-        "kampung_desa": "Maleer",
+        "desa": "Maleer",
         "kodepos": "40273",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Trans Studio Mall, #289, Maleer Indah I, Maleer, Batununggal, Bandung, Jawa Barat, Jawa, 40273, Indonesia"
       },
@@ -4089,10 +3862,9 @@
     {
       "nama": "KH. Kenari Haryanti, M.TI.",
       "alamat": {
-        "kampung_desa": "Cibuntu",
+        "desa": "Cibuntu",
         "kodepos": "40213",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibuntu, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40213, Indonesia"
       },
@@ -4107,10 +3879,9 @@
     {
       "nama": "dr. Kacung Pradipta, S.E.",
       "alamat": {
-        "kampung_desa": "Padasuka",
+        "desa": "Padasuka",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Rah Iding 2, Padasuka, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -4125,10 +3896,9 @@
     {
       "nama": "Estiawan Rahayu",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40513",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimahi, Bandung Barat, Jawa Barat, Jawa, 40513, Indonesia"
       },
@@ -4143,10 +3913,9 @@
     {
       "nama": "Harjaya Kusmawati",
       "alamat": {
-        "kampung_desa": "Mekarsaluyu",
+        "desa": "Mekarsaluyu",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarsaluyu, Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -4161,10 +3930,9 @@
     {
       "nama": "Ophelia Lestari, M.Pd",
       "alamat": {
-        "kampung_desa": "Cimincrang",
+        "desa": "Cimincrang",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Shakti Hotel, 735, Jalan Soekarno-Hatta, Cimincrang, Gedebage, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -4179,10 +3947,9 @@
     {
       "nama": "Hilda Firgantoro",
       "alamat": {
-        "kampung_desa": "Cibiru Hilir",
+        "desa": "Cibiru Hilir",
         "kodepos": "40295",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibiru Hilir, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -4197,10 +3964,9 @@
     {
       "nama": "Hj. Genta Maheswara",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Dago, Coblong, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -4215,10 +3981,9 @@
     {
       "nama": "Drs. Garan Prasasta, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40174",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40174, Indonesia"
       },
@@ -4233,10 +3998,9 @@
     {
       "nama": "R.A. Hana Halim",
       "alamat": {
-        "kampung_desa": "Cigending",
+        "desa": "Cigending",
         "kodepos": "45474",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigending, Ujungberung, Bandung, Jawa Barat, Jawa, 45474, Indonesia"
       },
@@ -4251,10 +4015,9 @@
     {
       "nama": "Daruna Gunawan",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -4269,10 +4032,9 @@
     {
       "nama": "Hj. Eli Gunarto, S.Psi",
       "alamat": {
-        "kampung_desa": "Cangkuang Wetan",
+        "desa": "Cangkuang Wetan",
         "kodepos": "40226",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cangkuang Wetan, Bandung, Jawa Barat, Jawa, 40226, Indonesia"
       },
@@ -4287,10 +4049,9 @@
     {
       "nama": "Drs. Garan Salahudin, M.M.",
       "alamat": {
-        "kampung_desa": "Maleer",
+        "desa": "Maleer",
         "kodepos": "40281",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Maleer V, Maleer, Batununggal, Bandung, Jawa Barat, Jawa, 40281, Indonesia"
       },
@@ -4305,10 +4066,9 @@
     {
       "nama": "Widya Prasetya",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -4323,10 +4083,9 @@
     {
       "nama": "dr. Salwa Wasita, S.Gz",
       "alamat": {
-        "kampung_desa": "Cigondewah Kaler",
+        "desa": "Cigondewah Kaler",
         "kodepos": "40213",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Kaler, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40213, Indonesia"
       },
@@ -4341,10 +4100,9 @@
     {
       "nama": "Gatot Megantara",
       "alamat": {
-        "kampung_desa": "Derwati",
+        "desa": "Derwati",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Derwati, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -4359,10 +4117,9 @@
     {
       "nama": "Warta Wijayanti",
       "alamat": {
-        "kampung_desa": "Cirangrang",
+        "desa": "Cirangrang",
         "kodepos": "40236",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Cirangrang Timur, Cirangrang, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40236, Indonesia"
       },
@@ -4377,10 +4134,9 @@
     {
       "nama": "Ghaliyati Wibisono",
       "alamat": {
-        "kampung_desa": "Pasirluyu",
+        "desa": "Pasirluyu",
         "kodepos": "40258",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasirluyu, Regol, Bandung, Jawa Barat, Jawa, 40258, Indonesia"
       },
@@ -4395,10 +4151,9 @@
     {
       "nama": "dr. Kayla Hariyah, S.H.",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasar Induk Caringin, Jalan Soekarno-Hatta, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -4413,10 +4168,9 @@
     {
       "nama": "Himawan Marpaung",
       "alamat": {
-        "kampung_desa": "Setiamanah",
+        "desa": "Setiamanah",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Setiamanah, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -4431,10 +4185,9 @@
     {
       "nama": "Dewi Megantara",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40237",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -4449,10 +4202,9 @@
     {
       "nama": "Tgk. Hasna Mansur",
       "alamat": {
-        "kampung_desa": "Rancanumpang",
+        "desa": "Rancanumpang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Rancanumpang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -4467,10 +4219,9 @@
     {
       "nama": "Gandewa Rahmawati, M.Ak",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40521",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40521, Indonesia"
       },
@@ -4485,10 +4236,9 @@
     {
       "nama": "R. Gatra Waluyo, M.Ak",
       "alamat": {
-        "kampung_desa": "Cisaranten Kulon",
+        "desa": "Cisaranten Kulon",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kulon, Arcamanik, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -4503,10 +4253,9 @@
     {
       "nama": "Ayu Winarno",
       "alamat": {
-        "kampung_desa": "Melatiwangi",
+        "desa": "Melatiwangi",
         "kodepos": "40618",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melatiwangi, Bandung, Jawa Barat, Jawa, 40618, Indonesia"
       },
@@ -4521,10 +4270,9 @@
     {
       "nama": "Arsipatra Tampubolon",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -4539,10 +4287,9 @@
     {
       "nama": "Dt. Rangga Suwarno",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -4557,10 +4304,9 @@
     {
       "nama": "Ilsa Nababan",
       "alamat": {
-        "kampung_desa": "Kebon Pisang",
+        "desa": "Kebon Pisang",
         "kodepos": "40112",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kebon Pisang, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40112, Indonesia"
       },
@@ -4575,10 +4321,9 @@
     {
       "nama": "Puti Olivia Mangunsong, S.T.",
       "alamat": {
-        "kampung_desa": "Leuwigajah",
+        "desa": "Leuwigajah",
         "kodepos": "40563",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Leuwigajah, Cimahi, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -4593,10 +4338,9 @@
     {
       "nama": "Salman Hutapea, S.H.",
       "alamat": {
-        "kampung_desa": "Hegarmanah",
+        "desa": "Hegarmanah",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "As Surur, Jalan Hegarmanah, Hegarmanah, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -4611,10 +4355,9 @@
     {
       "nama": "Darmaji Rajata",
       "alamat": {
-        "kampung_desa": "Pasirkaliki",
+        "desa": "Pasirkaliki",
         "kodepos": "40171",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Dinas Pendidikan Provinsi Jawa Barat, 6, Jalan Dokter Rum, Pasirkaliki, Cicendo, Bandung, Jawa Barat, Jawa, 40171, Indonesia"
       },
@@ -4629,10 +4372,9 @@
     {
       "nama": "Cici Kuswandari",
       "alamat": {
-        "kampung_desa": "Cibaduyut",
+        "desa": "Cibaduyut",
         "kodepos": "40236",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "SENTRA INDUSTRI SEPATU CIBADUYUT, Cibaduyut, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40236, Indonesia"
       },
@@ -4647,10 +4389,9 @@
     {
       "nama": "Candra Hastuti",
       "alamat": {
-        "kampung_desa": "Mandalamekar",
+        "desa": "Mandalamekar",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mandalamekar, Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -4665,10 +4406,9 @@
     {
       "nama": "Harjo Nurdiyanti",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -4683,10 +4423,9 @@
     {
       "nama": "Calista Prakasa",
       "alamat": {
-        "kampung_desa": "Utama",
+        "desa": "Utama",
         "kodepos": "40562",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cibaligo, Utama, Cimahi, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -4701,10 +4440,9 @@
     {
       "nama": "Farah Marpaung",
       "alamat": {
-        "kampung_desa": "Setiamanah",
+        "desa": "Setiamanah",
         "kodepos": "40521",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Setiamanah, Cimahi, Jawa Barat, Jawa, 40521, Indonesia"
       },
@@ -4719,10 +4457,9 @@
     {
       "nama": "Lutfan Hutapea",
       "alamat": {
-        "kampung_desa": "Sekejati",
+        "desa": "Sekejati",
         "kodepos": "30286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sekejati, Buahbatu, Bandung, Jawa Barat, Jawa, 30286, Indonesia"
       },
@@ -4737,10 +4474,9 @@
     {
       "nama": "Candrakanta Mangunsong",
       "alamat": {
-        "kampung_desa": "Tamansari",
+        "desa": "Tamansari",
         "kodepos": "40116",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Bongkaran, Tamansari, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40116, Indonesia"
       },
@@ -4755,10 +4491,9 @@
     {
       "nama": "Gaman Santoso",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -4773,10 +4508,9 @@
     {
       "nama": "Jayadi Tarihoran",
       "alamat": {
-        "kampung_desa": "Tamansari",
+        "desa": "Tamansari",
         "kodepos": "40116",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Tamansari, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40116, Indonesia"
       },
@@ -4791,10 +4525,9 @@
     {
       "nama": "Danuja Oktaviani",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batununggal Lestari, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -4809,10 +4542,9 @@
     {
       "nama": "R. Talia Anggriawan",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jatisari, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -4827,10 +4559,9 @@
     {
       "nama": "Kani Lazuardi",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40134",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40134, Indonesia"
       },
@@ -4845,10 +4576,9 @@
     {
       "nama": "Kamaria Tamba",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Raya Soreang - Cipatik, Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -4863,10 +4593,9 @@
     {
       "nama": "Pranawa Nababan",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Ligar Kencana, Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -4881,10 +4610,9 @@
     {
       "nama": "R. Raina Suwarno",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -4899,10 +4627,9 @@
     {
       "nama": "H. Cemplunk Haryanto, M.M.",
       "alamat": {
-        "kampung_desa": "Cicaheum",
+        "desa": "Cicaheum",
         "kodepos": "40125",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "29, Jalan Sulaksana Makmur Raya, Cicaheum, Kiaracondong, Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -4917,10 +4644,9 @@
     {
       "nama": "T. Yusuf Mardhiyah, M.TI.",
       "alamat": {
-        "kampung_desa": "Cibiru Hilir",
+        "desa": "Cibiru Hilir",
         "kodepos": "40622",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Padalarang\u2013Cileunyi, Cibiru Hilir, Bandung, Jawa Barat, Jawa, 40622, Indonesia"
       },
@@ -4935,10 +4661,9 @@
     {
       "nama": "Gawati Nainggolan, S.E.I",
       "alamat": {
-        "kampung_desa": "Sukarasa",
+        "desa": "Sukarasa",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukarasa, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -4953,10 +4678,9 @@
     {
       "nama": "Febi Lazuardi, S.Kom",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -4971,10 +4695,9 @@
     {
       "nama": "Cinthia Halim",
       "alamat": {
-        "kampung_desa": "Cimincrang",
+        "desa": "Cimincrang",
         "kodepos": "40626",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "UIN Sunan Gunung Djati Kampus II, Jalan Cimincrang, Citra Bumi Panyileukan, Cimincrang, Gedebage, Bandung, Jawa Barat, Jawa, 40626, Indonesia"
       },
@@ -4989,10 +4712,9 @@
     {
       "nama": "Bakijan Winarsih",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -5007,10 +4729,9 @@
     {
       "nama": "Dr. Oliva Maryati, S.T.",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40237",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -5025,10 +4746,9 @@
     {
       "nama": "R. Ana Habibi",
       "alamat": {
-        "kampung_desa": "Sukapura",
+        "desa": "Sukapura",
         "kodepos": "40275",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukapura, Kiaracondong, Bandung, Jawa Barat, Jawa, 40275, Indonesia"
       },
@@ -5043,10 +4763,9 @@
     {
       "nama": "Nilam Susanti",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -5061,10 +4780,9 @@
     {
       "nama": "Balapati Sinaga, S.E.I",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -5079,10 +4797,9 @@
     {
       "nama": "Diah Prastuti",
       "alamat": {
-        "kampung_desa": "Merdeka",
+        "desa": "Merdeka",
         "kodepos": "40113",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tongkeng, Merdeka, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40113, Indonesia"
       },
@@ -5097,10 +4814,9 @@
     {
       "nama": "Ir. Kairav Nuraini",
       "alamat": {
-        "kampung_desa": "Cijagra",
+        "desa": "Cijagra",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cijagra, Lengkong, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -5115,10 +4831,9 @@
     {
       "nama": "Drs. Febi Gunawan",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mahar Martanegara, Baros, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -5133,10 +4848,9 @@
     {
       "nama": "Drs. Jono Mandala, S.T.",
       "alamat": {
-        "kampung_desa": "Pasirwangi",
+        "desa": "Pasirwangi",
         "kodepos": "40618",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sudimara, Pasirwangi, Ujungberung, Kel. Pasir Wangi, Bandung, Jawa Barat, Jawa, 40618, Indonesia"
       },
@@ -5151,10 +4865,9 @@
     {
       "nama": "Ozy Pratama",
       "alamat": {
-        "kampung_desa": "Margahayu Selatan",
+        "desa": "Margahayu Selatan",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Manglid, Margahayu Selatan, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -5169,10 +4882,9 @@
     {
       "nama": "Tgk. Julia Sihombing",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -5187,10 +4899,9 @@
     {
       "nama": "Nadia Purwanti, S.E.",
       "alamat": {
-        "kampung_desa": "Sukarasa",
+        "desa": "Sukarasa",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Setrasari II, Sukarasa, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -5205,10 +4916,9 @@
     {
       "nama": "Zulfa Hardiansyah",
       "alamat": {
-        "kampung_desa": "Cikawao",
+        "desa": "Cikawao",
         "kodepos": "40261",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kantor Wilayah Direktorat Jenderal Bea dan Cukai (DJBC), 114, Jalan Asia Afrika, Cikawao, Lengkong, Bandung, Jawa Barat, Jawa, 40261, Indonesia"
       },
@@ -5223,10 +4933,9 @@
     {
       "nama": "Amalia Haryanti",
       "alamat": {
-        "kampung_desa": "Hegarmanah",
+        "desa": "Hegarmanah",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Hegarmanah, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -5241,10 +4950,9 @@
     {
       "nama": "Ami Hardiansyah",
       "alamat": {
-        "kampung_desa": "Lagadar",
+        "desa": "Lagadar",
         "kodepos": "40562",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lagadar, Bandung, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -5259,10 +4967,9 @@
     {
       "nama": "Ifa Laksita",
       "alamat": {
-        "kampung_desa": "Rancanumpang",
+        "desa": "Rancanumpang",
         "kodepos": "40626",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Amar Bin Yasir, Rancanumpang, Gedebage, Bandung, Jawa Barat, Jawa, 40626, Indonesia"
       },
@@ -5277,10 +4984,9 @@
     {
       "nama": "Tania Wastuti",
       "alamat": {
-        "kampung_desa": "Cangkuang Wetan",
+        "desa": "Cangkuang Wetan",
         "kodepos": "40226",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cangkuang Wetan, Bandung, Jawa Barat, Jawa, 40226, Indonesia"
       },
@@ -5295,10 +5001,9 @@
     {
       "nama": "Kartika Iswahyudi",
       "alamat": {
-        "kampung_desa": "Derwati",
+        "desa": "Derwati",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Derwati, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -5313,10 +5018,9 @@
     {
       "nama": "Halim Gunarto",
       "alamat": {
-        "kampung_desa": "Citarum",
+        "desa": "Citarum",
         "kodepos": "40115",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Coredataq, 15, Jalan Sultan Agung, Citarum, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40115, Indonesia"
       },
@@ -5331,10 +5035,9 @@
     {
       "nama": "Hamima Prabowo",
       "alamat": {
-        "kampung_desa": "Sukapura",
+        "desa": "Sukapura",
         "kodepos": "40284",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pindad, Sukapura, Kiaracondong, Bandung, Jawa Barat, Jawa, 40284, Indonesia"
       },
@@ -5349,10 +5052,9 @@
     {
       "nama": "Vero Hartati",
       "alamat": {
-        "kampung_desa": "Neglasari",
+        "desa": "Neglasari",
         "kodepos": "40124",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cikutra Baru VIII, Neglasari, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40124, Indonesia"
       },
@@ -5367,10 +5069,9 @@
     {
       "nama": "R.A. Rina Hassanah",
       "alamat": {
-        "kampung_desa": "Mekar Rahayu",
+        "desa": "Mekar Rahayu",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekar Rahayu, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -5385,10 +5086,9 @@
     {
       "nama": "Ina Prayoga, S.Psi",
       "alamat": {
-        "kampung_desa": "Babakan Penghulu",
+        "desa": "Babakan Penghulu",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Grand Pinus Regency, Babakan Penghulu, Cinambo, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -5403,10 +5103,9 @@
     {
       "nama": "H. Bakijan Kurniawan, M.M.",
       "alamat": {
-        "kampung_desa": "Ancol",
+        "desa": "Ancol",
         "kodepos": "40253",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Ancol Timur XIII, Ancol, Regol, Bandung, Jawa Barat, Jawa, 40253, Indonesia"
       },
@@ -5421,10 +5120,9 @@
     {
       "nama": "Gambira Rahmawati",
       "alamat": {
-        "kampung_desa": "Cisaranten Kulon",
+        "desa": "Cisaranten Kulon",
         "kodepos": "40293",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kulon, Arcamanik, Bandung, Jawa Barat, Jawa, 40293, Indonesia"
       },
@@ -5439,10 +5137,9 @@
     {
       "nama": "Wakiman Namaga",
       "alamat": {
-        "kampung_desa": "Cikawao",
+        "desa": "Cikawao",
         "kodepos": "40621",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Raffleshom Hotel, 24, Jalan Pangarang, Cikawao, Lengkong, Bandung, Jawa Barat, Jawa, 40621, Indonesia"
       },
@@ -5457,10 +5154,9 @@
     {
       "nama": "Cemeti Padmasari",
       "alamat": {
-        "kampung_desa": "Leuwigajah",
+        "desa": "Leuwigajah",
         "kodepos": "40562",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Leuwigajah, Cimahi, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -5475,10 +5171,9 @@
     {
       "nama": "Samiah Irawan, S.Psi",
       "alamat": {
-        "kampung_desa": "Kopo",
+        "desa": "Kopo",
         "kodepos": "40224",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Babakan Ciparay, Kopo, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40224, Indonesia"
       },
@@ -5493,10 +5188,9 @@
     {
       "nama": "Ellis Rajasa",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -5511,10 +5205,9 @@
     {
       "nama": "Maya Marbun, S.T.",
       "alamat": {
-        "kampung_desa": "Tamansari",
+        "desa": "Tamansari",
         "kodepos": "40116",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "WEDRINK @TamanSari 28, 28, Jalan Taman Sari, Tamansari, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40116, Indonesia"
       },
@@ -5529,10 +5222,9 @@
     {
       "nama": "Drs. Wani Permata",
       "alamat": {
-        "kampung_desa": "Pelindung Hewan",
+        "desa": "Pelindung Hewan",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Inhoftank, Pelindung Hewan, Astanaanyar, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -5547,10 +5239,9 @@
     {
       "nama": "Paramita Kusumo",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40514",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibabat, Cimahi, Jawa Barat, Jawa, 40514, Indonesia"
       },
@@ -5565,10 +5256,9 @@
     {
       "nama": "Mitra Waskita",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sekesalam, Green City Resort, Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -5583,10 +5273,9 @@
     {
       "nama": "Mulya Nugroho, M.M.",
       "alamat": {
-        "kampung_desa": "Sukahaji",
+        "desa": "Sukahaji",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukahaji, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -5601,10 +5290,9 @@
     {
       "nama": "Jati Uyainah",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -5619,10 +5307,9 @@
     {
       "nama": "Nyoman Pudjiastuti, S.Farm",
       "alamat": {
-        "kampung_desa": "Margasuka",
+        "desa": "Margasuka",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margasuka, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -5637,10 +5324,9 @@
     {
       "nama": "Kala Nuraini",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40125",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -5655,10 +5341,9 @@
     {
       "nama": "Ir. Emong Saputra, S.Sos",
       "alamat": {
-        "kampung_desa": "Rancabolang",
+        "desa": "Rancabolang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bumi Adipura, Rancabolang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -5673,10 +5358,9 @@
     {
       "nama": "drg. Dartono Siregar, S.Gz",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -5691,10 +5375,9 @@
     {
       "nama": "Gatot Yolanda",
       "alamat": {
-        "kampung_desa": "Sarijadi",
+        "desa": "Sarijadi",
         "kodepos": "40151",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sarijadi, Sukajadi, Bandung, Jawa Barat, Jawa, 40151, Indonesia"
       },
@@ -5709,10 +5392,9 @@
     {
       "nama": "Martana Winarsih",
       "alamat": {
-        "kampung_desa": "Antapani Kidul",
+        "desa": "Antapani Kidul",
         "kodepos": "40291",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cicalengka, Antapani Kidul, Antapani, Bandung, Jawa Barat, Jawa, 40291, Indonesia"
       },
@@ -5727,10 +5409,9 @@
     {
       "nama": "Ega Zulaika, M.Farm",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Nanjung, Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -5745,10 +5426,9 @@
     {
       "nama": "dr. Zelaya Suryatmi, M.TI.",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -5763,10 +5443,9 @@
     {
       "nama": "Sutan Baktiadi Dongoran, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Pataruman",
+        "desa": "Pataruman",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pataruman, Bandung Barat, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -5781,10 +5460,9 @@
     {
       "nama": "Rafid Pradana",
       "alamat": {
-        "kampung_desa": "Manjahlega",
+        "desa": "Manjahlega",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Raya, Manjahlega, Rancasari, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -5799,10 +5477,9 @@
     {
       "nama": "Cinthia Maryadi",
       "alamat": {
-        "kampung_desa": "Sekeloa",
+        "desa": "Sekeloa",
         "kodepos": "40133",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sekeloa, Coblong, Bandung, Jawa Barat, Jawa, 40133, Indonesia"
       },
@@ -5817,10 +5494,9 @@
     {
       "nama": "Hafshah Sinaga",
       "alamat": {
-        "kampung_desa": "Cangkuang Kulon",
+        "desa": "Cangkuang Kulon",
         "kodepos": "40227",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cangkuang Kulon, Bandung, Jawa Barat, Jawa, 40227, Indonesia"
       },
@@ -5835,10 +5511,9 @@
     {
       "nama": "Dalima Winarsih",
       "alamat": {
-        "kampung_desa": "Lebak Siliwangi",
+        "desa": "Lebak Siliwangi",
         "kodepos": "40132",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Siliwangi, Lebak Siliwangi, Coblong, Bandung, Jawa Barat, Jawa, 40132, Indonesia"
       },
@@ -5853,10 +5528,9 @@
     {
       "nama": "Lutfan Situmorang",
       "alamat": {
-        "kampung_desa": "Cimenyan",
+        "desa": "Cimenyan",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cimenyan, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -5871,10 +5545,9 @@
     {
       "nama": "Sabrina Simbolon",
       "alamat": {
-        "kampung_desa": "Rancanumpang",
+        "desa": "Rancanumpang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Viking Raya, Rancanumpang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -5889,10 +5562,9 @@
     {
       "nama": "Hendra Lestari",
       "alamat": {
-        "kampung_desa": "Paledang",
+        "desa": "Paledang",
         "kodepos": "40261",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Melong, Paledang, Lengkong, Bandung, Jawa Barat, Jawa, 40261, Indonesia"
       },
@@ -5907,10 +5579,9 @@
     {
       "nama": "drg. Rendy Mandala",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -5925,10 +5596,9 @@
     {
       "nama": "Virman Wibowo",
       "alamat": {
-        "kampung_desa": "Utama",
+        "desa": "Utama",
         "kodepos": "40562",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Utama, Cimahi, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -5943,10 +5613,9 @@
     {
       "nama": "Ir. Anom Rahayu",
       "alamat": {
-        "kampung_desa": "Mengger",
+        "desa": "Mengger",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batununggal Molek, Mengger, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -5961,10 +5630,9 @@
     {
       "nama": "Laksana Napitupulu",
       "alamat": {
-        "kampung_desa": "Sukarasa",
+        "desa": "Sukarasa",
         "kodepos": "40152",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukarasa, Sukajadi, Bandung, Jawa Barat, Jawa, 40152, Indonesia"
       },
@@ -5979,10 +5647,9 @@
     {
       "nama": "dr. Ridwan Kurniawan, S.Psi",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -5997,10 +5664,9 @@
     {
       "nama": "Emong Nuraini",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40285",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Raden Adipati Aria Martanegara, Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40285, Indonesia"
       },
@@ -6015,10 +5681,9 @@
     {
       "nama": "KH. Balijan Wijayanti",
       "alamat": {
-        "kampung_desa": "Mekarmulya",
+        "desa": "Mekarmulya",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarmulya, Panyileukan, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -6033,10 +5698,9 @@
     {
       "nama": "Wisnu Hardiansyah",
       "alamat": {
-        "kampung_desa": "Sukapada",
+        "desa": "Sukapada",
         "kodepos": "40125",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sukaharja II, Sukapada, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40125, Indonesia"
       },
@@ -6051,10 +5715,9 @@
     {
       "nama": "Winda Nuraini",
       "alamat": {
-        "kampung_desa": "Babakan Surabaya",
+        "desa": "Babakan Surabaya",
         "kodepos": "40272",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "BRATACO, Jalan Terusan Jakarta, Babakan Surabaya, Kiaracondong, Bandung, Jawa Barat, Jawa, 40272, Indonesia"
       },
@@ -6069,10 +5732,9 @@
     {
       "nama": "Paris Mayasari",
       "alamat": {
-        "kampung_desa": "Sekejati",
+        "desa": "Sekejati",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sekejati, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -6087,10 +5749,9 @@
     {
       "nama": "Bakidin Budiman, S.Pt",
       "alamat": {
-        "kampung_desa": "Cipamokolan",
+        "desa": "Cipamokolan",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cipamokolan, Rancasari, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -6105,10 +5766,9 @@
     {
       "nama": "H. Harsaya Widiastuti",
       "alamat": {
-        "kampung_desa": "Rancabolang",
+        "desa": "Rancabolang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bumi Adipura, Rancabolang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6123,10 +5783,9 @@
     {
       "nama": "Asman Permadi, M.TI.",
       "alamat": {
-        "kampung_desa": "Karangpamulang",
+        "desa": "Karangpamulang",
         "kodepos": "40195",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Karangpamulang, Mandalajati, Bandung, Jawa Barat, Jawa, 40195, Indonesia"
       },
@@ -6141,10 +5800,9 @@
     {
       "nama": "Cakrawangsa Thamrin",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -6159,10 +5817,9 @@
     {
       "nama": "Karimah Novitasari, S.Farm",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -6177,10 +5834,9 @@
     {
       "nama": "Adika Sinaga",
       "alamat": {
-        "kampung_desa": "Derwati",
+        "desa": "Derwati",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Derwati, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6195,10 +5851,9 @@
     {
       "nama": "Artawan Wahyudin",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6213,10 +5868,9 @@
     {
       "nama": "Panji Firgantoro",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Masjid Al Huda, Cibeber, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -6231,10 +5885,9 @@
     {
       "nama": "Harja Purnawati",
       "alamat": {
-        "kampung_desa": "Citarum",
+        "desa": "Citarum",
         "kodepos": "40115",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Ivory by Ayola Hotel, 3, Jalan Bahureksa, Citarum, Bandung Wetan, Bandung, Jawa Barat, Jawa, 40115, Indonesia"
       },
@@ -6249,10 +5902,9 @@
     {
       "nama": "Padma Purwanti",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -6267,10 +5919,9 @@
     {
       "nama": "Jatmiko Santoso",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40563",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -6285,10 +5936,9 @@
     {
       "nama": "Koko Firmansyah, M.Ak",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -6303,10 +5953,9 @@
     {
       "nama": "Cawisono Prasetyo",
       "alamat": {
-        "kampung_desa": "Kebon Jeruk",
+        "desa": "Kebon Jeruk",
         "kodepos": "40181",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sasmitapura, Kebon Jeruk, Andir, Bandung, Jawa Barat, Jawa, 40181, Indonesia"
       },
@@ -6321,10 +5970,9 @@
     {
       "nama": "Wulan Melani, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Melong",
+        "desa": "Melong",
         "kodepos": "40213",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melong, Cimahi, Jawa Barat, Jawa, 40213, Indonesia"
       },
@@ -6339,10 +5987,9 @@
     {
       "nama": "Ir. Lukman Pranowo, S.E.I",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -6357,10 +6004,9 @@
     {
       "nama": "Ir. Vicky Mansur, S.Gz",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40552",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tipar Barat, Gadobangkong, Bandung Barat, Jawa Barat, Jawa, 40552, Indonesia"
       },
@@ -6375,10 +6021,9 @@
     {
       "nama": "Belinda Kusumo",
       "alamat": {
-        "kampung_desa": "Cirangrang",
+        "desa": "Cirangrang",
         "kodepos": "40225",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cirangrang, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40225, Indonesia"
       },
@@ -6393,10 +6038,9 @@
     {
       "nama": "Harjaya Maryadi",
       "alamat": {
-        "kampung_desa": "Mekarmulya",
+        "desa": "Mekarmulya",
         "kodepos": "40614",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasar Induk Gedebage, Jalan Pamekar, Panghegar Permai, Mekarmulya, Panyileukan, Bandung, Jawa Barat, Jawa, 40614, Indonesia"
       },
@@ -6411,10 +6055,9 @@
     {
       "nama": "dr. Darimin Adriansyah",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40123",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40123, Indonesia"
       },
@@ -6429,10 +6072,9 @@
     {
       "nama": "dr. Ifa Samosir, S.IP",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40513",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Salwi, Cibabat, Cimahi, Jawa Barat, Jawa, 40513, Indonesia"
       },
@@ -6447,10 +6089,9 @@
     {
       "nama": "Mutia Hasanah",
       "alamat": {
-        "kampung_desa": "Cigondewah Kaler",
+        "desa": "Cigondewah Kaler",
         "kodepos": "40213",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigondewah Kaler, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40213, Indonesia"
       },
@@ -6465,10 +6106,9 @@
     {
       "nama": "Tgk. Gangsar Wahyudin, S.Psi",
       "alamat": {
-        "kampung_desa": "Margahayu Tengah",
+        "desa": "Margahayu Tengah",
         "kodepos": "40227",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Tengah, Bandung, Jawa Barat, Jawa, 40227, Indonesia"
       },
@@ -6483,10 +6123,9 @@
     {
       "nama": "Nyoman Novitasari",
       "alamat": {
-        "kampung_desa": "Derwati",
+        "desa": "Derwati",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Derwati, Derwati, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6501,10 +6140,9 @@
     {
       "nama": "Dt. Cawisadi Pranowo, S.IP",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -6519,10 +6157,9 @@
     {
       "nama": "Elisa Natsir, S.H.",
       "alamat": {
-        "kampung_desa": "Leuwigajah",
+        "desa": "Leuwigajah",
         "kodepos": "40562",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Leuwigajah, Cimahi, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -6537,10 +6174,9 @@
     {
       "nama": "Ghani Mayasari",
       "alamat": {
-        "kampung_desa": "Sukapura",
+        "desa": "Sukapura",
         "kodepos": "40284",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukapura, Kiaracondong, Bandung, Jawa Barat, Jawa, 40284, Indonesia"
       },
@@ -6555,10 +6191,9 @@
     {
       "nama": "Dewi Pranowo, M.Kom.",
       "alamat": {
-        "kampung_desa": "Margahayu Tengah",
+        "desa": "Margahayu Tengah",
         "kodepos": "40225",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Tengah, Bandung, Jawa Barat, Jawa, 40225, Indonesia"
       },
@@ -6573,10 +6208,9 @@
     {
       "nama": "Lalita Damanik",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40257",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -6591,10 +6225,9 @@
     {
       "nama": "Devi Mansur, S.T.",
       "alamat": {
-        "kampung_desa": "Leuwigajah",
+        "desa": "Leuwigajah",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Leuwigajah, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -6609,10 +6242,9 @@
     {
       "nama": "Hj. Nabila Usada, S.T.",
       "alamat": {
-        "kampung_desa": "Situwangi",
+        "desa": "Situwangi",
         "kodepos": "40932",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Situwangi, Bandung Barat, Jawa Barat, Jawa, 40932, Indonesia"
       },
@@ -6627,10 +6259,9 @@
     {
       "nama": "Tgk. Harja Farida",
       "alamat": {
-        "kampung_desa": "Cipamokolan",
+        "desa": "Cipamokolan",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Riung Saluyu C XI, Cipamokolan, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6645,10 +6276,9 @@
     {
       "nama": "Imam Waluyo",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -6663,10 +6293,9 @@
     {
       "nama": "Hani Haryanti",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Nanjung, Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -6681,10 +6310,9 @@
     {
       "nama": "Saadat Pradana",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40182",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Ciroyom, Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40182, Indonesia"
       },
@@ -6699,10 +6327,9 @@
     {
       "nama": "Carla Winarno",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, Indonesia"
       },
@@ -6717,10 +6344,9 @@
     {
       "nama": "Panji Hidayanto, S.Kom",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -6735,10 +6361,9 @@
     {
       "nama": "Jasmin Wijaya",
       "alamat": {
-        "kampung_desa": "Cigadung",
+        "desa": "Cigadung",
         "kodepos": "40134",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigadung, Cibeunying Kaler, Bandung, Jawa Barat, Jawa, 40134, Indonesia"
       },
@@ -6753,10 +6378,9 @@
     {
       "nama": "Sutan Damu Kurniawan",
       "alamat": {
-        "kampung_desa": "Melatiwangi",
+        "desa": "Melatiwangi",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melatiwangi, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -6771,10 +6395,9 @@
     {
       "nama": "Icha Sitompul",
       "alamat": {
-        "kampung_desa": "Batujajar Barat",
+        "desa": "Batujajar Barat",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Selacau, Batujajar Barat, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -6789,10 +6412,9 @@
     {
       "nama": "Edi Laksita",
       "alamat": {
-        "kampung_desa": "Cigereleng",
+        "desa": "Cigereleng",
         "kodepos": "40253",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mochammad Ramdhan, Cigereleng, Regol, Bandung, Jawa Barat, Jawa, 40253, Indonesia"
       },
@@ -6807,10 +6429,9 @@
     {
       "nama": "Rahmat Kuswandari",
       "alamat": {
-        "kampung_desa": "Gempolsari",
+        "desa": "Gempolsari",
         "kodepos": "40562",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gempolsari, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40562, Indonesia"
       },
@@ -6825,10 +6446,9 @@
     {
       "nama": "drg. Zahra Prayoga, M.Farm",
       "alamat": {
-        "kampung_desa": "Rahayu",
+        "desa": "Rahayu",
         "kodepos": "40233",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Rahayu, Bandung, Jawa Barat, Jawa, 40233, Indonesia"
       },
@@ -6843,10 +6463,9 @@
     {
       "nama": "Lasmono Safitri",
       "alamat": {
-        "kampung_desa": "Sekeloa",
+        "desa": "Sekeloa",
         "kodepos": "40133",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Intan VIII, Sekeloa, Coblong, Bandung, Jawa Barat, Jawa, 40133, Indonesia"
       },
@@ -6861,10 +6480,9 @@
     {
       "nama": "Queen Ramadan",
       "alamat": {
-        "kampung_desa": "Buahbatu",
+        "desa": "Buahbatu",
         "kodepos": "40295",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Buahbatu, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6879,10 +6497,9 @@
     {
       "nama": "Tina Prasetya",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Bapa Ajum, Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -6897,10 +6514,9 @@
     {
       "nama": "Fathonah Oktaviani",
       "alamat": {
-        "kampung_desa": "Margasari",
+        "desa": "Margasari",
         "kodepos": "30286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Anta Resmi, Margasari, Buahbatu, Bandung, Jawa Barat, Jawa, 30286, Indonesia"
       },
@@ -6915,10 +6531,9 @@
     {
       "nama": "Mila Prasetyo",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -6933,10 +6548,9 @@
     {
       "nama": "Opan Sitompul",
       "alamat": {
-        "kampung_desa": "Sukaasih",
+        "desa": "Sukaasih",
         "kodepos": "40231",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tritisan Kencana, Sukaasih, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40231, Indonesia"
       },
@@ -6951,10 +6565,9 @@
     {
       "nama": "drg. Samiah Susanti",
       "alamat": {
-        "kampung_desa": "Rancabolang",
+        "desa": "Rancabolang",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Adi Sedapmalam, Bumi Adipura, Rancabolang, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -6969,10 +6582,9 @@
     {
       "nama": "Purwa Susanti, S.IP",
       "alamat": {
-        "kampung_desa": "Nanjung",
+        "desa": "Nanjung",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Soreang\u2013Pasirkoja, Nanjung, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -6987,10 +6599,9 @@
     {
       "nama": "Limar Hakim, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Cibeber",
+        "desa": "Cibeber",
         "kodepos": "40534",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibeber, Cimahi, Jawa Barat, Jawa, 40534, Indonesia"
       },
@@ -7005,10 +6616,9 @@
     {
       "nama": "Harjaya Hakim",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40191",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40191, Indonesia"
       },
@@ -7023,10 +6633,9 @@
     {
       "nama": "Hj. Alika Prayoga, S.Psi",
       "alamat": {
-        "kampung_desa": "Pasteur",
+        "desa": "Pasteur",
         "kodepos": "40131",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasteur, Sukasari, Bandung, Jawa Barat, Jawa, 40131, Indonesia"
       },
@@ -7041,10 +6650,9 @@
     {
       "nama": "Dinda Hastuti, M.Farm",
       "alamat": {
-        "kampung_desa": "Sukamiskin",
+        "desa": "Sukamiskin",
         "kodepos": "40293",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sukamiskin, Arcamanik, Bandung, Jawa Barat, Jawa, 40293, Indonesia"
       },
@@ -7059,10 +6667,9 @@
     {
       "nama": "Ayu Lestari",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cluster Emily, Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -7077,10 +6684,9 @@
     {
       "nama": "Nyana Dongoran",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40514",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Taman Bumi Prima, Cibabat, Cimahi, Jawa Barat, Jawa, 40514, Indonesia"
       },
@@ -7095,10 +6701,9 @@
     {
       "nama": "Ir. Yahya Padmasari",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -7113,10 +6718,9 @@
     {
       "nama": "Aswani Hassanah",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cibaligo, C I M A H I, Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -7131,10 +6735,9 @@
     {
       "nama": "Akarsana Rajasa",
       "alamat": {
-        "kampung_desa": "Girimekar",
+        "desa": "Girimekar",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Girimekar, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -7149,10 +6752,9 @@
     {
       "nama": "Lanjar Mayasari",
       "alamat": {
-        "kampung_desa": "Maleber",
+        "desa": "Maleber",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Saluyu IV, Maleber, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -7167,10 +6769,9 @@
     {
       "nama": "Paulin Firgantoro, S.Ked",
       "alamat": {
-        "kampung_desa": "Cangkuang Kulon",
+        "desa": "Cangkuang Kulon",
         "kodepos": "40227",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cangkuang Kulon, Bandung, Jawa Barat, Jawa, 40227, Indonesia"
       },
@@ -7185,10 +6786,9 @@
     {
       "nama": "Dt. Kasim Waskita",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "The Suites@Metro, 689, Jalan Soekarno-Hatta, Jatisari, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -7203,10 +6803,9 @@
     {
       "nama": "R. Cakrajiya Situmorang",
       "alamat": {
-        "kampung_desa": "Sukaraja",
+        "desa": "Sukaraja",
         "kodepos": "40175",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mega Asri I, Sukaraja, Cicendo, Bandung, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -7221,10 +6820,9 @@
     {
       "nama": "Salimah Widiastuti",
       "alamat": {
-        "kampung_desa": "Cibaduyut Wetan",
+        "desa": "Cibaduyut Wetan",
         "kodepos": "40226",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "SENTRA INDUSTRI SEPATU CIBADUYUT, Cibaduyut Wetan, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40226, Indonesia"
       },
@@ -7239,10 +6837,9 @@
     {
       "nama": "Salsabila Jailani",
       "alamat": {
-        "kampung_desa": "Batujajar Timur",
+        "desa": "Batujajar Timur",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batujajar Timur, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -7257,10 +6854,9 @@
     {
       "nama": "Ir. Oliva Dongoran",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40514",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gunung Batu, Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40514, Indonesia"
       },
@@ -7275,10 +6871,9 @@
     {
       "nama": "Bakiono Nurdiyanti",
       "alamat": {
-        "kampung_desa": "Kacapiring",
+        "desa": "Kacapiring",
         "kodepos": "40271",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Plaza IBCC, 296, Jalan Jenderal Ahmad Yani, Kacapiring, Batununggal, Bandung, Jawa Barat, Jawa, 40271, Indonesia"
       },
@@ -7293,10 +6888,9 @@
     {
       "nama": "Abyasa Maryati",
       "alamat": {
-        "kampung_desa": "Margahayu Utara",
+        "desa": "Margahayu Utara",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Utara, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -7311,10 +6905,9 @@
     {
       "nama": "Dr. Dasa Mayasari",
       "alamat": {
-        "kampung_desa": "Pamoyanan",
+        "desa": "Pamoyanan",
         "kodepos": "40173",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Warung Nasi Kang EWOK, 16, Jalan Astina, Pamoyanan, Cicendo, Bandung, Jawa Barat, Jawa, 40173, Indonesia"
       },
@@ -7329,10 +6922,9 @@
     {
       "nama": "Kamaria Astuti, S.T.",
       "alamat": {
-        "kampung_desa": "Sukabungah",
+        "desa": "Sukabungah",
         "kodepos": "40162",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sukabakti II, Sukabungah, Sukasari, Bandung, Jawa Barat, Jawa, 40162, Indonesia"
       },
@@ -7347,10 +6939,9 @@
     {
       "nama": "Ikhsan Mandasari",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -7365,10 +6956,9 @@
     {
       "nama": "Septi Pradana",
       "alamat": {
-        "kampung_desa": "Mekar Rahayu",
+        "desa": "Mekar Rahayu",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekar Rahayu, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -7383,10 +6973,9 @@
     {
       "nama": "Abyasa Purwanti",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sanggar Kencana XVIII, Jatisari, Buahbatu, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -7401,10 +6990,9 @@
     {
       "nama": "Nova Nainggolan",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Bandung Barat, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -7419,10 +7007,9 @@
     {
       "nama": "Karman Winarsih, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Cipamokolan",
+        "desa": "Cipamokolan",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Silih Asih, Cipamokolan, Rancasari, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -7437,10 +7024,9 @@
     {
       "nama": "Dwi Haryanto",
       "alamat": {
-        "kampung_desa": "Pajajaran",
+        "desa": "Pajajaran",
         "kodepos": "40174",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pajajaran, Cicendo, Bandung, Jawa Barat, Jawa, 40174, Indonesia"
       },
@@ -7455,10 +7041,9 @@
     {
       "nama": "Tantri Haryanti",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Soekarno-Hatta, Batununggal Lestari, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -7473,10 +7058,9 @@
     {
       "nama": "Aditya Wijayanti, S.Psi",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -7491,10 +7075,9 @@
     {
       "nama": "Sakti Sitorus",
       "alamat": {
-        "kampung_desa": "Girimekar",
+        "desa": "Girimekar",
         "kodepos": "40619",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Girimekar, Bandung, Jawa Barat, Jawa, 40619, Indonesia"
       },
@@ -7509,10 +7092,9 @@
     {
       "nama": "Tgk. Pia Tampubolon, M.Pd",
       "alamat": {
-        "kampung_desa": "Sukagalih",
+        "desa": "Sukagalih",
         "kodepos": "40163",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Aston Pasteur, Jalan Suka Mulya, Sukagalih, Sukasari, Bandung, Jawa Barat, Jawa, 40163, Indonesia"
       },
@@ -7527,10 +7109,9 @@
     {
       "nama": "Maimunah Padmasari",
       "alamat": {
-        "kampung_desa": "Malabar",
+        "desa": "Malabar",
         "kodepos": "40262",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "dPalma Hotel, 41, Jalan Jenderal Gatot Subroto, Karees Kulon, Malabar, Lengkong, Bandung, Jawa Barat, Jawa, 40262, Indonesia"
       },
@@ -7545,10 +7126,9 @@
     {
       "nama": "Indra Irawan",
       "alamat": {
-        "kampung_desa": "Hegarmanah",
+        "desa": "Hegarmanah",
         "kodepos": "40141",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Hegarmanah, Hegarmanah, Cidadap, Bandung, Jawa Barat, Jawa, 40141, Indonesia"
       },
@@ -7563,10 +7143,9 @@
     {
       "nama": "Tami Hutasoit",
       "alamat": {
-        "kampung_desa": "Cipagalo",
+        "desa": "Cipagalo",
         "kodepos": "40287",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Padalarang\u2013Cileunyi, Cipagalo, Bandung, Jawa Barat, Jawa, 40287, Indonesia"
       },
@@ -7581,10 +7160,9 @@
     {
       "nama": "Cut Maimunah Gunawan",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40264",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Reog II, Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40264, Indonesia"
       },
@@ -7599,10 +7177,9 @@
     {
       "nama": "Caraka Adriansyah",
       "alamat": {
-        "kampung_desa": "Ciroyom",
+        "desa": "Ciroyom",
         "kodepos": "40172",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasar Andir Trade Center, Jalan Waringin, Ciroyom, Andir, Bandung, Jawa Barat, Jawa, 40172, Indonesia"
       },
@@ -7617,10 +7194,9 @@
     {
       "nama": "Muhammad Natsir",
       "alamat": {
-        "kampung_desa": "",
+        "desa": "",
         "kodepos": "40515",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Setra Duta Asri, Bandung Barat, Jawa Barat, Jawa, 40515, Indonesia"
       },
@@ -7635,10 +7211,9 @@
     {
       "nama": "drg. Agus Damanik, M.Pd",
       "alamat": {
-        "kampung_desa": "Cigondewah Kaler",
+        "desa": "Cigondewah Kaler",
         "kodepos": "40214",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cicukang, Cigondewah Kaler, Bandung Kulon, Bandung, Jawa Barat, Jawa, 40214, Indonesia"
       },
@@ -7653,10 +7228,9 @@
     {
       "nama": "Rahmi Waskita",
       "alamat": {
-        "kampung_desa": "Karangmekar",
+        "desa": "Karangmekar",
         "kodepos": "40175",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Tol Pasteur, Karangmekar, Cimahi, Jawa Barat, Jawa, 40175, Indonesia"
       },
@@ -7671,10 +7245,9 @@
     {
       "nama": "Uli Tampubolon",
       "alamat": {
-        "kampung_desa": "Sukamaju",
+        "desa": "Sukamaju",
         "kodepos": "40121",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cisadea, Sukamaju, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40121, Indonesia"
       },
@@ -7689,10 +7262,9 @@
     {
       "nama": "drg. Shania Saefullah",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Lantana, Summarecon Bandung, Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -7707,10 +7279,9 @@
     {
       "nama": "Agnes Pradana",
       "alamat": {
-        "kampung_desa": "Pasir Impun",
+        "desa": "Pasir Impun",
         "kodepos": "40195",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasir Impun, Mandalajati, Bandung, Jawa Barat, Jawa, 40195, Indonesia"
       },
@@ -7725,10 +7296,9 @@
     {
       "nama": "Karta Dongoran",
       "alamat": {
-        "kampung_desa": "Mekarwangi",
+        "desa": "Mekarwangi",
         "kodepos": "40237",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mekarwangi, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -7743,10 +7313,9 @@
     {
       "nama": "Cemeti Usada, S.IP",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, Indonesia"
       },
@@ -7761,10 +7330,9 @@
     {
       "nama": "Violet Anggriawan",
       "alamat": {
-        "kampung_desa": "Pasawahan",
+        "desa": "Pasawahan",
         "kodepos": "40257",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasawahan, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -7779,10 +7347,9 @@
     {
       "nama": "Ganjaran Hartati, M.Ak",
       "alamat": {
-        "kampung_desa": "Margahayu Utara",
+        "desa": "Margahayu Utara",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margahayu Utara, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -7797,10 +7364,9 @@
     {
       "nama": "Harimurti Widodo",
       "alamat": {
-        "kampung_desa": "Batujajar Timur",
+        "desa": "Batujajar Timur",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batujajar Timur, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -7815,10 +7381,9 @@
     {
       "nama": "drg. Dinda Widodo, S.Pt",
       "alamat": {
-        "kampung_desa": "Mekarjaya",
+        "desa": "Mekarjaya",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Ciptakarya II, Mekarjaya, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -7833,10 +7398,9 @@
     {
       "nama": "R.M. Paiman Habibi, M.Kom.",
       "alamat": {
-        "kampung_desa": "Melatiwangi",
+        "desa": "Melatiwangi",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melatiwangi, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -7851,10 +7415,9 @@
     {
       "nama": "Zaenab Wijayanti",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Bandung Barat, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -7869,10 +7432,9 @@
     {
       "nama": "Umaya Halimah",
       "alamat": {
-        "kampung_desa": "Campaka",
+        "desa": "Campaka",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Haji Abdurahman II, Campaka, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -7887,10 +7449,9 @@
     {
       "nama": "Tasdik Damanik, S.Gz",
       "alamat": {
-        "kampung_desa": "Maleber",
+        "desa": "Maleber",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Rahayu I, Maleber, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -7905,10 +7466,9 @@
     {
       "nama": "Bakijan Nashiruddin",
       "alamat": {
-        "kampung_desa": "Babakan",
+        "desa": "Babakan",
         "kodepos": "40218",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan, Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40218, Indonesia"
       },
@@ -7923,10 +7483,9 @@
     {
       "nama": "Zelaya Widiastuti",
       "alamat": {
-        "kampung_desa": "Mandalamekar",
+        "desa": "Mandalamekar",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mandalamekar, Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -7941,10 +7500,9 @@
     {
       "nama": "Mujur Simbolon, S.Psi",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "40285",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, 40285, Indonesia"
       },
@@ -7959,10 +7517,9 @@
     {
       "nama": "Luhung Padmasari",
       "alamat": {
-        "kampung_desa": "Girimekar",
+        "desa": "Girimekar",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Girimekar Asri VI, Komplek Girimekar Permai, Girimekar, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -7977,10 +7534,9 @@
     {
       "nama": "Timbul Mandala",
       "alamat": {
-        "kampung_desa": "Sarijadi",
+        "desa": "Sarijadi",
         "kodepos": "40151",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sarirasa XV, Sarijadi, Sukajadi, Bandung, Jawa Barat, Jawa, 40151, Indonesia"
       },
@@ -7995,10 +7551,9 @@
     {
       "nama": "T. Luhung Rahmawati, S.E.",
       "alamat": {
-        "kampung_desa": "Lingkar Selatan",
+        "desa": "Lingkar Selatan",
         "kodepos": "40274",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Salak, Lingkar Selatan, Lengkong, Bandung, Jawa Barat, Jawa, 40274, Indonesia"
       },
@@ -8013,10 +7568,9 @@
     {
       "nama": "Darimin Megantara",
       "alamat": {
-        "kampung_desa": "Cisaranten Bina Harapan",
+        "desa": "Cisaranten Bina Harapan",
         "kodepos": "40294",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pusat Penelitian dan Pengembangan Jalan dan Jembatan (Pusjatan), 264, Jalan Abdul Haris Nasution, Cisaranten Bina Harapan, Arcamanik, Bandung, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -8031,10 +7585,9 @@
     {
       "nama": "Gatot Lailasari",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -8049,10 +7602,9 @@
     {
       "nama": "Tiara Utama",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40265",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandung Eye Center, 147, Jalan Buah Batu, Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40265, Indonesia"
       },
@@ -8067,10 +7619,9 @@
     {
       "nama": "Kuncara Pradipta",
       "alamat": {
-        "kampung_desa": "Nanjung",
+        "desa": "Nanjung",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Nanjung, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8085,10 +7636,9 @@
     {
       "nama": "Jessica Damanik",
       "alamat": {
-        "kampung_desa": "Giriasih",
+        "desa": "Giriasih",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Giriasih, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -8103,10 +7653,9 @@
     {
       "nama": "Lanang Nuraini",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan K. H. Ahmad Toha, Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8121,10 +7670,9 @@
     {
       "nama": "Tina Farida",
       "alamat": {
-        "kampung_desa": "Jatisari",
+        "desa": "Jatisari",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jatisari, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8139,10 +7687,9 @@
     {
       "nama": "Dr. Ifa Pudjiastuti",
       "alamat": {
-        "kampung_desa": "Babakan Ciparay",
+        "desa": "Babakan Ciparay",
         "kodepos": "40223",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Babakan Ciparay, Bandung, Jawa Barat, Jawa, 40223, Indonesia"
       },
@@ -8157,10 +7704,9 @@
     {
       "nama": "dr. Hamzah Habibi, S.I.Kom",
       "alamat": {
-        "kampung_desa": "Giriasih",
+        "desa": "Giriasih",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Giriasih, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -8175,10 +7721,9 @@
     {
       "nama": "Ana Winarno",
       "alamat": {
-        "kampung_desa": "Situwangi",
+        "desa": "Situwangi",
         "kodepos": "40932",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Situwangi, Bandung Barat, Jawa Barat, Jawa, 40932, Indonesia"
       },
@@ -8193,10 +7738,9 @@
     {
       "nama": "Gandi Laksmiwati",
       "alamat": {
-        "kampung_desa": "Cijagra",
+        "desa": "Cijagra",
         "kodepos": "40265",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Biduri, Cijagra, Lengkong, Bandung, Jawa Barat, Jawa, 40265, Indonesia"
       },
@@ -8211,10 +7755,9 @@
     {
       "nama": "Oman Simbolon",
       "alamat": {
-        "kampung_desa": "Ancol",
+        "desa": "Ancol",
         "kodepos": "40267",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kembar Mas Barat, Ancol, Regol, Bandung, Jawa Barat, Jawa, 40267, Indonesia"
       },
@@ -8229,10 +7772,9 @@
     {
       "nama": "Daryani Mulyani",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40237",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Haji Abu Bakar 1, Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40237, Indonesia"
       },
@@ -8247,10 +7789,9 @@
     {
       "nama": "Oskar Maryadi, S.T.",
       "alamat": {
-        "kampung_desa": "Husen Sastranegara",
+        "desa": "Husen Sastranegara",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Maleber Utara, Husen Sastranegara, Cicendo, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -8265,10 +7806,9 @@
     {
       "nama": "T. Teguh Dongoran, M.Farm",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -8283,10 +7823,9 @@
     {
       "nama": "dr. Natalia Halim, M.Farm",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8301,10 +7840,9 @@
     {
       "nama": "Ella Sinaga",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40184",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -8319,10 +7857,9 @@
     {
       "nama": "Tania Pradana, S.E.",
       "alamat": {
-        "kampung_desa": "Babakan Asih",
+        "desa": "Babakan Asih",
         "kodepos": "40232",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Sukaleueur V, Babakan Asih, Bojongloa Kaler, Bandung, Jawa Barat, Jawa, 40232, Indonesia"
       },
@@ -8337,10 +7874,9 @@
     {
       "nama": "Farhunnisa Hutagalung",
       "alamat": {
-        "kampung_desa": "Cisaranten Endah",
+        "desa": "Cisaranten Endah",
         "kodepos": "40291",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Madyunus, Cisaranten Endah, Arcamanik, Bandung, Jawa Barat, Jawa, 40291, Indonesia"
       },
@@ -8355,10 +7891,9 @@
     {
       "nama": "Shania Saragih",
       "alamat": {
-        "kampung_desa": "Turangga",
+        "desa": "Turangga",
         "kodepos": "40264",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Rajamantri Kaler, Turangga, Lengkong, Bandung, Jawa Barat, Jawa, 40264, Indonesia"
       },
@@ -8373,10 +7908,9 @@
     {
       "nama": "Bakiono Mayasari",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8391,10 +7925,9 @@
     {
       "nama": "Eman Narpati",
       "alamat": {
-        "kampung_desa": "Girimekar",
+        "desa": "Girimekar",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Girimekar, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -8409,10 +7942,9 @@
     {
       "nama": "Garan Saptono",
       "alamat": {
-        "kampung_desa": "Kebonlega",
+        "desa": "Kebonlega",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Kebonlega, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -8427,10 +7959,9 @@
     {
       "nama": "Nilam Mahendra",
       "alamat": {
-        "kampung_desa": "Dago",
+        "desa": "Dago",
         "kodepos": "40135",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Kompleks Balai Besar Bahan Dan Barang Teknik, Cisitu Lama, Dago, Coblong, Bandung, Jawa Barat, Jawa, 40135, Indonesia"
       },
@@ -8445,10 +7976,9 @@
     {
       "nama": "Lukita Sirait",
       "alamat": {
-        "kampung_desa": "Utama",
+        "desa": "Utama",
         "kodepos": "40535",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Utama, Cimahi, Jawa Barat, Jawa, 40535, Indonesia"
       },
@@ -8463,10 +7993,9 @@
     {
       "nama": "Dipa Damanik",
       "alamat": {
-        "kampung_desa": "Situ Saeur",
+        "desa": "Situ Saeur",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gang Cetarip Timur III, Situ Saeur, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -8481,10 +8010,9 @@
     {
       "nama": "Tgk. Empluk Pertiwi",
       "alamat": {
-        "kampung_desa": "Pasirendah",
+        "desa": "Pasirendah",
         "kodepos": "40619",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Giri Rahayu III, Pasirendah, Ujungberung, Bandung, Jawa Barat, Jawa, 40619, Indonesia"
       },
@@ -8499,10 +8027,9 @@
     {
       "nama": "Reza Kuswoyo",
       "alamat": {
-        "kampung_desa": "Situ Saeur",
+        "desa": "Situ Saeur",
         "kodepos": "40235",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Situ Saeur, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40235, Indonesia"
       },
@@ -8517,10 +8044,9 @@
     {
       "nama": "T. Usman Hartati, S.E.I",
       "alamat": {
-        "kampung_desa": "Cigugur Tengah",
+        "desa": "Cigugur Tengah",
         "kodepos": "40184",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cigugur Tengah, Cimahi, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -8535,10 +8061,9 @@
     {
       "nama": "Kariman Kurniawan",
       "alamat": {
-        "kampung_desa": "Cikutra",
+        "desa": "Cikutra",
         "kodepos": "40124",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Suka Senang Raya, Cikutra, Cibeunying Kidul, Bandung, Jawa Barat, Jawa, 40124, Indonesia"
       },
@@ -8553,10 +8078,9 @@
     {
       "nama": "Tina Pradipta",
       "alamat": {
-        "kampung_desa": "Mekarwangi",
+        "desa": "Mekarwangi",
         "kodepos": "40236",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Mekar Puspita, Mekarwangi, Bojongloa Kidul, Bandung, Jawa Barat, Jawa, 40236, Indonesia"
       },
@@ -8571,10 +8095,9 @@
     {
       "nama": "Eka Hassanah",
       "alamat": {
-        "kampung_desa": "Antapani Tengah",
+        "desa": "Antapani Tengah",
         "kodepos": "40291",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cibatu, Antapani Tengah, Antapani, Bandung, Jawa Barat, Jawa, 40291, Indonesia"
       },
@@ -8589,10 +8112,9 @@
     {
       "nama": "Ami Haryanto",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "40266",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Sekelimus Utara, Batununggal Rahayu, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40266, Indonesia"
       },
@@ -8607,10 +8129,9 @@
     {
       "nama": "Irwan Saragih",
       "alamat": {
-        "kampung_desa": "Melatiwangi",
+        "desa": "Melatiwangi",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Melatiwangi, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -8625,10 +8146,9 @@
     {
       "nama": "Jaga Usamah",
       "alamat": {
-        "kampung_desa": "Derwati",
+        "desa": "Derwati",
         "kodepos": "40295",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Derwati, Rancasari, Bandung, Jawa Barat, Jawa, 40295, Indonesia"
       },
@@ -8643,10 +8163,9 @@
     {
       "nama": "Maras Wibisono",
       "alamat": {
-        "kampung_desa": "Batununggal",
+        "desa": "Batununggal",
         "kodepos": "",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Batununggal Indah, Batununggal, Bandung Kidul, Bandung, Jawa Barat, Jawa, Indonesia"
       },
@@ -8661,10 +8180,9 @@
     {
       "nama": "Tasnim Ardianto, S.Farm",
       "alamat": {
-        "kampung_desa": "Jelegong",
+        "desa": "Jelegong",
         "kodepos": "40911",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan K. H. Ahmad Toha, Jelegong, Bandung, Jawa Barat, Jawa, 40911, Indonesia"
       },
@@ -8679,10 +8197,9 @@
     {
       "nama": "Ir. Gina Pranowo",
       "alamat": {
-        "kampung_desa": "Kebonjayanti",
+        "desa": "Kebonjayanti",
         "kodepos": "40283",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Pasar Kiaracondong, Jalan Letnan Jenderal Ibrahim Adjie, Kebonjayanti, Kiaracondong, Bandung, Jawa Barat, Jawa, 40283, Indonesia"
       },
@@ -8697,10 +8214,9 @@
     {
       "nama": "Tantri Utami",
       "alamat": {
-        "kampung_desa": "Mandalamekar",
+        "desa": "Mandalamekar",
         "kodepos": "40192",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Mandalamekar, Bandung, Jawa Barat, Jawa, 40192, Indonesia"
       },
@@ -8715,10 +8231,9 @@
     {
       "nama": "Karimah Simanjuntak",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -8733,10 +8248,9 @@
     {
       "nama": "Dr. Gawati Simanjuntak, S.Gz",
       "alamat": {
-        "kampung_desa": "Cisaranten Endah",
+        "desa": "Cisaranten Endah",
         "kodepos": "40286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Endah, Arcamanik, Bandung, Jawa Barat, Jawa, 40286, Indonesia"
       },
@@ -8751,10 +8265,9 @@
     {
       "nama": "Wirda Siregar",
       "alamat": {
-        "kampung_desa": "Mengger",
+        "desa": "Mengger",
         "kodepos": "40258",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Batununggal Elok II, Batununggal Indah, Mengger, Bandung Kidul, Bandung, Jawa Barat, Jawa, 40258, Indonesia"
       },
@@ -8769,10 +8282,9 @@
     {
       "nama": "Dalima Mandasari",
       "alamat": {
-        "kampung_desa": "Baros",
+        "desa": "Baros",
         "kodepos": "40533",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Baros, Cimahi, Jawa Barat, Jawa, 40533, Indonesia"
       },
@@ -8787,10 +8299,9 @@
     {
       "nama": "Cinthia Maheswara",
       "alamat": {
-        "kampung_desa": "Braga",
+        "desa": "Braga",
         "kodepos": "40111",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bank BJB, Jalan Naripan, Braga, Sumur Bandung, Bandung, Jawa Barat, Jawa, 40111, Indonesia"
       },
@@ -8805,10 +8316,9 @@
     {
       "nama": "Widya Maryadi",
       "alamat": {
-        "kampung_desa": "Citeureup",
+        "desa": "Citeureup",
         "kodepos": "40257",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Citeureup, Bandung, Jawa Barat, Jawa, 40257, Indonesia"
       },
@@ -8823,10 +8333,9 @@
     {
       "nama": "Setya Wijayanti",
       "alamat": {
-        "kampung_desa": "Maleber",
+        "desa": "Maleber",
         "kodepos": "40184",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Bandar Udara Internasional Husein Sastranegara, Gang Saluyu VI, Maleber, Andir, Bandung, Jawa Barat, Jawa, 40184, Indonesia"
       },
@@ -8841,10 +8350,9 @@
     {
       "nama": "Dina Astuti",
       "alamat": {
-        "kampung_desa": "Burangrang",
+        "desa": "Burangrang",
         "kodepos": "40253",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Lele, Burangrang, Lengkong, Bandung, Jawa Barat, Jawa, 40253, Indonesia"
       },
@@ -8859,10 +8367,9 @@
     {
       "nama": "Gambira Puspita",
       "alamat": {
-        "kampung_desa": "Sindanglaya",
+        "desa": "Sindanglaya",
         "kodepos": "40169",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Sindanglaya, Bandung, Jawa Barat, Jawa, 40169, Indonesia"
       },
@@ -8877,10 +8384,9 @@
     {
       "nama": "Ulya Siregar, S.T.",
       "alamat": {
-        "kampung_desa": "Cisaranten Kidul",
+        "desa": "Cisaranten Kidul",
         "kodepos": "40292",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cisaranten Kidul, Gedebage, Bandung, Jawa Barat, Jawa, 40292, Indonesia"
       },
@@ -8895,10 +8401,9 @@
     {
       "nama": "Prayoga Prastuti, M.Ak",
       "alamat": {
-        "kampung_desa": "Gadobangkong",
+        "desa": "Gadobangkong",
         "kodepos": "40524",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Gadobangkong, Cimahi, Jawa Barat, Jawa, 40524, Indonesia"
       },
@@ -8913,10 +8418,9 @@
     {
       "nama": "Calista Narpati",
       "alamat": {
-        "kampung_desa": "Selacau",
+        "desa": "Selacau",
         "kodepos": "40563",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Selacau, Bandung Barat, Jawa Barat, Jawa, 40563, Indonesia"
       },
@@ -8931,10 +8435,9 @@
     {
       "nama": "Danuja Wulandari",
       "alamat": {
-        "kampung_desa": "Cisaranten Wetan",
+        "desa": "Cisaranten Wetan",
         "kodepos": "40294",
         "kota": "",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Cisaranten, Cisaranten Wetan, Cinambo, Kel. Cisaranten Wetan, Jawa Barat, Jawa, 40294, Indonesia"
       },
@@ -8949,10 +8452,9 @@
     {
       "nama": "Zahra Suartini, S.Ked",
       "alamat": {
-        "kampung_desa": "Cibabat",
+        "desa": "Cibabat",
         "kodepos": "40513",
         "kota": "Cimahi",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Cibabat, Cimahi, Jawa Barat, Jawa, 40513, Indonesia"
       },
@@ -8967,10 +8469,9 @@
     {
       "nama": "Lukman Rahimah, S.Kom",
       "alamat": {
-        "kampung_desa": "Paledang",
+        "desa": "Paledang",
         "kodepos": "40261",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Jalan Wangsare JA, Paledang, Lengkong, Bandung, Jawa Barat, Jawa, 40261, Indonesia"
       },
@@ -8985,10 +8486,9 @@
     {
       "nama": "Purwadi Wasita, S.Pt",
       "alamat": {
-        "kampung_desa": "Margasari",
+        "desa": "Margasari",
         "kodepos": "30286",
         "kota": "Bandung",
-        "pulau": "",
         "negara": "Indonesia",
         "detail": "Margasari, Buahbatu, Bandung, Jawa Barat, Jawa, 30286, Indonesia"
       },
