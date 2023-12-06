@@ -1,26 +1,30 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {View, Text, StyleSheet} from 'react-native';
 import React, {useState, useEffect} from 'react';
 import dataUsers from '../assets/data/dummyUser_500.json';
 import {
   isWithinRange,
-  generalizeValue,
   generalizeData,
+  validateKAnonymity,
 } from '../utils/helper/Algoritms';
 import {Callout, PointAnnotation} from '@rnmapbox/maps';
 import uuid from 'react-native-uuid';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {setUserDatas} from '../utils/redux/userData/userDataReducers';
-import {useDispatch} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
+import moment from 'moment';
+import 'moment/locale/id';
 interface GroupedData {
   address: string;
   users: any[];
 }
 const UsersMarker = ({currentCoordinate}: any) => {
   const [groupDataByPostCode, setGroupDataByPostCode] = useState<any>([]);
-  console.log(
-    'file: UsersMarker.tsx:13 ~ UsersMarker ~ groupDataByPostCode:',
-    groupDataByPostCode,
+  const [nearestUsers, setNearestUsers] = useState<any>([]);
+  const userDatas = useSelector((state: any) => state.userDatas.users?.[0]);
+  const applicationSettings = useSelector(
+    (state: any) => state.setting.application?.[0],
   );
   const dispatcher = useDispatch();
   const groupedData = (data: any) => {
@@ -55,18 +59,49 @@ const UsersMarker = ({currentCoordinate}: any) => {
   }, []);
   useEffect(() => {
     const generalizedData = generalizeData(groupDataByPostCode);
-    // dispatcher(setUserDatas(generalizedData));
-    dispatcher(setUserDatas(JSON.stringify(generalizedData)));
+    const validatedData = validateKAnonymity(
+      generalizedData,
+      applicationSettings.KAnonymityValue,
+    );
+    dispatcher(setUserDatas(JSON.stringify(validatedData)));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [groupDataByPostCode]);
-  const nearestUsers: any = dataUsers?.users?.filter((item: any) => {
-    const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
-    return isWithinRange({
-      locationA: currentCoordinate,
-      locationB: coordinateB,
-      range: 1,
-    });
-  });
+  useEffect(() => {
+    if (applicationSettings?.KAnonymityAnalisys === false) {
+      const nearUsers: any = dataUsers?.users?.filter((item: any) => {
+        const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
+        return isWithinRange({
+          locationA: currentCoordinate,
+          locationB: coordinateB,
+          range: 1,
+        });
+      });
+      setNearestUsers(nearUsers);
+    } else {
+      const data: any = userDatas && JSON.parse(userDatas);
+      if (data) {
+        let arrNearUser: any = data
+          .map((element: any) => {
+            const filteredUsers = element.data_users.filter((user: any) => {
+              const coordinateB = [user.lokasi.longitude, user.lokasi.latitude];
+              return isWithinRange({
+                locationA: currentCoordinate,
+                locationB: coordinateB,
+                range: 1,
+              });
+            });
+
+            return filteredUsers.length > 0 ? [...filteredUsers] : null;
+          })
+          .filter(Boolean)
+          .reduce(
+            (accumulator: any, nearUser: any) => [...accumulator, ...nearUser],
+            [],
+          );
+        setNearestUsers(arrNearUser);
+      }
+    }
+  }, [dataUsers, userDatas, currentCoordinate, applicationSettings]);
   return (
     <>
       {nearestUsers?.length > 0 &&
@@ -87,11 +122,24 @@ const UsersMarker = ({currentCoordinate}: any) => {
               </View>
               <Callout title="Properties" style={styles.calloutContainer}>
                 <View>
-                  <Text>Name : {user?.nama}</Text>
-                  <Text>Email : {user?.email}</Text>
-                  <Text>Address : {user?.alamat?.detail}</Text>
-                  <Text>Phone : {user?.nomor_handphone}</Text>
-                  <Text>Birth Date : {user?.tanggal_lahir}</Text>
+                  <Text style={{color: '#000'}}>Name : {user?.nama}</Text>
+                  <Text style={{color: '#000'}}>Email : {user?.email}</Text>
+                  <Text style={{color: '#000'}}>
+                    Address : {user?.alamat?.detail}
+                  </Text>
+                  <Text style={{color: '#000'}}>
+                    Phone : {user?.nomor_handphone}
+                  </Text>
+                  <Text style={{color: '#000'}}>
+                    Birth Date :{' '}
+                    {user?.tanggal_lahir.length === 10
+                      ? moment(user?.tanggal_lahir)
+                          .locale('id')
+                          .format('DD MMMM YYYY')
+                      : moment(user?.tanggal_lahir)
+                          .locale('id')
+                          .format('MMMM YYYY')}
+                  </Text>
                 </View>
               </Callout>
             </PointAnnotation>

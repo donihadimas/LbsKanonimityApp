@@ -72,3 +72,26 @@ export const generalizeData = (data: any) => {
   return generalizedData;
 };
 // ? generalization Data
+
+// ? Validation K Anonymity
+export const validateKAnonymity = (data: any, KValue: any) => {
+  const validatedData = data.map((item: any) => {
+    if (item.data_users.length < KValue) {
+      return {
+        ...item,
+        data_users: [
+          ...item.data_users.map((user: any) => ({
+            ...user,
+            nama: 'Anonim',
+            tanggal_lahir: user.tanggal_lahir.slice(0, -3),
+          })),
+        ],
+      };
+    }
+    return {
+      ...item,
+    };
+  });
+  return validatedData;
+};
+// ? Validation K Anonymity
