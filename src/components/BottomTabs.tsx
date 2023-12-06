@@ -3,18 +3,11 @@
 import React, {useState, useEffect} from 'react';
 import HomePage from '../pages/Home';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Button, Icon, IconButton} from 'react-native-paper';
+import {Icon, IconButton} from 'react-native-paper';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import SettingPage from '../pages/Setting';
-import SummaryPage from '../pages/Analytics';
 import {Portal, Modal, Text} from 'react-native-paper';
-import {
-  DisplayNotifeeNotification,
-  LocalNotification,
-  NotifeeLocalNotification,
-} from '../utils/helper/LocalNotificationHandler';
-import {useDispatch, useSelector} from 'react-redux';
-import {useNavigation} from '@react-navigation/native';
+import KAnonymityAnalysis from '../pages/K_Anonymity_Analysis';
 
 const Tab = createBottomTabNavigator();
 
@@ -40,11 +33,12 @@ const SummaryButton = ({children, onPress}: any) => (
 );
 const BottomTabs = () => {
   const [openModal, setOpenModal] = useState(false);
-  const userDatas = useSelector((state: any) => state.userDatas.users?.[0]);
-  const navigation: any = useNavigation();
+  const [openModalKAnonymity, setOpenModalKAnonymity] = useState(false);
+
   return (
     <>
       <Tab.Navigator
+        initialRouteName="Home"
         screenOptions={{
           headerShown: false,
           tabBarStyle: {
@@ -58,13 +52,13 @@ const BottomTabs = () => {
           },
         }}>
         <Tab.Screen
-          name="Home"
-          component={HomePage}
+          name="Analytics"
+          component={KAnonymityAnalysis}
           options={{
             tabBarShowLabel: false,
             tabBarIcon: ({focused}: any) => (
               <Icon
-                source={focused ? 'home' : 'home-outline'}
+                source={focused ? 'analytics' : 'analytics-outline'}
                 color={focused ? '#2b7a91' : '#748c94'}
                 size={20}
               />
@@ -72,25 +66,18 @@ const BottomTabs = () => {
           }}
         />
         <Tab.Screen
-          name="Emergency"
-          component={SummaryPage}
+          name="Home"
+          component={HomePage}
           options={{
             tabBarShowLabel: false,
             tabBarIcon: ({focused, route}: any) => (
               <Icon
-                source={'analytics'}
+                source={'home'}
                 color={focused ? '#ffffff' : '#ffffff'}
                 size={40}
               />
             ),
-            tabBarButton: (props: any) => (
-              <SummaryButton
-                {...props}
-                onPress={() => {
-                  setOpenModal(true);
-                }}
-              />
-            ),
+            tabBarButton: (props: any) => <SummaryButton {...props} />,
           }}
         />
         <Tab.Screen
@@ -136,11 +123,25 @@ const BottomTabs = () => {
                 iconColor={'#fff'}
                 size={20}
                 onPress={() => {
-                  // navigation.navigate('KAnonymityAnalysis');
+                  setOpenModalKAnonymity(true);
                 }}
               />
             </View>
           </View>
+        </Modal>
+      </Portal>
+
+      <Portal>
+        <Modal
+          visible={openModalKAnonymity}
+          onDismiss={() => {
+            setOpenModalKAnonymity(false);
+          }}
+          style={{margin: 15}}
+          contentContainerStyle={{backgroundColor: '#fff', padding: 15}}>
+          <Text variant="titleMedium" style={{marginBottom: 15}}>
+            K Anonymity Analysis
+          </Text>
         </Modal>
       </Portal>
     </>
