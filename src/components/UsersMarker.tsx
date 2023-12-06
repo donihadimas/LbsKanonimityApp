@@ -1,13 +1,63 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {View, Text, StyleSheet} from 'react-native';
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import dataUsers from '../assets/data/dummyUser_500.json';
-import {isWithinRange} from '../utils/helper/Algoritms';
+import {
+  isWithinRange,
+  generalizeValue,
+  generalizeData,
+} from '../utils/helper/Algoritms';
 import {Callout, PointAnnotation} from '@rnmapbox/maps';
 import uuid from 'react-native-uuid';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-
+import {setUserDatas} from '../utils/redux/userData/userDataReducers';
+import {useDispatch} from 'react-redux';
+interface GroupedData {
+  address: string;
+  users: any[];
+}
 const UsersMarker = ({currentCoordinate}: any) => {
+  const [groupDataByPostCode, setGroupDataByPostCode] = useState<any>([]);
+  console.log(
+    'file: UsersMarker.tsx:13 ~ UsersMarker ~ groupDataByPostCode:',
+    groupDataByPostCode,
+  );
+  const dispatcher = useDispatch();
+  const groupedData = (data: any) => {
+    const groupData = data.reduce((groups: {[key: string]: any}, user: any) => {
+      const kodepos = user.alamat.kodepos;
+
+      if (!groups[kodepos]) {
+        groups[kodepos] = [];
+      }
+
+      groups[kodepos].push(user);
+      return groups;
+    }, {});
+    const result: any = Object.keys(groupData).map(key => ({
+      kodepos: key,
+      data_users: groupData[key],
+    }));
+    return result;
+  };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await groupedData(dataUsers.users);
+        setGroupDataByPostCode(result);
+      } catch (error) {
+        console.log('file: UsersMarker.tsx:114 ~ fetchData ~ error:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+  useEffect(() => {
+    const generalizedData = generalizeData(groupDataByPostCode);
+    dispatcher(setUserDatas(generalizedData));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [groupDataByPostCode]);
   const nearestUsers: any = dataUsers?.users?.filter((item: any) => {
     const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
     return isWithinRange({
