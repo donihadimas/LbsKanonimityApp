@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unstable-nested-components */
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import HomePage from '../pages/Home';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Icon} from 'react-native-paper';
+import {Button, Icon, IconButton} from 'react-native-paper';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import SettingPage from '../pages/Setting';
 import SummaryPage from '../pages/Analytics';
@@ -13,6 +13,8 @@ import {
   LocalNotification,
   NotifeeLocalNotification,
 } from '../utils/helper/LocalNotificationHandler';
+import {useDispatch, useSelector} from 'react-redux';
+import {useNavigation} from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();
 
@@ -38,7 +40,19 @@ const SummaryButton = ({children, onPress}: any) => (
 );
 const BottomTabs = () => {
   const [openModal, setOpenModal] = useState(false);
+  const userDatas = useSelector((state: any) => state.userDatas.users);
+  const navigation: any = useNavigation();
 
+  // useEffect(() => {
+  //   if (userDatas) {
+  //     try {
+  //       const data = JSON.parse(userDatas);
+  //       console.log('file: BottomTabs.tsx:44 ~ BottomTabs ~ data:', data);
+  //     } catch (error) {
+  //       console.error('Error parsing JSON:', error);
+  //     }
+  //   }
+  // }, [userDatas]);
   return (
     <>
       <Tab.Navigator
@@ -119,7 +133,24 @@ const BottomTabs = () => {
           <View style={{gap: 15}}>
             <Text>Executed Time : 110ms</Text>
             <Text>Performance Appication : 8</Text>
-            <Text>K Anonimity Analisys : Satisfied</Text>
+            <View
+              style={{
+                flexDirection: 'row',
+                gap: 10,
+                alignItems: 'center',
+              }}>
+              <Text>K Anonimity Analisys :</Text>
+              <IconButton
+                icon="eye"
+                mode="outlined"
+                containerColor="#2b7a91"
+                iconColor={'#fff'}
+                size={20}
+                onPress={() => {
+                  // navigation.navigate('KAnonymityAnalysis');
+                }}
+              />
+            </View>
           </View>
         </Modal>
       </Portal>
