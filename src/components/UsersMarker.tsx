@@ -15,6 +15,11 @@ import {setUserDatas} from '../utils/redux/userData/userDataReducers';
 import {useDispatch, useSelector} from 'react-redux';
 import moment from 'moment';
 import 'moment/locale/id';
+import now from 'performance-now';
+import {
+  setRTimeImplementingKAnonymity,
+  updateRTimeImplementingKAnonymity,
+} from '../utils/redux/performanceMonitor/performanceMonitorReducers';
 interface GroupedData {
   address: string;
   users: any[];
@@ -58,16 +63,21 @@ const UsersMarker = ({currentCoordinate}: any) => {
     fetchData();
   }, []);
   useEffect(() => {
+    const startTime = now();
     const generalizedData = generalizeData(groupDataByPostCode);
     const validatedData = validateKAnonymity(
       generalizedData,
       applicationSettings.KAnonymityValue,
     );
     dispatcher(setUserDatas(JSON.stringify(validatedData)));
+    const endTime = now();
+    const responseTime = (endTime - startTime)?.toFixed(3);
+    dispatcher(updateRTimeImplementingKAnonymity(responseTime));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [groupDataByPostCode]);
   useEffect(() => {
     if (applicationSettings?.KAnonymityAnalisys === false) {
+      const startTime = now();
       const nearUsers: any = dataUsers?.users?.filter((item: any) => {
         const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
         return isWithinRange({
@@ -77,6 +87,9 @@ const UsersMarker = ({currentCoordinate}: any) => {
         });
       });
       setNearestUsers(nearUsers);
+      const endTime = now();
+      const responseTime = (endTime - startTime)?.toFixed(3);
+      dispatcher(updateRTimeImplementingKAnonymity(responseTime));
     } else {
       const data: any = userDatas && JSON.parse(userDatas);
       if (data) {
