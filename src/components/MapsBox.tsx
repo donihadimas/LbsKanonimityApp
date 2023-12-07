@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {PermissionsAndroid, View, StyleSheet} from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
@@ -26,7 +27,10 @@ import {useDispatch, useSelector} from 'react-redux';
 import PushNotification from 'react-native-push-notification';
 import UsersMarker from './UsersMarker';
 import now from 'performance-now';
-import {updateRTimeNotifyInsideGeofencing} from '../utils/redux/performanceMonitor/performanceMonitorReducers';
+import {
+  updateRTimeCreateGeofence,
+  updateRTimeNotifyInsideGeofencing,
+} from '../utils/redux/performanceMonitor/performanceMonitorReducers';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -54,7 +58,6 @@ const MapsBox = () => {
     (state: any) => state.setting.application?.[0],
   );
   const perfMonitor = useSelector((state: any) => state.perfMonitor);
-  console.log('file: MapsBox.tsx:58 ~ MapsBox ~ perfMonitor:', perfMonitor);
   const [notifiedGeofences, setNotifiedGeofences] = useState<any>([]);
   const [usedNotifIds, setUsedNotifIds] = useState<any>([]);
   const dispatcher = useDispatch();
@@ -76,7 +79,8 @@ const MapsBox = () => {
           });
         },
       );
-      if (nearestFeature) {
+      if (nearestFeature?.length > 0) {
+        const startMonitoring = now();
         const nearestFeaturesWithGeofences = nearestFeature.map(
           (feature: any, index: number) => {
             const geofence = createCircularGeofence({
@@ -91,6 +95,9 @@ const MapsBox = () => {
           },
         );
         setNearestFeatures(nearestFeaturesWithGeofences);
+        const endMonitoring = now();
+        const responseTime = (endMonitoring - startMonitoring)?.toFixed(3);
+        dispatcher(updateRTimeCreateGeofence(responseTime));
       }
     }
   }, [dataFeatureByDatasetId, currentCoordinate]);
@@ -314,6 +321,7 @@ const MapsBox = () => {
                 id={`customGeofenceId-${feature?.id}`}
                 key={`customGeofenceKey-${feature?.id}`}
                 feature={feature}
+                visibility={applicationSettings?.geofenceOn}
               />
             ))}
           {mapReady &&
