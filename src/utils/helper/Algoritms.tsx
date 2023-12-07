@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // ? Haversine Formula
 
 export const calculateDistance = ({lat1, lon1, lat2, lon2}: any) => {
@@ -33,3 +34,64 @@ export const isWithinRange = ({locationA, locationB, range}: any) => {
   });
   return distance <= range;
 };
+
+// ? generalization Data
+export const generalizeValue = (value: any, typeValue: string) => {
+  switch (typeValue) {
+    case 'email':
+      const splitValue = value?.split('@');
+      return `${splitValue?.[0].slice(0, -5)}XXXXX@${splitValue?.[1]}`;
+    case 'text':
+      return value?.slice(0, -3) + 'XXX';
+    case 'anonim':
+      const anonimValue = 'Anonim';
+      return anonimValue;
+    default:
+      return value;
+  }
+  // return value.slice(0, -3) + 'XXX';
+};
+// Fungsi untuk melakukan generalisasi pada data
+export const generalizeData = (data: any) => {
+  const generalizedData = data.map((item: any) => ({
+    ...item,
+    data_users: [
+      ...item.data_users.map((user: any) => ({
+        ...user,
+        nama: generalizeValue(user?.nama, 'text'),
+        nomor_handphone: generalizeValue(user?.nomor_handphone, 'text'),
+        email: generalizeValue(user?.email, 'email'),
+        alamat: {
+          ...user.alamat,
+          desa: generalizeValue(user?.alamat?.desa, 'text'),
+          detail: generalizeValue(user?.alamat?.desa, 'text'),
+        },
+      })),
+    ],
+  }));
+  return generalizedData;
+};
+// ? generalization Data
+
+// ? Validation K Anonymity
+export const validateKAnonymity = (data: any, KValue: any) => {
+  const validatedData = data.map((item: any) => {
+    if (item.data_users.length < KValue) {
+      return {
+        ...item,
+        data_users: [
+          ...item.data_users.map((user: any) => ({
+            ...user,
+            nama: 'Anonim',
+            tanggal_lahir: user.tanggal_lahir.slice(0, -3),
+          })),
+        ],
+      };
+    }
+    return {
+      ...item,
+    };
+  });
+  return validatedData;
+};
+// ? Validation K Anonymity

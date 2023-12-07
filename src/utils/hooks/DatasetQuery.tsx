@@ -1,13 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import axios from 'axios';
 import {useQuery} from 'react-query';
-
-const username = 'donihadimas';
-const SKACCESSTOKEN =
-  'sk.eyJ1IjoiZG9uaWhhZGltYXMiLCJhIjoiY2xvNzFiMnRoMDFnYzJsanVudHljNTEydiJ9.4fDg-AKHZDiXxrL4mKe3Sw';
+import {SKACCESSTOKEN, USERNAME} from '../helper/Constant';
 const getAllDataset = async () => {
   return axios
-    .get(`https://api.mapbox.com/datasets/v1/${username}`, {
+    .get(`https://api.mapbox.com/datasets/v1/${USERNAME}`, {
       params: {
         access_token: SKACCESSTOKEN,
       },
@@ -22,7 +19,7 @@ const getAllDataset = async () => {
 
 export const useGetAllDataset = () => {
   const {data, refetch} = useQuery(['dataAllDataset'], () => getAllDataset(), {
-    enabled: !!username && !!SKACCESSTOKEN,
+    enabled: !!USERNAME && !!SKACCESSTOKEN,
   });
   return {data, refetch};
 };
@@ -30,7 +27,7 @@ export const useGetAllDataset = () => {
 const getAllFeatureByDatasetId = async (datasetId: string) => {
   return axios
     .get(
-      `https://api.mapbox.com/datasets/v1/${username}/${datasetId}/features`,
+      `https://api.mapbox.com/datasets/v1/${USERNAME}/${datasetId}/features`,
       {
         params: {
           access_token: SKACCESSTOKEN,
@@ -50,7 +47,7 @@ export const useGetAllFeatureByDatasetId = (datasetId: string) => {
     ['dataAllFeatureByDatasetId'],
     () => getAllFeatureByDatasetId(datasetId),
     {
-      enabled: !!username && !!SKACCESSTOKEN,
+      enabled: !!USERNAME && !!SKACCESSTOKEN,
     },
   );
   return {data, refetch};

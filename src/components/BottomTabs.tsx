@@ -1,17 +1,17 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unstable-nested-components */
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import HomePage from '../pages/Home';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Icon} from 'react-native-paper';
+import {Icon, IconButton} from 'react-native-paper';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import SettingPage from '../pages/Setting';
-import SummaryPage from '../pages/Analytics';
-import Toast from 'react-native-toast-message';
+import {Portal, Modal, Text} from 'react-native-paper';
+import KAnonymityAnalysis from '../pages/K_Anonymity_Analysis';
 
 const Tab = createBottomTabNavigator();
 
-const EmergencyButton = ({children, onPress}: any) => (
+const SummaryButton = ({children, onPress}: any) => (
   <TouchableOpacity
     style={{
       top: -40,
@@ -25,16 +25,20 @@ const EmergencyButton = ({children, onPress}: any) => (
         width: 80,
         height: 80,
         borderRadius: 40,
-        backgroundColor: '#FF7575',
+        backgroundColor: '#2b7a91',
       }}>
       {children}
     </View>
   </TouchableOpacity>
 );
 const BottomTabs = () => {
+  const [openModal, setOpenModal] = useState(false);
+  const [openModalKAnonymity, setOpenModalKAnonymity] = useState(false);
+
   return (
     <>
       <Tab.Navigator
+        initialRouteName="Home"
         screenOptions={{
           headerShown: false,
           tabBarStyle: {
@@ -48,44 +52,32 @@ const BottomTabs = () => {
           },
         }}>
         <Tab.Screen
-          name="Home"
-          component={HomePage}
+          name="Analytics"
+          component={KAnonymityAnalysis}
           options={{
             tabBarShowLabel: false,
             tabBarIcon: ({focused}: any) => (
               <Icon
-                source={focused ? 'home' : 'home-outline'}
-                color={focused ? '#4361ee' : '#748c94'}
+                source={focused ? 'analytics' : 'analytics-outline'}
+                color={focused ? '#2b7a91' : '#748c94'}
                 size={20}
               />
             ),
           }}
         />
         <Tab.Screen
-          name="Emergency"
-          component={SummaryPage}
+          name="Home"
+          component={HomePage}
           options={{
             tabBarShowLabel: false,
             tabBarIcon: ({focused, route}: any) => (
               <Icon
-                source={'alert-circle'}
+                source={'home'}
                 color={focused ? '#ffffff' : '#ffffff'}
                 size={40}
               />
             ),
-            tabBarButton: (props: any) => (
-              <EmergencyButton
-                {...props}
-                onPress={() => {
-                  Toast.show({
-                    type: 'danger',
-                    text1: 'Emergency Button Pressed',
-                    text2:
-                      'Assistance request has been sent, help is arriving.',
-                  });
-                }}
-              />
-            ),
+            tabBarButton: (props: any) => <SummaryButton {...props} />,
           }}
         />
         <Tab.Screen
@@ -96,13 +88,62 @@ const BottomTabs = () => {
             tabBarIcon: ({focused}: any) => (
               <Icon
                 source={focused ? 'settings' : 'settings-outline'}
-                color={focused ? '#4361ee' : '#748c94'}
+                color={focused ? '#2b7a91' : '#748c94'}
                 size={20}
               />
             ),
           }}
         />
       </Tab.Navigator>
+      <Portal>
+        <Modal
+          visible={openModal}
+          onDismiss={() => {
+            setOpenModal(false);
+          }}
+          style={{margin: 15}}
+          contentContainerStyle={{backgroundColor: '#fff', padding: 15}}>
+          <Text variant="titleMedium" style={{marginBottom: 15}}>
+            Application Analysis
+          </Text>
+          <View style={{gap: 15}}>
+            <Text>Executed Time : 110ms</Text>
+            <Text>Performance Appication : 8</Text>
+            <View
+              style={{
+                flexDirection: 'row',
+                gap: 10,
+                alignItems: 'center',
+              }}>
+              <Text>K Anonimity Analisys :</Text>
+              <IconButton
+                icon="eye"
+                mode="outlined"
+                containerColor="#2b7a91"
+                iconColor={'#fff'}
+                size={20}
+                onPress={() => {
+                  setOpenModalKAnonymity(true);
+                }}
+              />
+            </View>
+          </View>
+        </Modal>
+      </Portal>
+
+      <Portal>
+        <Modal
+          visible={openModalKAnonymity}
+          onDismiss={() => {
+            setOpenModalKAnonymity(false);
+          }}
+          style={{margin: 15}}
+          contentContainerStyle={{backgroundColor: '#fff', padding: 15}}>
+          <Text variant="titleMedium" style={{marginBottom: 15}}>
+            K Anonymity Analysis
+          </Text>
+        </Modal>
+      </Portal>
     </>
   );
 };
