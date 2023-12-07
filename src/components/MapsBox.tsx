@@ -22,9 +22,11 @@ import {
 } from '../utils/helper/Geofencing';
 import Toast from 'react-native-toast-message';
 import {LocalNotification} from '../utils/helper/LocalNotificationHandler';
-import {useSelector} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import PushNotification from 'react-native-push-notification';
 import UsersMarker from './UsersMarker';
+import now from 'performance-now';
+import {updateRTimeNotifyInsideGeofencing} from '../utils/redux/performanceMonitor/performanceMonitorReducers';
 
 MapBoxGL.setAccessToken(ACCESSTOKEN);
 MapBoxGL.setTelemetryEnabled(false);
@@ -44,8 +46,6 @@ const MapsBox = () => {
     107.5965, -7.1041,
   ]);
   const [nearestFeatures, setNearestFeatures] = useState<any>([]);
-  const [visibleGeofences, setVisibleGeofences] = useState(true);
-  const [userInsideGeofences, setUserInsideGeofences] = useState(false);
   const [markerUserDefined, setMarkerUserDefined] = useState<
     MarkerUserDefined[]
   >([]);
@@ -53,9 +53,11 @@ const MapsBox = () => {
   const applicationSettings = useSelector(
     (state: any) => state.setting.application?.[0],
   );
-  const account = useSelector((state: any) => state.setting.account);
+  const perfMonitor = useSelector((state: any) => state.perfMonitor);
+  console.log('file: MapsBox.tsx:58 ~ MapsBox ~ perfMonitor:', perfMonitor);
   const [notifiedGeofences, setNotifiedGeofences] = useState<any>([]);
   const [usedNotifIds, setUsedNotifIds] = useState<any>([]);
+  const dispatcher = useDispatch();
 
   // ? get data feature from API Mapbox
   const {data: dataFeatureByDatasetId, refetch: refetchFeatureByDatasetId} =
@@ -105,12 +107,13 @@ const MapsBox = () => {
   };
   // ? checking user is in geofence
   useEffect(() => {
-    if (nearestFeatures) {
+    if (nearestFeatures?.length > 0) {
       const isUserInsideGeofence = isInsideMultiGeofence({
         userLocation: currentCoordinate,
         multipleGeofenceCoordinates: nearestFeatures,
       });
-      if (isUserInsideGeofence) {
+      if (isUserInsideGeofence?.length > 0) {
+        const start = now();
         isUserInsideGeofence.map((item: any) => {
           if (
             item.insideGeofences === true &&
@@ -136,6 +139,9 @@ const MapsBox = () => {
             ]);
           }
         });
+        const end = now();
+        const responseTime = (end - start)?.toFixed(3);
+        dispatcher(updateRTimeNotifyInsideGeofencing(responseTime));
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -258,20 +264,6 @@ const MapsBox = () => {
     }
   };
   // ? function to add marker
-
-  // ? get  data users
-  // useEffect(() => {
-  //   fetch('../assets/data/dummyUser.json')
-  //     .then(response => {
-  //       if (!response.ok) {
-  //         throw new Error(`HTTP error! Status: ${response.status}`);
-  //       }
-  //       return response.json();
-  //     })
-  //     .then(data => setDataUsers(data))
-  //     .catch(error => console.error('Error fetching data:', error.message));
-  // }, []);
-  // ? get  data users
   return (
     <>
       <View style={styles.container}>
@@ -322,7 +314,6 @@ const MapsBox = () => {
                 id={`customGeofenceId-${feature?.id}`}
                 key={`customGeofenceKey-${feature?.id}`}
                 feature={feature}
-                visibility={visibleGeofences}
               />
             ))}
           {mapReady &&
