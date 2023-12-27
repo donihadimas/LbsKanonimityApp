@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 export const createCircularGeofence = ({
   centerPoint,
-  geofenceRadius,
+  geofenceRadius, //? satuan derajat nilai sudut 1 derajat dapat dianggap sebagai sekitar 111 kilometer
   numberOfPoints,
 }: any) => {
   const coordinates: any[] = [];
