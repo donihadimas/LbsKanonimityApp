@@ -52,7 +52,7 @@ const ChartKAnonymityAnalysis = () => {
           <LineChart
             data={chartData}
             width={
-              Dimensions.get('window').width + chartData?.labels?.length * 5
+              Dimensions.get('window').width + chartData?.labels?.length * 15
             } // from react-native
             height={220}
             yAxisSuffix=" ms"
@@ -82,10 +82,10 @@ const ChartKAnonymityAnalysis = () => {
         </View>
       </ScrollView>
       <Text variant="titleSmall">
-        {`Average Response Time ${
+        {`Rata-rata Response Time ${
           applicationSettings?.KAnonymityAnalisys
-            ? 'Implementing'
-            : 'Not Implementing'
+            ? 'diimplementasikan'
+            : 'tidak diimplementasikan'
         } K-Anonymity:
         ${meanResTime?.toFixed(3)} ms`}
       </Text>

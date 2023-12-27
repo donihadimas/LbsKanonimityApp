@@ -49,7 +49,7 @@ const ChartCreateGeofence = () => {
           <LineChart
             data={chartData}
             width={
-              Dimensions.get('window').width + chartData?.labels?.length * 5
+              Dimensions.get('window').width + chartData?.labels?.length * 10
             } // from react-native
             height={220}
             yAxisSuffix=" ms"
