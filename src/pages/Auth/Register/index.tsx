@@ -26,7 +26,7 @@ const RegisterPage = ({navigation}: any) => {
       Toast.show({
         type: 'success',
         text1: 'Success',
-        text2: 'Successfully registered 👋',
+        text2: 'Selamat, Anda telah berhasil mendaftar 👋',
       });
       setRegisterData({
         name: '',
@@ -74,13 +74,13 @@ const RegisterPage = ({navigation}: any) => {
                 marginHorizontal: 25,
                 color: 'grey',
               }}>
-              Ready to Explore? Register Here.
+              Siap untuk menjelajahi? Daftar di sini.
             </Text>
           </View>
           <View style={{padding: 25, gap: 10}}>
             <TextInput
               mode="outlined"
-              label="Name"
+              label="Nama"
               value={registerData?.name}
               onChangeText={e => setRegisterData(prev => ({...prev, name: e}))}
               selectionColor="#2b7a91"
@@ -88,7 +88,7 @@ const RegisterPage = ({navigation}: any) => {
             />
             <TextInput
               mode="outlined"
-              label="BirthDate"
+              label="Tanggal Lahir"
               value={moment(registerData?.birthDate).format('L')}
               onFocus={() => setOpenModalDate(true)}
               selectionColor="#2b7a91"
@@ -117,7 +117,7 @@ const RegisterPage = ({navigation}: any) => {
             />
             <TextInput
               mode="outlined"
-              label="Phone Number"
+              label="Nomor Handphone"
               value={registerData?.phoneNumber}
               onChangeText={e =>
                 setRegisterData(prev => ({...prev, phoneNumber: e}))
@@ -150,17 +150,17 @@ const RegisterPage = ({navigation}: any) => {
               mode="contained"
               buttonColor="#2b7a91"
               onPress={() => handleSignUp(registerData)}>
-              Sign Up
+              Daftar
             </Button>
             <Text style={{textAlign: 'center'}}>
-              already have an account yet? Sign in here
+              Sudah memiliki akun? Masuk di sini.
             </Text>
             <Button
               mode="outlined"
               textColor="#2b7a91"
               style={{borderColor: '#2b7a91', borderWidth: 2}}
               onPress={() => navigation.navigate('Login')}>
-              Sign In
+              Masuk
             </Button>
           </View>
         </View>

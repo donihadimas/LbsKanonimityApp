@@ -12,6 +12,7 @@ import {
 } from '../../../utils/redux/setting/settingReducer';
 import Toast from 'react-native-toast-message';
 import {useFocusEffect} from '@react-navigation/native';
+import {updateLoggedStatus} from '../../../utils/helper/AuthHelper';
 
 const LoginPage = ({navigation}: any) => {
   const [loginData, setLoginData] = useState({
@@ -34,13 +35,6 @@ const LoginPage = ({navigation}: any) => {
     }
   };
 
-  const updateLoggedStatus = (values: any) => {
-    let updatedStatus: any = {...values};
-    if (updatedStatus) {
-      updatedStatus.loggedIn = true;
-      return updatedStatus;
-    }
-  };
   useEffect(() => {
     const fetchData = async () => {
       const userDatas = await getUserData();
@@ -74,7 +68,7 @@ const LoginPage = ({navigation}: any) => {
       loginData?.password === userData?.password
     ) {
       try {
-        const data = updateLoggedStatus(userData);
+        const data = updateLoggedStatus(userData, true);
         if (data) {
           dispatcher(setAccountSetting(data));
           const jsonValue = JSON.stringify(data);
@@ -82,7 +76,7 @@ const LoginPage = ({navigation}: any) => {
           Toast.show({
             type: 'success',
             text1: 'Success',
-            text2: 'Successfully Logged In 👋',
+            text2: 'Haloo, Anda berhasil Login 👋',
           });
           navigation.replace('Main');
         }
@@ -93,10 +87,11 @@ const LoginPage = ({navigation}: any) => {
       Toast.show({
         type: 'error',
         text1: 'Error',
-        text2: 'Wrong email or password',
+        text2: 'Email atau Password Salah',
       });
     }
   };
+
   return (
     <View style={{flex: 1, alignItems: 'center', backgroundColor: '#ADD8E6'}}>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
@@ -125,7 +120,7 @@ const LoginPage = ({navigation}: any) => {
           <Text
             variant="bodyMedium"
             style={{textAlign: 'center', marginHorizontal: 25, color: 'grey'}}>
-            Let's get started! Log in to your account.
+            Ayo mulai! Masuk ke akun Anda.
           </Text>
         </View>
         <View style={{marginTop: '20%', padding: 25, gap: 15}}>
@@ -157,17 +152,17 @@ const LoginPage = ({navigation}: any) => {
         </View>
         <View style={{marginTop: '20%', padding: 25, gap: 15}}>
           <Button mode="contained" buttonColor="#2b7a91" onPress={handleLogin}>
-            Sign In
+            Masuk
           </Button>
           <Text style={{textAlign: 'center'}}>
-            Don't have an account yet? Sign up here
+            Belum punya akun? Daftar di sini.
           </Text>
           <Button
             mode="outlined"
             textColor="#2b7a91"
             style={{borderColor: '#2b7a91', borderWidth: 2}}
             onPress={() => navigation.navigate('Register')}>
-            Sign Up
+            Daftar
           </Button>
         </View>
       </View>
