@@ -22,10 +22,10 @@ const KAnonymityAnalysis = () => {
         Analytics
       </Text>
       <View style={{gap: 15}}>
-        <Text variant="titleMedium">Response Time Create Geofence</Text>
+        <Text variant="titleMedium">Response Time Membuat Geofence</Text>
         <ChartCreateGeofence />
         <Text variant="titleMedium">
-          Response Time Notification when User Inside Geofence
+          Response Time Notifikasi Ketika Pengguna Berada dalam Geofence
         </Text>
         <ChartNotifyInsideGeofencing />
         <View
@@ -33,19 +33,24 @@ const KAnonymityAnalysis = () => {
             paddingBottom:
               applicationSettings?.KAnonymityAnalisys === true ? 0 : 150,
           }}>
-          <Text variant="titleMedium">Response Time K-Anonymity</Text>
+          <Text variant="titleMedium">
+            Response Time Implementasi K-Anonymity
+          </Text>
           <ChartKAnonymityAnalysis />
         </View>
         {applicationSettings?.KAnonymityAnalisys === true && (
-          <View style={{paddingBottom: 150}}>
+          <View style={{paddingBottom: 150, gap: 25}}>
             <Text variant="titleMedium">
-              Data Before Implementing K-Anonymity
+              Data Sebelum dilakukan implementasi K-Anonymity
             </Text>
-            <JSONTree data={dataUsers && dataUsers?.users} />
+            {dataUsers && <JSONTree data={dataUsers?.users} />}
+
             <Text variant="titleMedium">
-              Data After Implementing K-Anonymity
+              Data Setelah dilakukan implementasi K-Anonymity
             </Text>
-            <JSONTree data={userDatas && JSON.parse(userDatas)} />
+            {userDatas && (
+              <JSONTree data={userDatas && JSON.parse(userDatas)} />
+            )}
           </View>
         )}
       </View>

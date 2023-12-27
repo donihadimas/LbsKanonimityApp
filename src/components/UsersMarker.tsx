@@ -63,34 +63,14 @@ const UsersMarker = ({currentCoordinate}: any) => {
     fetchData();
   }, []);
   useEffect(() => {
-    const startTime = now();
-    const generalizedData = generalizeData(groupDataByPostCode);
-    const validatedData = validateKAnonymity(
-      generalizedData,
-      applicationSettings.KAnonymityValue,
-    );
-    dispatcher(setUserDatas(JSON.stringify(validatedData)));
-    const endTime = now();
-    const responseTime = (endTime - startTime)?.toFixed(3);
-    dispatcher(updateRTimeImplementingKAnonymity(responseTime));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [groupDataByPostCode]);
-  useEffect(() => {
-    if (applicationSettings?.KAnonymityAnalisys === false) {
+    if (applicationSettings.KAnonymityAnalisys === true) {
       const startTime = now();
-      const nearUsers: any = dataUsers?.users?.filter((item: any) => {
-        const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
-        return isWithinRange({
-          locationA: currentCoordinate,
-          locationB: coordinateB,
-          range: 1,
-        });
-      });
-      setNearestUsers(nearUsers);
-      const endTime = now();
-      const responseTime = (endTime - startTime)?.toFixed(3);
-      dispatcher(updateRTimeImplementingKAnonymity(responseTime));
-    } else {
+      const generalizedData = generalizeData(groupDataByPostCode);
+      const validatedData = validateKAnonymity(
+        generalizedData,
+        applicationSettings.KAnonymityValue,
+      );
+      dispatcher(setUserDatas(JSON.stringify(validatedData)));
       const data: any = userDatas && JSON.parse(userDatas);
       if (data) {
         let arrNearUser: any = data
@@ -113,8 +93,34 @@ const UsersMarker = ({currentCoordinate}: any) => {
           );
         setNearestUsers(arrNearUser);
       }
+      const endTime = now();
+      const responseTime = (endTime - startTime)?.toFixed(3);
+      dispatcher(updateRTimeImplementingKAnonymity(responseTime));
     }
-  }, [dataUsers, userDatas, currentCoordinate, applicationSettings]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    groupDataByPostCode,
+    userDatas,
+    currentCoordinate,
+    applicationSettings.KAnonymityAnalisys,
+  ]);
+  useEffect(() => {
+    if (applicationSettings?.KAnonymityAnalisys === false) {
+      const startTime = now();
+      const nearUsers: any = dataUsers?.users?.filter((item: any) => {
+        const coordinateB = [item.lokasi.longitude, item.lokasi.latitude];
+        return isWithinRange({
+          locationA: currentCoordinate,
+          locationB: coordinateB,
+          range: 1,
+        });
+      });
+      setNearestUsers(nearUsers);
+      const endTime = now();
+      const responseTime = (endTime - startTime)?.toFixed(3);
+      dispatcher(updateRTimeImplementingKAnonymity(responseTime));
+    }
+  }, [dataUsers, currentCoordinate, applicationSettings]);
   return (
     <>
       {nearestUsers?.length > 0 &&
@@ -135,16 +141,16 @@ const UsersMarker = ({currentCoordinate}: any) => {
               </View>
               <Callout title="Properties" style={styles.calloutContainer}>
                 <View>
-                  <Text style={{color: '#000'}}>Name : {user?.nama}</Text>
+                  <Text style={{color: '#000'}}>Nama : {user?.nama}</Text>
                   <Text style={{color: '#000'}}>Email : {user?.email}</Text>
                   <Text style={{color: '#000'}}>
-                    Address : {user?.alamat?.detail}
+                    Alamat : {user?.alamat?.detail}
                   </Text>
                   <Text style={{color: '#000'}}>
-                    Phone : {user?.nomor_handphone}
+                    No Hp : {user?.nomor_handphone}
                   </Text>
                   <Text style={{color: '#000'}}>
-                    Birth Date :{' '}
+                    Tanggal Lahir :
                     {user?.tanggal_lahir.length === 10
                       ? moment(user?.tanggal_lahir)
                           .locale('id')
