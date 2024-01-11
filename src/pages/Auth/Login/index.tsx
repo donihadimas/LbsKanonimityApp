@@ -131,6 +131,7 @@ const LoginPage = ({navigation}: any) => {
             onChangeText={e => setLoginData(prev => ({...prev, email: e}))}
             selectionColor="#ADD8E6"
             activeOutlineColor="#ADD8E6"
+            keyboardType="email-address"
           />
           <TextInput
             mode="outlined"

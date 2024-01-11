@@ -64,13 +64,18 @@ const UsersMarker = ({currentCoordinate}: any) => {
   }, []);
   useEffect(() => {
     if (applicationSettings.KAnonymityAnalisys === true) {
-      const startTime = now();
       const generalizedData = generalizeData(groupDataByPostCode);
       const validatedData = validateKAnonymity(
         generalizedData,
         applicationSettings.KAnonymityValue,
       );
       dispatcher(setUserDatas(JSON.stringify(validatedData)));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [groupDataByPostCode, userDatas, applicationSettings.KAnonymityAnalisys]);
+  useEffect(() => {
+    if (applicationSettings.KAnonymityAnalisys === true) {
+      const startTime = now();
       const data: any = userDatas && JSON.parse(userDatas);
       if (data) {
         let arrNearUser: any = data
