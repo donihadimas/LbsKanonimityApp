@@ -49,7 +49,7 @@ const ChartNotifyInsideGeofencing = () => {
           <LineChart
             data={chartData}
             width={
-              Dimensions.get('window').width + chartData?.labels?.length * 5
+              Dimensions.get('window').width + chartData?.labels?.length * 10
             } // from react-native
             height={220}
             yAxisSuffix=" ms"
@@ -79,8 +79,8 @@ const ChartNotifyInsideGeofencing = () => {
         </View>
       </ScrollView>
       <Text variant="titleSmall">
-        Average Response Time Notified Inside Geofence:
-        {meanResTime?.toFixed(3)} ms
+        Rata-rata Response Time Pengguna mendapatkan Notifikasi sedang berada
+        didalam Geofence: {meanResTime?.toFixed(3)} ms
       </Text>
     </>
   );

@@ -20,7 +20,7 @@ export const createChannels = ({channelId, channelName}: any) => {
       channelId: channelId,
       channelName: channelName,
       channelDescription: 'A channel to categorise your notifications',
-      soundName: 'notifyvoiceover.mp3',
+      soundName: 'voiceoverid.mp3',
     },
     created => {
       console.log(`Channel created: ${created}`);
@@ -45,13 +45,13 @@ export const LocalNotification = ({id, channelId, data}: any) => {
     id: id,
     channelId: channelId,
     autoCancel: true,
-    bigText: `You are entering high-risk accident zone caused by ${data?.properties.accident_cause}.`,
-    title: 'Attention! Please drive carefully and stay alert.',
-    message: 'Attention! Please drive carefully and stay alert.',
+    bigText: `Anda memasuki zona kecelakaan yang disebabkan oleh ${data?.properties.accident_cause}.`,
+    title: 'Perhatian!',
+    message: 'Mohon berkendara dengan hati-hati dan tetap waspada.',
     vibrate: true,
     vibration: 300,
     playSound: true,
-    soundName: 'notifyvoiceover.mp3',
+    soundName: 'voiceoverid.mp3',
     actions: ['Yes', 'No'],
   });
 };

@@ -72,9 +72,11 @@ const CustomMarker = ({feature}: any) => {
       </View>
       <Callout title="Properties" style={styles.calloutContainer}>
         <View>
-          <Text>Accident Cause : {feature?.properties?.accident_cause}</Text>
-          <Text>
-            Frequency Accident : {feature?.properties?.frequency_accident}
+          <Text style={{color: '#000'}}>
+            Penyebab Kecelakaan : {feature?.properties?.accident_cause}
+          </Text>
+          <Text style={{color: '#000'}}>
+            Frekuensi Kecelakaan : {feature?.properties?.frequency_accident}
           </Text>
         </View>
       </Callout>

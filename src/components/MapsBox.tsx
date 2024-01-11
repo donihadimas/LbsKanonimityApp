@@ -75,7 +75,7 @@ const MapsBox = () => {
           return isWithinRange({
             locationA: currentCoordinate,
             locationB: item.geometry.coordinates,
-            range: 0.2,
+            range: 0.2, //? satuan kilometer = 200 meter
           });
         },
       );
@@ -85,7 +85,7 @@ const MapsBox = () => {
           (feature: any, index: number) => {
             const geofence = createCircularGeofence({
               centerPoint: feature?.geometry?.coordinates,
-              geofenceRadius: 0.0015,
+              geofenceRadius: 0.0015, // ? radius dalam derajat 0.0015 * 111 = 166.5 meter
               numberOfPoints: 20,
             });
             return {
@@ -130,14 +130,15 @@ const MapsBox = () => {
               PushNotification.removeAllDeliveredNotifications();
               LocalNotification({
                 id: generateUniqueId(),
-                channelId: 'warning-channel',
+                channelId: 'warning-channel-id',
                 data: item,
               });
             } else {
               Toast.show({
                 type: 'danger',
-                text1: 'Attention! Please drive carefully and stay alert.',
-                text2: `You are entering high-risk accident zone caused by ${item?.properties.accident_cause}.`,
+                text1:
+                  'Perhatian! Mohon berkendara dengan hati-hati dan tetap waspada.',
+                text2: `Anda memasuki zona kecelakaan yang disebabkan oleh ${item?.properties.accident_cause}.`,
               });
             }
             setNotifiedGeofences((prevNotifiedGeofences: any) => [
